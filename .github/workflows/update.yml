@@ -1,4 +1,4 @@
-name: Update China direct-connect ruleset
+name: Update rulesets
 
 on:
   schedule:
