@@ -1,6 +1,6 @@
-[![Update ruleset](https://github.com/Mr-Grin/china-direct-rules/actions/workflows/update.yml/badge.svg)](https://github.com/Mr-Grin/china-direct-rules/actions/workflows/update.yml)
+[![Update ruleset](https://github.com/Mr-Grin/proxy-rules/actions/workflows/update.yml/badge.svg)](https://github.com/Mr-Grin/proxy-rules/actions/workflows/update.yml)
 
-# china-direct-rules
+# proxy-rules
 
 **Two deduplicated, daily-refreshed rulesets for routing from mainland China: `china-direct` (connect directly) and `global` (go through the proxy).**
 
@@ -34,23 +34,23 @@ Pick your client and variant, paste the URL, set the subscription's refresh inte
 
 | Client | URL |
 |---|---|
-| **Shadowrocket** (module, recommended) | `https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/china-direct/full/shadowrocket.sgmodule` |
-| **Shadowrocket** (raw rule) | `https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/china-direct/full/shadowrocket.list` |
-| **Surge** | `https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/china-direct/full/surge.list` |
-| **Loon** | `https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/china-direct/full/loon.list` |
-| **QuantumultX** | `https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/china-direct/full/quantumultx.list` |
-| **Clash** | `https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/china-direct/full/clash.yaml` |
+| **Shadowrocket** (module, recommended) | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china-direct/full/shadowrocket.sgmodule` |
+| **Shadowrocket** (raw rule) | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china-direct/full/shadowrocket.list` |
+| **Surge** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china-direct/full/surge.list` |
+| **Loon** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china-direct/full/loon.list` |
+| **QuantumultX** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china-direct/full/quantumultx.list` |
+| **Clash** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china-direct/full/clash.yaml` |
 
 **Lite** (no `ChinaMax`, recommended for mobile — smaller file size)
 
 | Client | URL |
 |---|---|
-| **Shadowrocket** (module, recommended) | `https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/china-direct/lite/shadowrocket.sgmodule` |
-| **Shadowrocket** (raw rule) | `https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/china-direct/lite/shadowrocket.list` |
-| **Surge** | `https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/china-direct/lite/surge.list` |
-| **Loon** | `https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/china-direct/lite/loon.list` |
-| **QuantumultX** | `https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/china-direct/lite/quantumultx.list` |
-| **Clash** | `https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/china-direct/lite/clash.yaml` |
+| **Shadowrocket** (module, recommended) | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china-direct/lite/shadowrocket.sgmodule` |
+| **Shadowrocket** (raw rule) | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china-direct/lite/shadowrocket.list` |
+| **Surge** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china-direct/lite/surge.list` |
+| **Loon** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china-direct/lite/loon.list` |
+| **QuantumultX** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china-direct/lite/quantumultx.list` |
+| **Clash** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china-direct/lite/clash.yaml` |
 
 ### global
 
@@ -58,12 +58,12 @@ Overseas traffic that should use the proxy — blackmatrix7's `Global` plus `Sch
 
 | Client | URL |
 |---|---|
-| **Shadowrocket** (module, recommended) | `https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/global/shadowrocket.sgmodule` |
-| **Shadowrocket** (raw rule) | `https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/global/shadowrocket.list` |
-| **Surge** | `https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/global/surge.list` |
-| **Loon** | `https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/global/loon.list` |
-| **QuantumultX** | `https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/global/quantumultx.list` |
-| **Clash** | `https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/global/clash.yaml` |
+| **Shadowrocket** (module, recommended) | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/global/shadowrocket.sgmodule` |
+| **Shadowrocket** (raw rule) | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/global/shadowrocket.list` |
+| **Surge** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/global/surge.list` |
+| **Loon** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/global/loon.list` |
+| **QuantumultX** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/global/quantumultx.list` |
+| **Clash** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/global/clash.yaml` |
 
 **Rule order matters** — the first matching `RULE-SET` wins. Put **china-direct above global**: a few domains are in both (for example `nature.com` is a Scholar site but is also in the China list), and this order keeps those direct.
 

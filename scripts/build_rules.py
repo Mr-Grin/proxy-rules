@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-"""Aggregate blackmatrix7/ios_rule_script China rulesets into one deduped ruleset,
-rendered into Shadowrocket, Surge, Loon, QuantumultX, and Clash formats."""
+"""Aggregate blackmatrix7/ios_rule_script rulesets into deduped rulesets (china-direct
+and global), each rendered into Shadowrocket, Surge, Loon, QuantumultX, and Clash
+formats."""
 import datetime
 import ipaddress
 import os
@@ -10,7 +11,7 @@ from typing import NamedTuple
 BASE = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket"
 CHNROUTES_URL = "https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt"
 ASN_CHINA_URL = "https://raw.githubusercontent.com/missuo/ASN-China/refs/heads/main/ASN.China.list"
-REPO_RAW_BASE = "https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main"
+REPO_RAW_BASE = "https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main"
 
 # ChinaDNS is intentionally excluded: its 4 rules were verified to already be
 # covered by ChinaMax's domain set (see diff report).
@@ -294,7 +295,7 @@ def header(ctx: dict, sources: list, name: str = "ChinaDirectMerged", comment: s
     total = sum(len(ctx[k]) for k in ("domain_suffix", "domain", "domain_keyword", "user_agent", "ip_asn", "ip_cidr_v4", "ip_cidr_v6"))
     lines = [
         f"{comment} NAME: {name}",
-        f"{comment} GENERATED-BY: china-direct-rules/scripts/build_rules.py",
+        f"{comment} GENERATED-BY: proxy-rules/scripts/build_rules.py",
         f"{comment} UPDATED: {datetime.datetime.now(datetime.timezone.utc).isoformat()}",
         f"{comment} SOURCES:",
     ]
@@ -429,21 +430,21 @@ VARIANTS = [
         "ChinaDirectMerged",
         "china-direct/full",
         "China Direct Rules",
-        "Daily-refreshed China direct-connect ruleset — github.com/Mr-Grin/china-direct-rules",
+        "Daily-refreshed China direct-connect ruleset — github.com/Mr-Grin/proxy-rules",
     ),
     Variant(
         LITE_SOURCES,
         "ChinaDirectMergedLite",
         "china-direct/lite",
         "China Direct Rules (Lite)",
-        "Lite China direct-connect ruleset, excludes blackmatrix7 ChinaMax — github.com/Mr-Grin/china-direct-rules",
+        "Lite China direct-connect ruleset, excludes blackmatrix7 ChinaMax — github.com/Mr-Grin/proxy-rules",
     ),
     Variant(
         GLOBAL_SOURCES,
         "GlobalMerged",
         "global",
         "Global Proxy Rules",
-        "Daily-refreshed global (overseas) proxy ruleset, incl. academic sites — github.com/Mr-Grin/china-direct-rules",
+        "Daily-refreshed global (overseas) proxy ruleset, incl. academic sites — github.com/Mr-Grin/proxy-rules",
         policy="proxy",
     ),
 ]

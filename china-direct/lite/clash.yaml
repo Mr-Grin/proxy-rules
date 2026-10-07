@@ -1,6 +1,6 @@
 # NAME: ChinaDirectMergedLite
-# GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-10-03T23:58:53.397379+00:00
+# GENERATED-BY: proxy-rules/scripts/build_rules.py
+# UPDATED: 2026-10-07T15:25:25.656596+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list

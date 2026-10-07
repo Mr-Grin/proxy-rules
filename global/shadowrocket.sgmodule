@@ -1,6 +1,6 @@
 #!name = Global Proxy Rules
-#!desc = Daily-refreshed global (overseas) proxy ruleset, incl. academic sites — github.com/Mr-Grin/china-direct-rules
+#!desc = Daily-refreshed global (overseas) proxy ruleset, incl. academic sites — github.com/Mr-Grin/proxy-rules
 #!category = Rule
 
 [Rule]
-RULE-SET,https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/global/shadowrocket.list,PROXY
+RULE-SET,https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/global/shadowrocket.list,PROXY

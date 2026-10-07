@@ -1,6 +1,6 @@
 # NAME: GlobalMerged
-# GENERATED-BY: china-direct-rules/scripts/build_rules.py
-# UPDATED: 2026-10-07T15:20:02.208024+00:00
+# GENERATED-BY: proxy-rules/scripts/build_rules.py
+# UPDATED: 2026-10-07T15:25:26.982322+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_All.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Scholar/Scholar.list
