@@ -3,4 +3,4 @@
 #!category = Rule
 
 [Rule]
-RULE-SET,https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/rules/shadowrocket.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/Mr-Grin/china-direct-rules/main/china-direct/full/shadowrocket.list,DIRECT

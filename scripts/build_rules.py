@@ -5,6 +5,7 @@ import datetime
 import ipaddress
 import os
 import urllib.request
+from typing import NamedTuple
 
 BASE = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket"
 CHNROUTES_URL = "https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt"
@@ -50,6 +51,24 @@ SOURCES = [
 # dropping them yields a much smaller ruleset built only from the curated
 # China list, ChinaIPs, chnroutes, and ASN-China.
 LITE_SOURCES = [u for u in SOURCES if "/ChinaMax/" not in u]
+
+# The global ruleset: overseas traffic that should go through the proxy. It is
+# built by the same pipeline as the China rulesets, into its own directory.
+#
+# Global is taken from blackmatrix7's *Surge* directory on purpose: Surge's
+# Global_All.list is the one file that carries Global's domains and IPs
+# together (the Shadowrocket directory splits them across Global.list and
+# Global_Domain.list). It also has IP-CIDR6 and PROCESS-NAME lines, which
+# parse_source() handles (IPv6 kept, desktop-only PROCESS-NAME dropped).
+#
+# Scholar (academic sites) is merged into the same ruleset, so there are just
+# two rulesets: china-direct and global. A site in both (e.g. nature.com) is
+# resolved by RULE-SET order in the user's config, with china-direct first.
+SURGE_BASE = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge"
+GLOBAL_SOURCES = [
+    f"{SURGE_BASE}/Global/Global_All.list",
+    f"{BASE}/Scholar/Scholar.list",
+]
 
 MARK = object()
 
@@ -215,7 +234,9 @@ def parse_source(text: str, is_domain_set: bool, is_cidr_set: bool = False, stri
             rules["user_agent"].add(value)
         elif rtype == "IP-ASN":
             rules["ip_asn"].add(value)
-        elif rtype == "IP-CIDR":
+        elif rtype in ("IP-CIDR", "IP-CIDR6"):
+            # Shadowrocket writes IPv6 as plain IP-CIDR; Surge/Loon use
+            # IP-CIDR6. collapse_cidrs() sorts them out by address family.
             rules["ip_cidr"].add(value)
     return rules
 
@@ -292,7 +313,7 @@ def header(ctx: dict, sources: list, name: str = "ChinaDirectMerged", comment: s
     return lines
 
 
-def render_shadowrocket(ctx: dict, sources: list, name: str) -> str:
+def render_shadowrocket(ctx: dict, sources: list, name: str, policy: str) -> str:
     """Shadowrocket RULE-SET: mixes rule types in one file, single IP-CIDR type for v4+v6."""
     lines = header(ctx, sources, name) + [""]
     for d in ctx["domain_keyword"]:
@@ -310,7 +331,7 @@ def render_shadowrocket(ctx: dict, sources: list, name: str) -> str:
     return "\n".join(lines) + "\n"
 
 
-def render_surge_loon(ctx: dict, sources: list, name: str) -> str:
+def render_surge_loon(ctx: dict, sources: list, name: str, policy: str) -> str:
     """Surge & Loon RULE-SET: same syntax, IPv6 CIDRs get their own IP-CIDR6 type."""
     lines = header(ctx, sources, name) + [""]
     for d in ctx["domain_keyword"]:
@@ -330,29 +351,31 @@ def render_surge_loon(ctx: dict, sources: list, name: str) -> str:
     return "\n".join(lines) + "\n"
 
 
-def render_quantumultx(ctx: dict, sources: list, name: str) -> str:
+def render_quantumultx(ctx: dict, sources: list, name: str, policy: str) -> str:
     """QuantumultX filter: HOST(-SUFFIX/-KEYWORD) instead of DOMAIN(-SUFFIX/-KEYWORD),
     every line carries an explicit trailing policy so it works standalone without
-    relying on a force-policy= override at subscription time."""
+    relying on a force-policy= override at subscription time. Shadowrocket, Surge,
+    Loon and Clash leave the policy to the user's RULE-SET line, so the shared
+    renderer signature carries `policy` but only this one uses it."""
     lines = header(ctx, sources, name) + [""]
     for d in ctx["domain_keyword"]:
-        lines.append(f"HOST-KEYWORD,{d},direct")
+        lines.append(f"HOST-KEYWORD,{d},{policy}")
     for d in ctx["user_agent"]:
-        lines.append(f"USER-AGENT,{d},direct")
+        lines.append(f"USER-AGENT,{d},{policy}")
     for d in ctx["ip_asn"]:
-        lines.append(f"IP-ASN,{d},direct")
+        lines.append(f"IP-ASN,{d},{policy}")
     for net in ctx["ip_cidr_v4"]:
-        lines.append(f"IP-CIDR,{net},direct")
+        lines.append(f"IP-CIDR,{net},{policy}")
     for net in ctx["ip_cidr_v6"]:
-        lines.append(f"IP6-CIDR,{net},direct")
+        lines.append(f"IP6-CIDR,{net},{policy}")
     for d in ctx["domain"]:
-        lines.append(f"HOST,{d},direct")
+        lines.append(f"HOST,{d},{policy}")
     for d in ctx["domain_suffix"]:
-        lines.append(f"HOST-SUFFIX,{d},direct")
+        lines.append(f"HOST-SUFFIX,{d},{policy}")
     return "\n".join(lines) + "\n"
 
 
-def render_clash(ctx: dict, sources: list, name: str) -> str:
+def render_clash(ctx: dict, sources: list, name: str, policy: str) -> str:
     """Clash classical rule-provider. No USER-AGENT support in classical mode,
     so those rules are dropped (documented in README)."""
     lines = header(ctx, sources, name) + ["payload:"]
@@ -371,7 +394,7 @@ def render_clash(ctx: dict, sources: list, name: str) -> str:
     return "\n".join(lines) + "\n"
 
 
-def render_shadowrocket_module(list_path: str, name: str, desc: str) -> str:
+def render_shadowrocket_module(list_path: str, name: str, desc: str, policy: str) -> str:
     """Shadowrocket module wrapping a shadowrocket.list RULE-SET: lets users
     add it via Configuration > Module > + (paste URL) instead of hand-editing
     a profile's [Rule] section. Content is static (no embedded date/count) so
@@ -382,26 +405,46 @@ def render_shadowrocket_module(list_path: str, name: str, desc: str) -> str:
         "#!category = Rule",
         "",
         "[Rule]",
-        f"RULE-SET,{REPO_RAW_BASE}/{list_path},DIRECT",
+        f"RULE-SET,{REPO_RAW_BASE}/{list_path},{policy.upper()}",
     ]
     return "\n".join(lines) + "\n"
 
 
+class Variant(NamedTuple):
+    sources: list
+    name: str  # NAME: header in the generated files
+    prefix: str  # output directory, and the key into STATS_MARKERS
+    module_name: str
+    module_desc: str
+    # Policy baked into the two outputs that carry one (shadowrocket.sgmodule
+    # and quantumultx.list); the other formats leave it to the user's RULE-SET.
+    policy: str = "direct"
+
+
 VARIANTS = [
-    # (sources, name, output path prefix, module display name, module description)
-    (
+    # Output layout: <ruleset>/[<variant>/]<client file>. Each ruleset directory
+    # holds the same client-specific files (shadowrocket, surge, loon, ...).
+    Variant(
         SOURCES,
         "ChinaDirectMerged",
-        "rules",
+        "china-direct/full",
         "China Direct Rules",
         "Daily-refreshed China direct-connect ruleset — github.com/Mr-Grin/china-direct-rules",
     ),
-    (
+    Variant(
         LITE_SOURCES,
         "ChinaDirectMergedLite",
-        "rules-lite",
+        "china-direct/lite",
         "China Direct Rules (Lite)",
         "Lite China direct-connect ruleset, excludes blackmatrix7 ChinaMax — github.com/Mr-Grin/china-direct-rules",
+    ),
+    Variant(
+        GLOBAL_SOURCES,
+        "GlobalMerged",
+        "global",
+        "Global Proxy Rules",
+        "Daily-refreshed global (overseas) proxy ruleset, incl. academic sites — github.com/Mr-Grin/china-direct-rules",
+        policy="proxy",
     ),
 ]
 
@@ -414,8 +457,9 @@ OUTPUTS = {
 }
 
 STATS_MARKERS = {
-    "rules": ("<!-- RULE-STATS:START -->", "<!-- RULE-STATS:END -->"),
-    "rules-lite": ("<!-- RULE-STATS-LITE:START -->", "<!-- RULE-STATS-LITE:END -->"),
+    "china-direct/full": ("<!-- RULE-STATS:START -->", "<!-- RULE-STATS:END -->"),
+    "china-direct/lite": ("<!-- RULE-STATS-LITE:START -->", "<!-- RULE-STATS-LITE:END -->"),
+    "global": ("<!-- RULE-STATS-GLOBAL:START -->", "<!-- RULE-STATS-GLOBAL:END -->"),
 }
 
 
@@ -452,18 +496,18 @@ def update_readme(stats: dict, path: str = "README.md") -> None:
 
 if __name__ == "__main__":
     stats = {}
-    for sources, name, prefix, module_name, module_desc in VARIANTS:
-        os.makedirs(prefix, exist_ok=True)
-        ctx = build_canonical(sources)
-        stats[prefix] = ctx
+    for v in VARIANTS:
+        os.makedirs(v.prefix, exist_ok=True)
+        ctx = build_canonical(v.sources)
+        stats[v.prefix] = ctx
         for filename, renderer in OUTPUTS.items():
-            path = f"{prefix}/{filename}"
-            text = renderer(ctx, sources, name)
+            path = f"{v.prefix}/{filename}"
+            text = renderer(ctx, v.sources, v.name, v.policy)
             with open(path, "w", encoding="utf-8") as f:
                 f.write(text)
             print(f"wrote {path} ({len(text.splitlines())} lines)")
-        module_path = f"{prefix}/shadowrocket.sgmodule"
-        text = render_shadowrocket_module(f"{prefix}/shadowrocket.list", module_name, module_desc)
+        module_path = f"{v.prefix}/shadowrocket.sgmodule"
+        text = render_shadowrocket_module(f"{v.prefix}/shadowrocket.list", v.module_name, v.module_desc, v.policy)
         with open(module_path, "w", encoding="utf-8") as f:
             f.write(text)
         print(f"wrote {module_path}")
