@@ -314,7 +314,7 @@ def header(ctx: dict, sources: list, name: str = "ChinaMerged", comment: str = "
     return lines
 
 
-def render_shadowrocket(ctx: dict, sources: list, name: str, policy: str) -> str:
+def render_shadowrocket(ctx: dict, sources: list, name: str, label: str) -> str:
     """Shadowrocket RULE-SET: mixes rule types in one file, single IP-CIDR type for v4+v6."""
     lines = header(ctx, sources, name) + [""]
     for d in ctx["domain_keyword"]:
@@ -332,7 +332,7 @@ def render_shadowrocket(ctx: dict, sources: list, name: str, policy: str) -> str
     return "\n".join(lines) + "\n"
 
 
-def render_surge_loon(ctx: dict, sources: list, name: str, policy: str) -> str:
+def render_surge_loon(ctx: dict, sources: list, name: str, label: str) -> str:
     """Surge & Loon RULE-SET: same syntax, IPv6 CIDRs get their own IP-CIDR6 type."""
     lines = header(ctx, sources, name) + [""]
     for d in ctx["domain_keyword"]:
@@ -352,31 +352,31 @@ def render_surge_loon(ctx: dict, sources: list, name: str, policy: str) -> str:
     return "\n".join(lines) + "\n"
 
 
-def render_quantumultx(ctx: dict, sources: list, name: str, policy: str) -> str:
-    """QuantumultX filter: HOST(-SUFFIX/-KEYWORD) instead of DOMAIN(-SUFFIX/-KEYWORD),
-    every line carries an explicit trailing policy so it works standalone without
-    relying on a force-policy= override at subscription time. Shadowrocket, Surge,
-    Loon and Clash leave the policy to the user's RULE-SET line, so the shared
-    renderer signature carries `policy` but only this one uses it."""
+def render_quantumultx(ctx: dict, sources: list, name: str, label: str) -> str:
+    """QuantumultX filter: HOST(-SUFFIX/-KEYWORD) instead of DOMAIN(-SUFFIX/-KEYWORD).
+    The trailing policy field of every line is the ruleset label (e.g. "China"),
+    a placeholder just like in blackmatrix7's QuantumultX lists; the real policy
+    is set with force-policy= in [filter_remote]. The shared renderer signature
+    carries `label`, but only this renderer uses it."""
     lines = header(ctx, sources, name) + [""]
     for d in ctx["domain_keyword"]:
-        lines.append(f"HOST-KEYWORD,{d},{policy}")
+        lines.append(f"HOST-KEYWORD,{d},{label}")
     for d in ctx["user_agent"]:
-        lines.append(f"USER-AGENT,{d},{policy}")
+        lines.append(f"USER-AGENT,{d},{label}")
     for d in ctx["ip_asn"]:
-        lines.append(f"IP-ASN,{d},{policy}")
+        lines.append(f"IP-ASN,{d},{label}")
     for net in ctx["ip_cidr_v4"]:
-        lines.append(f"IP-CIDR,{net},{policy}")
+        lines.append(f"IP-CIDR,{net},{label}")
     for net in ctx["ip_cidr_v6"]:
-        lines.append(f"IP6-CIDR,{net},{policy}")
+        lines.append(f"IP6-CIDR,{net},{label}")
     for d in ctx["domain"]:
-        lines.append(f"HOST,{d},{policy}")
+        lines.append(f"HOST,{d},{label}")
     for d in ctx["domain_suffix"]:
-        lines.append(f"HOST-SUFFIX,{d},{policy}")
+        lines.append(f"HOST-SUFFIX,{d},{label}")
     return "\n".join(lines) + "\n"
 
 
-def render_clash(ctx: dict, sources: list, name: str, policy: str) -> str:
+def render_clash(ctx: dict, sources: list, name: str, label: str) -> str:
     """Clash classical rule-provider. No USER-AGENT support in classical mode,
     so those rules are dropped (documented in README)."""
     lines = header(ctx, sources, name) + ["payload:"]
@@ -417,8 +417,10 @@ class Variant(NamedTuple):
     prefix: str  # output directory, and the key into STATS_MARKERS
     module_name: str
     module_desc: str
-    # Policy baked into the two outputs that carry one (shadowrocket.sgmodule
-    # and quantumultx.list); the other formats leave it to the user's RULE-SET.
+    # Written as the policy field of every quantumultx.list line (placeholder;
+    # users override it with force-policy=), as blackmatrix7's lists do.
+    label: str
+    # Default policy in shadowrocket.sgmodule, since a module has to name one.
     policy: str = "direct"
 
 
@@ -431,6 +433,7 @@ VARIANTS = [
         "china/full",
         "China Rules",
         "Daily-refreshed China ruleset — github.com/Mr-Grin/proxy-rules",
+        "China",
     ),
     Variant(
         LITE_SOURCES,
@@ -438,6 +441,7 @@ VARIANTS = [
         "china/lite",
         "China Rules (Lite)",
         "Lite China ruleset, excludes blackmatrix7 ChinaMax — github.com/Mr-Grin/proxy-rules",
+        "China",
     ),
     Variant(
         GLOBAL_SOURCES,
@@ -445,6 +449,7 @@ VARIANTS = [
         "global",
         "Global Rules",
         "Daily-refreshed global (overseas) ruleset, incl. academic sites — github.com/Mr-Grin/proxy-rules",
+        "Global",
         policy="proxy",
     ),
 ]
@@ -503,7 +508,7 @@ if __name__ == "__main__":
         stats[v.prefix] = ctx
         for filename, renderer in OUTPUTS.items():
             path = f"{v.prefix}/{filename}"
-            text = renderer(ctx, v.sources, v.name, v.policy)
+            text = renderer(ctx, v.sources, v.name, v.label)
             with open(path, "w", encoding="utf-8") as f:
                 f.write(text)
             print(f"wrote {path} ({len(text.splitlines())} lines)")

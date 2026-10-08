@@ -13,7 +13,7 @@ The repo ships **two rulesets**. Each is generated once and rendered into the sy
 | **china** | `china/full/`, `china/lite/` | Mainland China domains, IP ranges and ASNs (sources below) |
 | **global** | `global/` | blackmatrix7's `Global` (domains and IPs combined) merged with its `Scholar` academic sites |
 
-Which policy each ruleset gets (direct, proxy, a specific group) is up to you — you set it in your own `RULE-SET` line. Only the Shadowrocket module and the QuantumultX file have to carry one, so they ship a default (`DIRECT` for china, `PROXY` for global) that you can change.
+Which policy each ruleset gets (direct, proxy, a specific group) is up to you — you set it in your own `RULE-SET` line. Only the Shadowrocket module has to name one (its format requires it), so it ships a default: `DIRECT` for china, `PROXY` for global. In `quantumultx.list` the policy field of every line is just the ruleset name (`China` or `Global`), a placeholder like in blackmatrix7's lists; set the real policy with `force-policy=` when you subscribe.
 
 Each directory contains `shadowrocket.list`, `shadowrocket.sgmodule`, `surge.list`, `loon.list`, `quantumultx.list` and `clash.yaml`.
 
@@ -76,7 +76,7 @@ RULE-SET,<second URL>,<policy>
 <summary><b>Setup instructions per client</b></summary>
 <br>
 
-Same steps for every ruleset and variant — just use the URL from whichever table above you picked, with whatever policy you want in place of `<policy>` (`DIRECT`, `PROXY`, or the name of a proxy group). The Shadowrocket module and the QuantumultX file ship a default policy (`DIRECT` for china, `PROXY` for global).
+Same steps for every ruleset and variant — just use the URL from whichever table above you picked, with whatever policy you want in place of `<policy>` (`DIRECT`, `PROXY`, or the name of a proxy group). The Shadowrocket module ships a default policy (`DIRECT` for china, `PROXY` for global).
 
 **Shadowrocket — module (recommended)**
 Configuration → **Module** → **+** → paste the `.sgmodule` URL → Download. Toggle the whole module on/off from the Module list; no manual config editing.
@@ -105,9 +105,9 @@ RULE-SET,<the URL above>,<policy>
 **QuantumultX**
 Add to `[filter_remote]`:
 ```
-<the URL above>, tag=china, enabled=true
+<the URL above>, tag=china, force-policy=<policy>, enabled=true
 ```
-A default policy is baked into the file; add `force-policy=<policy>` to the tag to override it.
+Every line's policy field is the ruleset name (`China` or `Global`); `force-policy=` applies your own policy to all of them.
 
 **Clash**
 Needs a `rule-providers` block rather than a one-liner:
@@ -215,7 +215,7 @@ Same six filenames under `china/full/`, `china/lite/` and `global/`:
 | `shadowrocket.sgmodule` | Shadowrocket | Module wrapping a `RULE-SET` reference to that variant's `shadowrocket.list`, addable from Configuration → Module |
 | `surge.list` | Surge | `RULE-SET`; IPv6 CIDRs use a separate `IP-CIDR6` type |
 | `loon.list` | Loon | Same syntax as Surge |
-| `quantumultx.list` | QuantumultX | Uses `HOST`/`HOST-SUFFIX`/`HOST-KEYWORD`/`IP6-CIDR`; every line carries a default policy (`direct` for china, `proxy` for global) so it works standalone |
+| `quantumultx.list` | QuantumultX | Uses `HOST`/`HOST-SUFFIX`/`HOST-KEYWORD`/`IP6-CIDR`; the policy field of every line is the ruleset name (`China` / `Global`); set the real policy with `force-policy=` |
 | `clash.yaml` | Clash | `behavior: classical` rule-provider; **`USER-AGENT` rules are dropped** — classical mode has no such rule type |
 
 blackmatrix7's per-client directories are ~99% the same data with different serialization; a few platform-exclusive extras (QuantumultX's one `HOST-WILDCARD` rule, Surge/Clash's desktop-only `PROCESS-NAME` rules) aren't reproduced here. Trade-off: one build pipeline and guaranteed-identical domain/IP coverage across every client, at the cost of a handful of rarely-relevant platform-specific micro-rules.
