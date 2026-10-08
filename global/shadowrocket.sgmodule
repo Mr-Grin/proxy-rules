@@ -1,5 +1,5 @@
-#!name = Global Proxy Rules
-#!desc = Daily-refreshed global (overseas) proxy ruleset, incl. academic sites — github.com/Mr-Grin/proxy-rules
+#!name = Global Rules
+#!desc = Daily-refreshed global (overseas) ruleset, incl. academic sites — github.com/Mr-Grin/proxy-rules
 #!category = Rule
 
 [Rule]

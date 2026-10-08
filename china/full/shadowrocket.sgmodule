@@ -1,0 +1,6 @@
+#!name = China Rules
+#!desc = Daily-refreshed China ruleset — github.com/Mr-Grin/proxy-rules
+#!category = Rule
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china/full/shadowrocket.list,DIRECT

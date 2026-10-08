@@ -2,23 +2,25 @@
 
 # proxy-rules
 
-**Two deduplicated, daily-refreshed rulesets for routing from mainland China: `china-direct` (connect directly) and `global` (go through the proxy).**
+**Two deduplicated, daily-refreshed rulesets for mainland China network routing: `china` and `global`.**
 
 Merges [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script) (`China`, `ChinaMax`, `ChinaIPs`), [misakaio/chnroutes2](https://github.com/misakaio/chnroutes2) (BGP-sourced China IP ranges), and [missuo/ASN-China](https://github.com/missuo/ASN-China) (China-registered ASNs) into one canonical set, then renders it for **Shadowrocket, Surge, Loon, QuantumultX, and Clash**.
 
 The repo ships **two rulesets**. Each is generated once and rendered into the syntax of every client, so a ruleset's directory holds one file per tool:
 
-| Ruleset | Directory | Policy | What's in it |
-|---|---|---|---|
-| **china-direct** | `china-direct/full/`, `china-direct/lite/` | `DIRECT` | Mainland China domains, IP ranges and ASNs (sources below) |
-| **global** | `global/` | `PROXY` | blackmatrix7's `Global` (domains and IPs combined) merged with its `Scholar` academic sites |
+| Ruleset | Directory | What's in it |
+|---|---|---|
+| **china** | `china/full/`, `china/lite/` | Mainland China domains, IP ranges and ASNs (sources below) |
+| **global** | `global/` | blackmatrix7's `Global` (domains and IPs combined) merged with its `Scholar` academic sites |
+
+Which policy each ruleset gets (direct, proxy, a specific group) is up to you — you set it in your own `RULE-SET` line. Only the Shadowrocket module and the QuantumultX file have to carry one, so they ship a default (`DIRECT` for china, `PROXY` for global) that you can change.
 
 Each directory contains `shadowrocket.list`, `shadowrocket.sgmodule`, `surge.list`, `loon.list`, `quantumultx.list` and `clash.yaml`.
 
-**china-direct** ships in two variants — pick one:
+**china** ships in two variants — pick one:
 
-- **Full** (`china-direct/full/`) — everything, including blackmatrix7's `ChinaMax`, by far the largest domain source.
-- **Lite** (`china-direct/lite/`) — same pipeline minus `ChinaMax`, ~85% fewer total entries. IP coverage stays nearly as complete (`ChinaIPs`/`chnroutes`/ASN-China overlap `ChinaMax` heavily), but domain-suffix coverage drops sharply — pick this if you mainly care about IP-based direct-connect and want a smaller ruleset. **Recommended for mobile** (Shadowrocket/Loon/QuantumultX on iOS) — a much smaller file means faster rule-matching and lower memory use on-device.
+- **Full** (`china/full/`) — everything, including blackmatrix7's `ChinaMax`, by far the largest domain source.
+- **Lite** (`china/lite/`) — same pipeline minus `ChinaMax`, ~85% fewer total entries. IP coverage stays nearly as complete (`ChinaIPs`/`chnroutes`/ASN-China overlap `ChinaMax` heavily), but domain-suffix coverage drops sharply — pick this if you mainly care about IP-based routing and want a smaller ruleset. **Recommended for mobile** (Shadowrocket/Loon/QuantumultX on iOS) — a much smaller file means faster rule-matching and lower memory use on-device.
 
 ---
 
@@ -26,35 +28,33 @@ Each directory contains `shadowrocket.list`, `shadowrocket.sgmodule`, `surge.lis
 
 Pick your client and variant, paste the URL, set the subscription's refresh interval to 24h so it stays current.
 
-> **Moved:** the China files used to live in `rules/` and `rules-lite/`. They are now `china-direct/full/` and `china-direct/lite/`; the old URLs no longer exist, so update existing subscriptions.
-
-### china-direct
+### china
 
 **Full**
 
 | Client | URL |
 |---|---|
-| **Shadowrocket** (module, recommended) | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china-direct/full/shadowrocket.sgmodule` |
-| **Shadowrocket** (raw rule) | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china-direct/full/shadowrocket.list` |
-| **Surge** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china-direct/full/surge.list` |
-| **Loon** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china-direct/full/loon.list` |
-| **QuantumultX** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china-direct/full/quantumultx.list` |
-| **Clash** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china-direct/full/clash.yaml` |
+| **Shadowrocket** (module, recommended) | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china/full/shadowrocket.sgmodule` |
+| **Shadowrocket** (raw rule) | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china/full/shadowrocket.list` |
+| **Surge** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china/full/surge.list` |
+| **Loon** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china/full/loon.list` |
+| **QuantumultX** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china/full/quantumultx.list` |
+| **Clash** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china/full/clash.yaml` |
 
 **Lite** (no `ChinaMax`, recommended for mobile — smaller file size)
 
 | Client | URL |
 |---|---|
-| **Shadowrocket** (module, recommended) | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china-direct/lite/shadowrocket.sgmodule` |
-| **Shadowrocket** (raw rule) | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china-direct/lite/shadowrocket.list` |
-| **Surge** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china-direct/lite/surge.list` |
-| **Loon** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china-direct/lite/loon.list` |
-| **QuantumultX** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china-direct/lite/quantumultx.list` |
-| **Clash** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china-direct/lite/clash.yaml` |
+| **Shadowrocket** (module, recommended) | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china/lite/shadowrocket.sgmodule` |
+| **Shadowrocket** (raw rule) | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china/lite/shadowrocket.list` |
+| **Surge** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china/lite/surge.list` |
+| **Loon** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china/lite/loon.list` |
+| **QuantumultX** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china/lite/quantumultx.list` |
+| **Clash** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china/lite/clash.yaml` |
 
 ### global
 
-Overseas traffic that should use the proxy — blackmatrix7's `Global` plus `Scholar` (academic sites), merged and deduplicated. The Shadowrocket module and the QuantumultX file already carry the **proxy** policy; for every other client you set it in your own `RULE-SET` line.
+blackmatrix7's `Global` plus `Scholar` (academic sites), merged and deduplicated.
 
 | Client | URL |
 |---|---|
@@ -65,18 +65,18 @@ Overseas traffic that should use the proxy — blackmatrix7's `Global` plus `Sch
 | **QuantumultX** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/global/quantumultx.list` |
 | **Clash** | `https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/global/clash.yaml` |
 
-**Rule order matters** — the first matching `RULE-SET` wins. Put **china-direct above global**: a few domains are in both (for example `nature.com` is a Scholar site but is also in the China list), and this order keeps those direct.
+**Rule order matters** — the first matching `RULE-SET` wins, and a few hundred domains appear in both rulesets (for example `nature.com` and `acm.org`: Scholar sites that are also in the China list). Whichever ruleset you list first decides those domains:
 
 ```
-RULE-SET,<china-direct URL>,DIRECT
-RULE-SET,<global URL>,PROXY
+RULE-SET,<first URL>,<policy>
+RULE-SET,<second URL>,<policy>
 ```
 
 <details>
 <summary><b>Setup instructions per client</b></summary>
 <br>
 
-Same steps for every ruleset and variant — just use the URL from whichever table above you picked. For **global**, set the policy to `PROXY` (or the name of your proxy group) instead of `DIRECT`; the Shadowrocket module and QuantumultX file already have it baked in.
+Same steps for every ruleset and variant — just use the URL from whichever table above you picked, with whatever policy you want in place of `<policy>` (`DIRECT`, `PROXY`, or the name of a proxy group). The Shadowrocket module and the QuantumultX file ship a default policy (`DIRECT` for china, `PROXY` for global).
 
 **Shadowrocket — module (recommended)**
 Configuration → **Module** → **+** → paste the `.sgmodule` URL → Download. Toggle the whole module on/off from the Module list; no manual config editing.
@@ -84,43 +84,43 @@ Configuration → **Module** → **+** → paste the `.sgmodule` URL → Downloa
 **Shadowrocket — manual rule**
 Add to a profile's `[Rule]` section:
 ```
-RULE-SET,<the .list URL above>,DIRECT
+RULE-SET,<the .list URL above>,<policy>
 ```
 
 **Surge**
 Add to `[Rule]`:
 ```
-RULE-SET,<the URL above>,DIRECT
+RULE-SET,<the URL above>,<policy>
 ```
 
 **Loon — remote rule (recommended)**
-Configuration → **Rule** → **+** → paste the URL, set an alias, choose policy **DIRECT** → Save.
+Configuration → **Rule** → **+** → paste the URL, set an alias, choose a policy → Save.
 
 **Loon — manual rule**
 Add to `[Rule]`:
 ```
-RULE-SET,<the URL above>,DIRECT
+RULE-SET,<the URL above>,<policy>
 ```
 
 **QuantumultX**
 Add to `[filter_remote]`:
 ```
-<the URL above>, tag=china-direct, enabled=true
+<the URL above>, tag=china, enabled=true
 ```
-The policy is already baked into the file, so no `force-policy=` override is needed.
+A default policy is baked into the file; add `force-policy=<policy>` to the tag to override it.
 
 **Clash**
 Needs a `rule-providers` block rather than a one-liner:
 ```yaml
 rule-providers:
-  china-direct:
+  china:
     type: http
     behavior: classical
     url: "<the .yaml URL above>"
-    path: ./ruleset/china-direct.yaml
+    path: ./ruleset/china.yaml
     interval: 86400
 rules:
-  - RULE-SET,china-direct,DIRECT
+  - RULE-SET,china,<policy>
 ```
 
 </details>
@@ -207,7 +207,7 @@ flowchart LR
 
 ### Output files
 
-Same six filenames under `china-direct/full/`, `china-direct/lite/` and `global/`:
+Same six filenames under `china/full/`, `china/lite/` and `global/`:
 
 | File | Client | Notes |
 |---|---|---|
@@ -215,7 +215,7 @@ Same six filenames under `china-direct/full/`, `china-direct/lite/` and `global/
 | `shadowrocket.sgmodule` | Shadowrocket | Module wrapping a `RULE-SET` reference to that variant's `shadowrocket.list`, addable from Configuration → Module |
 | `surge.list` | Surge | `RULE-SET`; IPv6 CIDRs use a separate `IP-CIDR6` type |
 | `loon.list` | Loon | Same syntax as Surge |
-| `quantumultx.list` | QuantumultX | Uses `HOST`/`HOST-SUFFIX`/`HOST-KEYWORD`/`IP6-CIDR`; every line carries an explicit policy (`direct` for china-direct, `proxy` for global) so it works standalone |
+| `quantumultx.list` | QuantumultX | Uses `HOST`/`HOST-SUFFIX`/`HOST-KEYWORD`/`IP6-CIDR`; every line carries a default policy (`direct` for china, `proxy` for global) so it works standalone |
 | `clash.yaml` | Clash | `behavior: classical` rule-provider; **`USER-AGENT` rules are dropped** — classical mode has no such rule type |
 
 blackmatrix7's per-client directories are ~99% the same data with different serialization; a few platform-exclusive extras (QuantumultX's one `HOST-WILDCARD` rule, Surge/Clash's desktop-only `PROCESS-NAME` rules) aren't reproduced here. Trade-off: one build pipeline and guaranteed-identical domain/IP coverage across every client, at the cost of a handful of rarely-relevant platform-specific micro-rules.

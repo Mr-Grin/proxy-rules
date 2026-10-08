@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Aggregate blackmatrix7/ios_rule_script rulesets into deduped rulesets (china-direct
+"""Aggregate blackmatrix7/ios_rule_script rulesets into deduped rulesets (china
 and global), each rendered into Shadowrocket, Surge, Loon, QuantumultX, and Clash
 formats."""
 import datetime
@@ -53,8 +53,8 @@ SOURCES = [
 # China list, ChinaIPs, chnroutes, and ASN-China.
 LITE_SOURCES = [u for u in SOURCES if "/ChinaMax/" not in u]
 
-# The global ruleset: overseas traffic that should go through the proxy. It is
-# built by the same pipeline as the China rulesets, into its own directory.
+# The global ruleset: overseas sites. It is built by the same pipeline as the
+# China rulesets, into its own directory.
 #
 # Global is taken from blackmatrix7's *Surge* directory on purpose: Surge's
 # Global_All.list is the one file that carries Global's domains and IPs
@@ -63,8 +63,8 @@ LITE_SOURCES = [u for u in SOURCES if "/ChinaMax/" not in u]
 # parse_source() handles (IPv6 kept, desktop-only PROCESS-NAME dropped).
 #
 # Scholar (academic sites) is merged into the same ruleset, so there are just
-# two rulesets: china-direct and global. A site in both (e.g. nature.com) is
-# resolved by RULE-SET order in the user's config, with china-direct first.
+# two rulesets: china and global. A site in both (e.g. nature.com) is
+# resolved by RULE-SET order in the user's config.
 SURGE_BASE = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge"
 GLOBAL_SOURCES = [
     f"{SURGE_BASE}/Global/Global_All.list",
@@ -291,7 +291,7 @@ def build_canonical(sources: list) -> dict:
     }
 
 
-def header(ctx: dict, sources: list, name: str = "ChinaDirectMerged", comment: str = "#") -> list:
+def header(ctx: dict, sources: list, name: str = "ChinaMerged", comment: str = "#") -> list:
     total = sum(len(ctx[k]) for k in ("domain_suffix", "domain", "domain_keyword", "user_agent", "ip_asn", "ip_cidr_v4", "ip_cidr_v6"))
     lines = [
         f"{comment} NAME: {name}",
@@ -427,24 +427,24 @@ VARIANTS = [
     # holds the same client-specific files (shadowrocket, surge, loon, ...).
     Variant(
         SOURCES,
-        "ChinaDirectMerged",
-        "china-direct/full",
-        "China Direct Rules",
-        "Daily-refreshed China direct-connect ruleset — github.com/Mr-Grin/proxy-rules",
+        "ChinaMerged",
+        "china/full",
+        "China Rules",
+        "Daily-refreshed China ruleset — github.com/Mr-Grin/proxy-rules",
     ),
     Variant(
         LITE_SOURCES,
-        "ChinaDirectMergedLite",
-        "china-direct/lite",
-        "China Direct Rules (Lite)",
-        "Lite China direct-connect ruleset, excludes blackmatrix7 ChinaMax — github.com/Mr-Grin/proxy-rules",
+        "ChinaMergedLite",
+        "china/lite",
+        "China Rules (Lite)",
+        "Lite China ruleset, excludes blackmatrix7 ChinaMax — github.com/Mr-Grin/proxy-rules",
     ),
     Variant(
         GLOBAL_SOURCES,
         "GlobalMerged",
         "global",
-        "Global Proxy Rules",
-        "Daily-refreshed global (overseas) proxy ruleset, incl. academic sites — github.com/Mr-Grin/proxy-rules",
+        "Global Rules",
+        "Daily-refreshed global (overseas) ruleset, incl. academic sites — github.com/Mr-Grin/proxy-rules",
         policy="proxy",
     ),
 ]
@@ -458,8 +458,8 @@ OUTPUTS = {
 }
 
 STATS_MARKERS = {
-    "china-direct/full": ("<!-- RULE-STATS:START -->", "<!-- RULE-STATS:END -->"),
-    "china-direct/lite": ("<!-- RULE-STATS-LITE:START -->", "<!-- RULE-STATS-LITE:END -->"),
+    "china/full": ("<!-- RULE-STATS:START -->", "<!-- RULE-STATS:END -->"),
+    "china/lite": ("<!-- RULE-STATS-LITE:START -->", "<!-- RULE-STATS-LITE:END -->"),
     "global": ("<!-- RULE-STATS-GLOBAL:START -->", "<!-- RULE-STATS-GLOBAL:END -->"),
 }
 

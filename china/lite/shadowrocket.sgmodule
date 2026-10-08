@@ -1,0 +1,6 @@
+#!name = China Rules (Lite)
+#!desc = Lite China ruleset, excludes blackmatrix7 ChinaMax — github.com/Mr-Grin/proxy-rules
+#!category = Rule
+
+[Rule]
+RULE-SET,https://raw.githubusercontent.com/Mr-Grin/proxy-rules/main/china/lite/shadowrocket.list,DIRECT

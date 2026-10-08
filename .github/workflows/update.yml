@@ -24,7 +24,7 @@ jobs:
 
       - name: Discard timestamp-only changes
         run: |
-          for f in $(for d in china-direct/full china-direct/lite global; do
+          for f in $(for d in china/full china/lite global; do
                        for n in shadowrocket.list surge.list loon.list quantumultx.list clash.yaml; do echo "$d/$n"; done
                      done); do
             if git diff --quiet -- "$f"; then
@@ -41,7 +41,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add china-direct global README.md
+          git add china global README.md
           if git diff --cached --quiet; then
             echo "No rule changes, skipping commit"
           else
