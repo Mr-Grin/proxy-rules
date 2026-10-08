@@ -1,17 +1,17 @@
 # NAME: GlobalMerged
 # GENERATED-BY: proxy-rules/scripts/build_rules.py
-# UPDATED: 2026-10-07T15:25:26.974758+00:00
+# UPDATED: 2026-10-08T01:12:44.501814+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_All.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Scholar/Scholar.list
-# DOMAIN-SUFFIX: 29269
+# DOMAIN-SUFFIX: 29296
 # DOMAIN: 125
 # DOMAIN-KEYWORD: 36
 # USER-AGENT: 43
 # IP-ASN: 0
 # IP-CIDR: 115
 # IP-CIDR6: 4
-# TOTAL: 29592
+# TOTAL: 29619
 
 DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,1e100
@@ -1907,6 +1907,7 @@ DOMAIN-SUFFIX,bgme.me
 DOMAIN-SUFFIX,hanime.me
 DOMAIN-SUFFIX,line.me
 DOMAIN-SUFFIX,my-magazine.me
+DOMAIN-SUFFIX,hanimeone.me
 DOMAIN-SUFFIX,dayone.me
 DOMAIN-SUFFIX,applestore.me
 DOMAIN-SUFFIX,kingextre.me
@@ -2211,6 +2212,7 @@ DOMAIN-SUFFIX,nijimiss.moe
 DOMAIN-SUFFIX,nat.moe
 DOMAIN-SUFFIX,sstmlt.moe
 DOMAIN-SUFFIX,niu.moe
+DOMAIN-SUFFIX,cangku.moe
 DOMAIN-SUFFIX,wxw.moe
 DOMAIN-SUFFIX,catbox.moe
 DOMAIN-SUFFIX,mox.moe
@@ -4333,6 +4335,7 @@ DOMAIN-SUFFIX,medrxiv.org
 DOMAIN-SUFFIX,biorxiv.org
 DOMAIN-SUFFIX,pornv.org
 DOMAIN-SUFFIX,eastturkistan-gov.org
+DOMAIN-SUFFIX,rocmgov.org
 DOMAIN-SUFFIX,chinainterimgov.org
 DOMAIN-SUFFIX,gtv.org
 DOMAIN-SUFFIX,chonglangtv.org
@@ -4866,6 +4869,7 @@ DOMAIN-SUFFIX,apple.co.th
 DOMAIN-SUFFIX,bridgestone.co.th
 DOMAIN-SUFFIX,mini.co.th
 DOMAIN-SUFFIX,dell.co.th
+DOMAIN-SUFFIX,matichon.co.th
 DOMAIN-SUFFIX,hbogo.co.th
 DOMAIN-SUFFIX,yahoo.co.th
 DOMAIN-SUFFIX,adidas.co.th
@@ -5853,6 +5857,7 @@ DOMAIN-SUFFIX,kubakuba.global
 DOMAIN-SUFFIX,rea.global
 DOMAIN-SUFFIX,jivara.global
 DOMAIN-SUFFIX,stellasora.global
+DOMAIN-SUFFIX,ipac.global
 DOMAIN-SUFFIX,nfsc.global
 DOMAIN-SUFFIX,longbridge.global
 DOMAIN-SUFFIX,stripe.global
@@ -6456,6 +6461,7 @@ DOMAIN-SUFFIX,hdtube1.com
 DOMAIN-SUFFIX,zootube1.com
 DOMAIN-SUFFIX,xxxtube1.com
 DOMAIN-SUFFIX,kicksnike1.com
+DOMAIN-SUFFIX,hanime1.com
 DOMAIN-SUFFIX,pvue1.com
 DOMAIN-SUFFIX,sexsexe1.com
 DOMAIN-SUFFIX,f1.com
@@ -8475,6 +8481,7 @@ DOMAIN-SUFFIX,scoreland.com
 DOMAIN-SUFFIX,akamai-thailand.com
 DOMAIN-SUFFIX,hpstorethailand.com
 DOMAIN-SUFFIX,dettolthailand.com
+DOMAIN-SUFFIX,nationthailand.com
 DOMAIN-SUFFIX,minisothailand.com
 DOMAIN-SUFFIX,monstercockland.com
 DOMAIN-SUFFIX,facebookland.com
@@ -19206,6 +19213,7 @@ DOMAIN-SUFFIX,aliengu.com
 DOMAIN-SUFFIX,pokemonletsgopikachu.com
 DOMAIN-SUFFIX,nijinchu.com
 DOMAIN-SUFFIX,getchu.com
+DOMAIN-SUFFIX,javchu.com
 DOMAIN-SUFFIX,fengzhenghu.com
 DOMAIN-SUFFIX,wallzhihu.com
 DOMAIN-SUFFIX,duanzhihu.com
@@ -19299,6 +19307,7 @@ DOMAIN-SUFFIX,seatguru.com
 DOMAIN-SUFFIX,pkqjiasu.com
 DOMAIN-SUFFIX,uujiasu.com
 DOMAIN-SUFFIX,avjiasu.com
+DOMAIN-SUFFIX,moeli-desu.com
 DOMAIN-SUFFIX,itunesu.com
 DOMAIN-SUFFIX,levyhsu.com
 DOMAIN-SUFFIX,newsupermariobrosu.com
@@ -24953,6 +24962,7 @@ DOMAIN-SUFFIX,farfetch.net
 DOMAIN-SUFFIX,pixivsketch.net
 DOMAIN-SUFFIX,nintendoswitch.net
 DOMAIN-SUFFIX,vpnintouch.net
+DOMAIN-SUFFIX,dh.net
 DOMAIN-SUFFIX,lanmdh.net
 DOMAIN-SUFFIX,hexxeh.net
 DOMAIN-SUFFIX,18mh.net
@@ -25899,6 +25909,7 @@ DOMAIN-SUFFIX,ttoverseaus.net
 DOMAIN-SUFFIX,isfocus.net
 DOMAIN-SUFFIX,movidius.net
 DOMAIN-SUFFIX,matome-plus.net
+DOMAIN-SUFFIX,blue-plus.net
 DOMAIN-SUFFIX,spring-plus.net
 DOMAIN-SUFFIX,south-plus.net
 DOMAIN-SUFFIX,level-plus.net
@@ -26193,6 +26204,7 @@ DOMAIN-SUFFIX,fanfox.net
 DOMAIN-SUFFIX,waterfox.net
 DOMAIN-SUFFIX,roblox.net
 DOMAIN-SUFFIX,qx.net
+DOMAIN-SUFFIX,xx.net
 DOMAIN-SUFFIX,xnxx.net
 DOMAIN-SUFFIX,young-xxx.net
 DOMAIN-SUFFIX,brazzers-xxx.net
@@ -28224,6 +28236,7 @@ DOMAIN-SUFFIX,cuinc.tw
 DOMAIN-SUFFIX,greatroc.tw
 DOMAIN-SUFFIX,bmw-motorrad.tw
 DOMAIN-SUFFIX,digiland.tw
+DOMAIN-SUFFIX,poland.tw
 DOMAIN-SUFFIX,ipod.tw
 DOMAIN-SUFFIX,dcard.tw
 DOMAIN-SUFFIX,pcloud.tw
@@ -28247,14 +28260,19 @@ DOMAIN-SUFFIX,fansking.tw
 DOMAIN-SUFFIX,flog.tw
 DOMAIN-SUFFIX,falundafa.org.tw
 DOMAIN-SUFFIX,ecfa.org.tw
+DOMAIN-SUFFIX,vscc.org.tw
+DOMAIN-SUFFIX,mirdc.org.tw
 DOMAIN-SUFFIX,catholic.org.tw
+DOMAIN-SUFFIX,nstc.org.tw
 DOMAIN-SUFFIX,ccfd.org.tw
+DOMAIN-SUFFIX,tfd.org.tw
 DOMAIN-SUFFIX,coolloud.org.tw
 DOMAIN-SUFFIX,kagyuoffice.org.tw
 DOMAIN-SUFFIX,cathvoice.org.tw
 DOMAIN-SUFFIX,organcare.org.tw
 DOMAIN-SUFFIX,hwayue.org.tw
 DOMAIN-SUFFIX,taiwanncf.org.tw
+DOMAIN-SUFFIX,icdf.org.tw
 DOMAIN-SUFFIX,chtf.org.tw
 DOMAIN-SUFFIX,nccwatch.org.tw
 DOMAIN-SUFFIX,covenantswatch.org.tw
@@ -28334,8 +28352,12 @@ DOMAIN-SUFFIX,airbnb.com.tw
 DOMAIN-SUFFIX,hsbc.com.tw
 DOMAIN-SUFFIX,bcc.com.tw
 DOMAIN-SUFFIX,ddc.com.tw
+DOMAIN-SUFFIX,aidc.com.tw
+DOMAIN-SUFFIX,twfhcsec.com.tw
 DOMAIN-SUFFIX,arphic.com.tw
 DOMAIN-SUFFIX,khmusic.com.tw
+DOMAIN-SUFFIX,cpc.com.tw
+DOMAIN-SUFFIX,csc.com.tw
 DOMAIN-SUFFIX,trtc.com.tw
 DOMAIN-SUFFIX,hyread.com.tw
 DOMAIN-SUFFIX,ipod.com.tw
@@ -28376,6 +28398,8 @@ DOMAIN-SUFFIX,nch.com.tw
 DOMAIN-SUFFIX,wealth.com.tw
 DOMAIN-SUFFIX,mini.com.tw
 DOMAIN-SUFFIX,raidtalk.com.tw
+DOMAIN-SUFFIX,landbank.com.tw
+DOMAIN-SUFFIX,eximbank.com.tw
 DOMAIN-SUFFIX,money-link.com.tw
 DOMAIN-SUFFIX,book.com.tw
 DOMAIN-SUFFIX,nextwork.com.tw
@@ -28391,6 +28415,7 @@ DOMAIN-SUFFIX,dell.com.tw
 DOMAIN-SUFFIX,axbdoll.com.tw
 DOMAIN-SUFFIX,qgirl.com.tw
 DOMAIN-SUFFIX,url.com.tw
+DOMAIN-SUFFIX,ttl.com.tw
 DOMAIN-SUFFIX,qualcomm.com.tw
 DOMAIN-SUFFIX,eracom.com.tw
 DOMAIN-SUFFIX,gvm.com.tw
@@ -28416,6 +28441,7 @@ DOMAIN-SUFFIX,mitao.com.tw
 DOMAIN-SUFFIX,krtco.com.tw
 DOMAIN-SUFFIX,biggo.com.tw
 DOMAIN-SUFFIX,duckduckgo.com.tw
+DOMAIN-SUFFIX,tybio.com.tw
 DOMAIN-SUFFIX,uforadio.com.tw
 DOMAIN-SUFFIX,yahoo.com.tw
 DOMAIN-SUFFIX,adultexpo.com.tw
@@ -28541,6 +28567,7 @@ DOMAIN-SUFFIX,pinterest.tw
 DOMAIN-SUFFIX,moptt.tw
 DOMAIN-SUFFIX,watchout.tw
 DOMAIN-SUFFIX,pubu.tw
+DOMAIN-SUFFIX,khc.edu.tw
 DOMAIN-SUFFIX,ncl.edu.tw
 DOMAIN-SUFFIX,heeact.edu.tw
 DOMAIN-SUFFIX,eq.ccu.edu.tw

@@ -1,17 +1,17 @@
 # NAME: GlobalMerged
 # GENERATED-BY: proxy-rules/scripts/build_rules.py
-# UPDATED: 2026-10-07T15:25:26.982322+00:00
+# UPDATED: 2026-10-08T01:12:44.514995+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_All.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Scholar/Scholar.list
-# DOMAIN-SUFFIX: 29269
+# DOMAIN-SUFFIX: 29296
 # DOMAIN: 125
 # DOMAIN-KEYWORD: 36
 # USER-AGENT: 43
 # IP-ASN: 0
 # IP-CIDR: 115
 # IP-CIDR6: 4
-# TOTAL: 29592
+# TOTAL: 29619
 
 HOST-KEYWORD,1drv,proxy
 HOST-KEYWORD,1e100,proxy
@@ -1907,6 +1907,7 @@ HOST-SUFFIX,bgme.me,proxy
 HOST-SUFFIX,hanime.me,proxy
 HOST-SUFFIX,line.me,proxy
 HOST-SUFFIX,my-magazine.me,proxy
+HOST-SUFFIX,hanimeone.me,proxy
 HOST-SUFFIX,dayone.me,proxy
 HOST-SUFFIX,applestore.me,proxy
 HOST-SUFFIX,kingextre.me,proxy
@@ -2211,6 +2212,7 @@ HOST-SUFFIX,nijimiss.moe,proxy
 HOST-SUFFIX,nat.moe,proxy
 HOST-SUFFIX,sstmlt.moe,proxy
 HOST-SUFFIX,niu.moe,proxy
+HOST-SUFFIX,cangku.moe,proxy
 HOST-SUFFIX,wxw.moe,proxy
 HOST-SUFFIX,catbox.moe,proxy
 HOST-SUFFIX,mox.moe,proxy
@@ -4333,6 +4335,7 @@ HOST-SUFFIX,medrxiv.org,proxy
 HOST-SUFFIX,biorxiv.org,proxy
 HOST-SUFFIX,pornv.org,proxy
 HOST-SUFFIX,eastturkistan-gov.org,proxy
+HOST-SUFFIX,rocmgov.org,proxy
 HOST-SUFFIX,chinainterimgov.org,proxy
 HOST-SUFFIX,gtv.org,proxy
 HOST-SUFFIX,chonglangtv.org,proxy
@@ -4866,6 +4869,7 @@ HOST-SUFFIX,apple.co.th,proxy
 HOST-SUFFIX,bridgestone.co.th,proxy
 HOST-SUFFIX,mini.co.th,proxy
 HOST-SUFFIX,dell.co.th,proxy
+HOST-SUFFIX,matichon.co.th,proxy
 HOST-SUFFIX,hbogo.co.th,proxy
 HOST-SUFFIX,yahoo.co.th,proxy
 HOST-SUFFIX,adidas.co.th,proxy
@@ -5853,6 +5857,7 @@ HOST-SUFFIX,kubakuba.global,proxy
 HOST-SUFFIX,rea.global,proxy
 HOST-SUFFIX,jivara.global,proxy
 HOST-SUFFIX,stellasora.global,proxy
+HOST-SUFFIX,ipac.global,proxy
 HOST-SUFFIX,nfsc.global,proxy
 HOST-SUFFIX,longbridge.global,proxy
 HOST-SUFFIX,stripe.global,proxy
@@ -6456,6 +6461,7 @@ HOST-SUFFIX,hdtube1.com,proxy
 HOST-SUFFIX,zootube1.com,proxy
 HOST-SUFFIX,xxxtube1.com,proxy
 HOST-SUFFIX,kicksnike1.com,proxy
+HOST-SUFFIX,hanime1.com,proxy
 HOST-SUFFIX,pvue1.com,proxy
 HOST-SUFFIX,sexsexe1.com,proxy
 HOST-SUFFIX,f1.com,proxy
@@ -8475,6 +8481,7 @@ HOST-SUFFIX,scoreland.com,proxy
 HOST-SUFFIX,akamai-thailand.com,proxy
 HOST-SUFFIX,hpstorethailand.com,proxy
 HOST-SUFFIX,dettolthailand.com,proxy
+HOST-SUFFIX,nationthailand.com,proxy
 HOST-SUFFIX,minisothailand.com,proxy
 HOST-SUFFIX,monstercockland.com,proxy
 HOST-SUFFIX,facebookland.com,proxy
@@ -19206,6 +19213,7 @@ HOST-SUFFIX,aliengu.com,proxy
 HOST-SUFFIX,pokemonletsgopikachu.com,proxy
 HOST-SUFFIX,nijinchu.com,proxy
 HOST-SUFFIX,getchu.com,proxy
+HOST-SUFFIX,javchu.com,proxy
 HOST-SUFFIX,fengzhenghu.com,proxy
 HOST-SUFFIX,wallzhihu.com,proxy
 HOST-SUFFIX,duanzhihu.com,proxy
@@ -19299,6 +19307,7 @@ HOST-SUFFIX,seatguru.com,proxy
 HOST-SUFFIX,pkqjiasu.com,proxy
 HOST-SUFFIX,uujiasu.com,proxy
 HOST-SUFFIX,avjiasu.com,proxy
+HOST-SUFFIX,moeli-desu.com,proxy
 HOST-SUFFIX,itunesu.com,proxy
 HOST-SUFFIX,levyhsu.com,proxy
 HOST-SUFFIX,newsupermariobrosu.com,proxy
@@ -24953,6 +24962,7 @@ HOST-SUFFIX,farfetch.net,proxy
 HOST-SUFFIX,pixivsketch.net,proxy
 HOST-SUFFIX,nintendoswitch.net,proxy
 HOST-SUFFIX,vpnintouch.net,proxy
+HOST-SUFFIX,dh.net,proxy
 HOST-SUFFIX,lanmdh.net,proxy
 HOST-SUFFIX,hexxeh.net,proxy
 HOST-SUFFIX,18mh.net,proxy
@@ -25899,6 +25909,7 @@ HOST-SUFFIX,ttoverseaus.net,proxy
 HOST-SUFFIX,isfocus.net,proxy
 HOST-SUFFIX,movidius.net,proxy
 HOST-SUFFIX,matome-plus.net,proxy
+HOST-SUFFIX,blue-plus.net,proxy
 HOST-SUFFIX,spring-plus.net,proxy
 HOST-SUFFIX,south-plus.net,proxy
 HOST-SUFFIX,level-plus.net,proxy
@@ -26193,6 +26204,7 @@ HOST-SUFFIX,fanfox.net,proxy
 HOST-SUFFIX,waterfox.net,proxy
 HOST-SUFFIX,roblox.net,proxy
 HOST-SUFFIX,qx.net,proxy
+HOST-SUFFIX,xx.net,proxy
 HOST-SUFFIX,xnxx.net,proxy
 HOST-SUFFIX,young-xxx.net,proxy
 HOST-SUFFIX,brazzers-xxx.net,proxy
@@ -28224,6 +28236,7 @@ HOST-SUFFIX,cuinc.tw,proxy
 HOST-SUFFIX,greatroc.tw,proxy
 HOST-SUFFIX,bmw-motorrad.tw,proxy
 HOST-SUFFIX,digiland.tw,proxy
+HOST-SUFFIX,poland.tw,proxy
 HOST-SUFFIX,ipod.tw,proxy
 HOST-SUFFIX,dcard.tw,proxy
 HOST-SUFFIX,pcloud.tw,proxy
@@ -28247,14 +28260,19 @@ HOST-SUFFIX,fansking.tw,proxy
 HOST-SUFFIX,flog.tw,proxy
 HOST-SUFFIX,falundafa.org.tw,proxy
 HOST-SUFFIX,ecfa.org.tw,proxy
+HOST-SUFFIX,vscc.org.tw,proxy
+HOST-SUFFIX,mirdc.org.tw,proxy
 HOST-SUFFIX,catholic.org.tw,proxy
+HOST-SUFFIX,nstc.org.tw,proxy
 HOST-SUFFIX,ccfd.org.tw,proxy
+HOST-SUFFIX,tfd.org.tw,proxy
 HOST-SUFFIX,coolloud.org.tw,proxy
 HOST-SUFFIX,kagyuoffice.org.tw,proxy
 HOST-SUFFIX,cathvoice.org.tw,proxy
 HOST-SUFFIX,organcare.org.tw,proxy
 HOST-SUFFIX,hwayue.org.tw,proxy
 HOST-SUFFIX,taiwanncf.org.tw,proxy
+HOST-SUFFIX,icdf.org.tw,proxy
 HOST-SUFFIX,chtf.org.tw,proxy
 HOST-SUFFIX,nccwatch.org.tw,proxy
 HOST-SUFFIX,covenantswatch.org.tw,proxy
@@ -28334,8 +28352,12 @@ HOST-SUFFIX,airbnb.com.tw,proxy
 HOST-SUFFIX,hsbc.com.tw,proxy
 HOST-SUFFIX,bcc.com.tw,proxy
 HOST-SUFFIX,ddc.com.tw,proxy
+HOST-SUFFIX,aidc.com.tw,proxy
+HOST-SUFFIX,twfhcsec.com.tw,proxy
 HOST-SUFFIX,arphic.com.tw,proxy
 HOST-SUFFIX,khmusic.com.tw,proxy
+HOST-SUFFIX,cpc.com.tw,proxy
+HOST-SUFFIX,csc.com.tw,proxy
 HOST-SUFFIX,trtc.com.tw,proxy
 HOST-SUFFIX,hyread.com.tw,proxy
 HOST-SUFFIX,ipod.com.tw,proxy
@@ -28376,6 +28398,8 @@ HOST-SUFFIX,nch.com.tw,proxy
 HOST-SUFFIX,wealth.com.tw,proxy
 HOST-SUFFIX,mini.com.tw,proxy
 HOST-SUFFIX,raidtalk.com.tw,proxy
+HOST-SUFFIX,landbank.com.tw,proxy
+HOST-SUFFIX,eximbank.com.tw,proxy
 HOST-SUFFIX,money-link.com.tw,proxy
 HOST-SUFFIX,book.com.tw,proxy
 HOST-SUFFIX,nextwork.com.tw,proxy
@@ -28391,6 +28415,7 @@ HOST-SUFFIX,dell.com.tw,proxy
 HOST-SUFFIX,axbdoll.com.tw,proxy
 HOST-SUFFIX,qgirl.com.tw,proxy
 HOST-SUFFIX,url.com.tw,proxy
+HOST-SUFFIX,ttl.com.tw,proxy
 HOST-SUFFIX,qualcomm.com.tw,proxy
 HOST-SUFFIX,eracom.com.tw,proxy
 HOST-SUFFIX,gvm.com.tw,proxy
@@ -28416,6 +28441,7 @@ HOST-SUFFIX,mitao.com.tw,proxy
 HOST-SUFFIX,krtco.com.tw,proxy
 HOST-SUFFIX,biggo.com.tw,proxy
 HOST-SUFFIX,duckduckgo.com.tw,proxy
+HOST-SUFFIX,tybio.com.tw,proxy
 HOST-SUFFIX,uforadio.com.tw,proxy
 HOST-SUFFIX,yahoo.com.tw,proxy
 HOST-SUFFIX,adultexpo.com.tw,proxy
@@ -28541,6 +28567,7 @@ HOST-SUFFIX,pinterest.tw,proxy
 HOST-SUFFIX,moptt.tw,proxy
 HOST-SUFFIX,watchout.tw,proxy
 HOST-SUFFIX,pubu.tw,proxy
+HOST-SUFFIX,khc.edu.tw,proxy
 HOST-SUFFIX,ncl.edu.tw,proxy
 HOST-SUFFIX,heeact.edu.tw,proxy
 HOST-SUFFIX,eq.ccu.edu.tw,proxy
