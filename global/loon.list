@@ -1,17 +1,17 @@
 # NAME: GlobalMerged
 # GENERATED-BY: proxy-rules/scripts/build_rules.py
-# UPDATED: 2026-10-08T01:12:44.508753+00:00
+# UPDATED: 2026-10-10T01:08:12.603425+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_All.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Scholar/Scholar.list
-# DOMAIN-SUFFIX: 29296
+# DOMAIN-SUFFIX: 29299
 # DOMAIN: 125
 # DOMAIN-KEYWORD: 36
 # USER-AGENT: 43
 # IP-ASN: 0
 # IP-CIDR: 115
 # IP-CIDR6: 4
-# TOTAL: 29619
+# TOTAL: 29622
 
 DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,1e100
@@ -6730,6 +6730,7 @@ DOMAIN-SUFFIX,iphone-vip4.com
 DOMAIN-SUFFIX,gmp4.com
 DOMAIN-SUFFIX,qmp4.com
 DOMAIN-SUFFIX,35s4.com
+DOMAIN-SUFFIX,megas4.com
 DOMAIN-SUFFIX,thesims4.com
 DOMAIN-SUFFIX,netflixdnstest4.com
 DOMAIN-SUFFIX,ygugu4.com
@@ -24155,7 +24156,6 @@ DOMAIN-SUFFIX,pornohd.plus
 DOMAIN-SUFFIX,kucoin.plus
 DOMAIN-SUFFIX,91porn.plus
 DOMAIN-SUFFIX,warp.plus
-DOMAIN-SUFFIX,prts.plus
 DOMAIN-SUFFIX,top81.ws
 DOMAIN-SUFFIX,tilda.ws
 DOMAIN-SUFFIX,shiksha.ws
@@ -26398,6 +26398,7 @@ DOMAIN-SUFFIX,tettediferro.it
 DOMAIN-SUFFIX,uderzo.it
 DOMAIN-SUFFIX,escobarvip.it
 DOMAIN-SUFFIX,clyp.it
+DOMAIN-SUFFIX,transfer.it
 DOMAIN-SUFFIX,volvotruckcenter.it
 DOMAIN-SUFFIX,adidas.it
 DOMAIN-SUFFIX,sexjobs.it
@@ -29224,6 +29225,7 @@ DOMAIN-SUFFIX,apple.co.mz
 DOMAIN-SUFFIX,yahoo.co.mz
 DOMAIN-SUFFIX,volvotrucks.co.mz
 DOMAIN-SUFFIX,mega.nz
+DOMAIN-SUFFIX,megaad.nz
 DOMAIN-SUFFIX,dalailamavisit.org.nz
 DOMAIN-SUFFIX,intel.nz
 DOMAIN-SUFFIX,mega.co.nz
@@ -29283,6 +29285,7 @@ DOMAIN-SUFFIX,tigerbrokers.nz
 DOMAIN-SUFFIX,nzchinese.net.nz
 DOMAIN-SUFFIX,therock.net.nz
 DOMAIN-SUFFIX,pinterest.nz
+DOMAIN-SUFFIX,megapay.nz
 DOMAIN-SUFFIX,youtube.co.tz
 DOMAIN-SUFFIX,google.co.tz
 DOMAIN-SUFFIX,yahoo.co.tz

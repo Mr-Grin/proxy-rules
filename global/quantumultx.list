@@ -1,17 +1,17 @@
 # NAME: GlobalMerged
 # GENERATED-BY: proxy-rules/scripts/build_rules.py
-# UPDATED: 2026-10-08T02:13:24.538169+00:00
+# UPDATED: 2026-10-10T01:08:12.608128+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_All.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Scholar/Scholar.list
-# DOMAIN-SUFFIX: 29296
+# DOMAIN-SUFFIX: 29299
 # DOMAIN: 125
 # DOMAIN-KEYWORD: 36
 # USER-AGENT: 43
 # IP-ASN: 0
 # IP-CIDR: 115
 # IP-CIDR6: 4
-# TOTAL: 29619
+# TOTAL: 29622
 
 HOST-KEYWORD,1drv,Global
 HOST-KEYWORD,1e100,Global
@@ -6730,6 +6730,7 @@ HOST-SUFFIX,iphone-vip4.com,Global
 HOST-SUFFIX,gmp4.com,Global
 HOST-SUFFIX,qmp4.com,Global
 HOST-SUFFIX,35s4.com,Global
+HOST-SUFFIX,megas4.com,Global
 HOST-SUFFIX,thesims4.com,Global
 HOST-SUFFIX,netflixdnstest4.com,Global
 HOST-SUFFIX,ygugu4.com,Global
@@ -24155,7 +24156,6 @@ HOST-SUFFIX,pornohd.plus,Global
 HOST-SUFFIX,kucoin.plus,Global
 HOST-SUFFIX,91porn.plus,Global
 HOST-SUFFIX,warp.plus,Global
-HOST-SUFFIX,prts.plus,Global
 HOST-SUFFIX,top81.ws,Global
 HOST-SUFFIX,tilda.ws,Global
 HOST-SUFFIX,shiksha.ws,Global
@@ -26398,6 +26398,7 @@ HOST-SUFFIX,tettediferro.it,Global
 HOST-SUFFIX,uderzo.it,Global
 HOST-SUFFIX,escobarvip.it,Global
 HOST-SUFFIX,clyp.it,Global
+HOST-SUFFIX,transfer.it,Global
 HOST-SUFFIX,volvotruckcenter.it,Global
 HOST-SUFFIX,adidas.it,Global
 HOST-SUFFIX,sexjobs.it,Global
@@ -29224,6 +29225,7 @@ HOST-SUFFIX,apple.co.mz,Global
 HOST-SUFFIX,yahoo.co.mz,Global
 HOST-SUFFIX,volvotrucks.co.mz,Global
 HOST-SUFFIX,mega.nz,Global
+HOST-SUFFIX,megaad.nz,Global
 HOST-SUFFIX,dalailamavisit.org.nz,Global
 HOST-SUFFIX,intel.nz,Global
 HOST-SUFFIX,mega.co.nz,Global
@@ -29283,6 +29285,7 @@ HOST-SUFFIX,tigerbrokers.nz,Global
 HOST-SUFFIX,nzchinese.net.nz,Global
 HOST-SUFFIX,therock.net.nz,Global
 HOST-SUFFIX,pinterest.nz,Global
+HOST-SUFFIX,megapay.nz,Global
 HOST-SUFFIX,youtube.co.tz,Global
 HOST-SUFFIX,google.co.tz,Global
 HOST-SUFFIX,yahoo.co.tz,Global
