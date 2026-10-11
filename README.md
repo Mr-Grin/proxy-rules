@@ -138,9 +138,9 @@ rules:
 | DOMAIN-KEYWORD | 14 |
 | USER-AGENT | 51 |
 | IP-ASN | 5,230 |
-| IP-CIDR (v4) | 8,268 |
+| IP-CIDR (v4) | 8,269 |
 | IP-CIDR6 (v6) | 4,252 |
-| **TOTAL** | **129,842** |
+| **TOTAL** | **129,843** |
 
 <!-- RULE-STATS:END -->
 
@@ -155,9 +155,9 @@ rules:
 | DOMAIN-KEYWORD | 9 |
 | USER-AGENT | 28 |
 | IP-ASN | 5,230 |
-| IP-CIDR (v4) | 7,224 |
+| IP-CIDR (v4) | 7,225 |
 | IP-CIDR6 (v6) | 4,226 |
-| **TOTAL** | **20,408** |
+| **TOTAL** | **20,409** |
 
 <!-- RULE-STATS-LITE:END -->
 
