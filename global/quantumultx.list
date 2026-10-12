@@ -1,17 +1,17 @@
 # NAME: GlobalMerged
 # GENERATED-BY: proxy-rules/scripts/build_rules.py
-# UPDATED: 2026-10-10T01:08:12.608128+00:00
+# UPDATED: 2026-10-12T00:41:42.812211+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_All.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Scholar/Scholar.list
-# DOMAIN-SUFFIX: 29299
-# DOMAIN: 125
+# DOMAIN-SUFFIX: 29385
+# DOMAIN: 124
 # DOMAIN-KEYWORD: 36
 # USER-AGENT: 43
 # IP-ASN: 0
 # IP-CIDR: 115
 # IP-CIDR6: 4
-# TOTAL: 29622
+# TOTAL: 29707
 
 HOST-KEYWORD,1drv,Global
 HOST-KEYWORD,1e100,Global
@@ -312,7 +312,6 @@ HOST,rsshub.rssforever.com,Global
 HOST,rsshub.umzzz.com,Global
 HOST,rsshub.woodland.cafe,Global
 HOST,rsshub2.asailor.org,Global
-HOST,sberpro.vedomosti.ru,Global
 HOST,standchartbank.sc.omtrdc.net,Global
 HOST,standchartbank.tt.omtrdc.net,Global
 HOST,straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com,Global
@@ -772,7 +771,6 @@ HOST-SUFFIX,volvotrucks.co.za,Global
 HOST-SUFFIX,quickbooks.co.za,Global
 HOST-SUFFIX,strepsils.co.za,Global
 HOST-SUFFIX,disneymagicmoments.co.za,Global
-HOST-SUFFIX,jivochat.co.za,Global
 HOST-SUFFIX,alphabet.co.za,Global
 HOST-SUFFIX,veet.co.za,Global
 HOST-SUFFIX,blogspot.co.za,Global
@@ -1616,7 +1614,6 @@ HOST-SUFFIX,adidasspecialtysports.de,Global
 HOST-SUFFIX,hsbctrinkaus.de,Global
 HOST-SUFFIX,netcup-news.de,Global
 HOST-SUFFIX,mobileways.de,Global
-HOST-SUFFIX,jivochat.de,Global
 HOST-SUFFIX,thieme-connect.de,Global
 HOST-SUFFIX,alphabet.de,Global
 HOST-SUFFIX,savetibet.de,Global
@@ -2112,7 +2109,6 @@ HOST-SUFFIX,567321.online,Global
 HOST-SUFFIX,moapi1.online,Global
 HOST-SUFFIX,54647.online,Global
 HOST-SUFFIX,hentai69.online,Global
-HOST-SUFFIX,eaptechka.online,Global
 HOST-SUFFIX,2kweb.online,Global
 HOST-SUFFIX,dasaob.online,Global
 HOST-SUFFIX,hentaitube.online,Global
@@ -2239,7 +2235,6 @@ HOST-SUFFIX,adidas.com.pe,Global
 HOST-SUFFIX,starbucks.com.pe,Global
 HOST-SUFFIX,thomsonreuters.com.pe,Global
 HOST-SUFFIX,foxsports.com.pe,Global
-HOST-SUFFIX,jivochat.com.pe,Global
 HOST-SUFFIX,pinterest.com.pe,Global
 HOST-SUFFIX,bmw.com.pe,Global
 HOST-SUFFIX,durex.com.pe,Global
@@ -2587,7 +2582,6 @@ HOST-SUFFIX,mortein.com.ng,Global
 HOST-SUFFIX,amazon.com.ng,Global
 HOST-SUFFIX,blogspot.com.ng,Global
 HOST-SUFFIX,durex.com.ng,Global
-HOST-SUFFIX,jivochat.ng,Global
 HOST-SUFFIX,mac.wang,Global
 HOST-SUFFIX,applemusic.wang,Global
 HOST-SUFFIX,beatsmusic.wang,Global
@@ -4740,7 +4734,7 @@ HOST-SUFFIX,disney.ch,Global
 HOST-SUFFIX,sony.ch,Global
 HOST-SUFFIX,rea.tech,Global
 HOST-SUFFIX,mirailab.tech,Global
-HOST-SUFFIX,sbercloud.tech,Global
+HOST-SUFFIX,ydb.tech,Global
 HOST-SUFFIX,freede.tech,Global
 HOST-SUFFIX,rtnewsde.tech,Global
 HOST-SUFFIX,rtde.tech,Global
@@ -4764,7 +4758,6 @@ HOST-SUFFIX,faronics.tech,Global
 HOST-SUFFIX,ipfs.tech,Global
 HOST-SUFFIX,2gis.tech,Global
 HOST-SUFFIX,bystys.tech,Global
-HOST-SUFFIX,megamarket.tech,Global
 HOST-SUFFIX,insight.tech,Global
 HOST-SUFFIX,freegpt.tech,Global
 HOST-SUFFIX,dert.tech,Global
@@ -4963,6 +4956,7 @@ HOST-SUFFIX,tapnow.ai,Global
 HOST-SUFFIX,x.ai,Global
 HOST-SUFFIX,pplx.ai,Global
 HOST-SUFFIX,simianx.ai,Global
+HOST-SUFFIX,syntx.ai,Global
 HOST-SUFFIX,zenmux.ai,Global
 HOST-SUFFIX,dify.ai,Global
 HOST-SUFFIX,perplexity.ai,Global
@@ -4972,10 +4966,10 @@ HOST-SUFFIX,xn--80aj3b.xn--p1ai,Global
 HOST-SUFFIX,xn--80a9a4b.xn--p1ai,Global
 HOST-SUFFIX,xn--e1aigb.xn--p1ai,Global
 HOST-SUFFIX,xn--80asgb.xn--p1ai,Global
+HOST-SUFFIX,xn--90ab2c.xn--p1ai,Global
 HOST-SUFFIX,xn----8sbwjbxyd.xn--p1ai,Global
 HOST-SUFFIX,xn----7sbhmncai5a0arm7c1e.xn--p1ai,Global
 HOST-SUFFIX,xn--d1acpjx3f.xn--p1ai,Global
-HOST-SUFFIX,xn--d1aqf.xn--p1ai,Global
 HOST-SUFFIX,xn--90absjljw3g.xn--p1ai,Global
 HOST-SUFFIX,xn----8sbkfzespdwig.xn--p1ai,Global
 HOST-SUFFIX,xn--c1acbl2abdlkab1og.xn--p1ai,Global
@@ -5164,6 +5158,7 @@ HOST-SUFFIX,dell.co.vi,Global
 HOST-SUFFIX,yahoo.co.vi,Global
 HOST-SUFFIX,yango.taxi,Global
 HOST-SUFFIX,jump.taxi,Global
+HOST-SUFFIX,yandex.taxi,Global
 HOST-SUFFIX,ntl.fyi,Global
 HOST-SUFFIX,google.bj,Global
 HOST-SUFFIX,blogspot.bj,Global
@@ -5530,6 +5525,7 @@ HOST-SUFFIX,hbo.mk,Global
 HOST-SUFFIX,yahoo.mk,Global
 HOST-SUFFIX,volvotrucks.mk,Global
 HOST-SUFFIX,blogspot.mk,Global
+HOST-SUFFIX,home.bank,Global
 HOST-SUFFIX,btcbank.bank,Global
 HOST-SUFFIX,shdd.ink,Global
 HOST-SUFFIX,binancezh.ink,Global
@@ -5924,6 +5920,7 @@ HOST-SUFFIX,abb.travel,Global
 HOST-SUFFIX,airbnb.travel,Global
 HOST-SUFFIX,kinmen.travel,Global
 HOST-SUFFIX,ozon.travel,Global
+HOST-SUFFIX,yandex.travel,Global
 HOST-SUFFIX,z-lib.gl,Global
 HOST-SUFFIX,google.gl,Global
 HOST-SUFFIX,annas-archive.gl,Global
@@ -7475,7 +7472,6 @@ HOST-SUFFIX,bustyarianna.com,Global
 HOST-SUFFIX,emanna.com,Global
 HOST-SUFFIX,voashona.com,Global
 HOST-SUFFIX,mizzmona.com,Global
-HOST-SUFFIX,korona.com,Global
 HOST-SUFFIX,bmwgroupna.com,Global
 HOST-SUFFIX,shafaqna.com,Global
 HOST-SUFFIX,rolls-roycemotorcarsna.com,Global
@@ -7646,7 +7642,6 @@ HOST-SUFFIX,ekhokavkaza.com,Global
 HOST-SUFFIX,paypal-plaza.com,Global
 HOST-SUFFIX,auntymaza.com,Global
 HOST-SUFFIX,junauza.com,Global
-HOST-SUFFIX,zvuk-b2b.com,Global
 HOST-SUFFIX,yango-b2b.com,Global
 HOST-SUFFIX,starbuckscardb2b.com,Global
 HOST-SUFFIX,foxnewsb2b.com,Global
@@ -7750,6 +7745,7 @@ HOST-SUFFIX,yusjb.com,Global
 HOST-SUFFIX,avjb.com,Global
 HOST-SUFFIX,666kb.com,Global
 HOST-SUFFIX,slackb.com,Global
+HOST-SUFFIX,pskb.com,Global
 HOST-SUFFIX,kgslb.com,Global
 HOST-SUFFIX,1dumb.com,Global
 HOST-SUFFIX,onedumb.com,Global
@@ -7775,6 +7771,8 @@ HOST-SUFFIX,iherb.com,Global
 HOST-SUFFIX,xn--gmq348bujlxrb.com,Global
 HOST-SUFFIX,nikesb.com,Global
 HOST-SUFFIX,nike-dunksb.com,Global
+HOST-SUFFIX,vtb.com,Global
+HOST-SUFFIX,priovtb.com,Global
 HOST-SUFFIX,gamewtb.com,Global
 HOST-SUFFIX,porngub.com,Global
 HOST-SUFFIX,secret-flirt-hub.com,Global
@@ -9503,7 +9501,6 @@ HOST-SUFFIX,humblebundle.com,Global
 HOST-SUFFIX,milfbundle.com,Global
 HOST-SUFFIX,hpbundle.com,Global
 HOST-SUFFIX,voandebele.com,Global
-HOST-SUFFIX,sberbank-tele.com,Global
 HOST-SUFFIX,amytele.com,Global
 HOST-SUFFIX,foofle.com,Global
 HOST-SUFFIX,kaggle.com,Global
@@ -10392,7 +10389,6 @@ HOST-SUFFIX,nichepornsite.com,Global
 HOST-SUFFIX,bestpremiumpornsite.com,Global
 HOST-SUFFIX,hairypornsite.com,Global
 HOST-SUFFIX,beatsstudiosite.com,Global
-HOST-SUFFIX,jivosite.com,Global
 HOST-SUFFIX,sexyteenssite.com,Global
 HOST-SUFFIX,drebeatssite.com,Global
 HOST-SUFFIX,scatsite.com,Global
@@ -11883,6 +11879,7 @@ HOST-SUFFIX,ebtcbank.com,Global
 HOST-SUFFIX,agdbank.com,Global
 HOST-SUFFIX,mwdbank.com,Global
 HOST-SUFFIX,debank.com,Global
+HOST-SUFFIX,maritimebank.com,Global
 HOST-SUFFIX,silvergatebank.com,Global
 HOST-SUFFIX,hsbcprivatebank.com,Global
 HOST-SUFFIX,shwebank.com,Global
@@ -11895,6 +11892,7 @@ HOST-SUFFIX,pokemonbank.com,Global
 HOST-SUFFIX,kakaobank.com,Global
 HOST-SUFFIX,ansarbank.com,Global
 HOST-SUFFIX,sberbank.com,Global
+HOST-SUFFIX,energotransbank.com,Global
 HOST-SUFFIX,blubank.com,Global
 HOST-SUFFIX,pvubank.com,Global
 HOST-SUFFIX,ebaybank.com,Global
@@ -12198,7 +12196,6 @@ HOST-SUFFIX,monsterbeatsonlinestoreuk.com,Global
 HOST-SUFFIX,eksisozluk.com,Global
 HOST-SUFFIX,beatshopuk.com,Global
 HOST-SUFFIX,drdrebeatsuk.com,Global
-HOST-SUFFIX,zvuk.com,Global
 HOST-SUFFIX,thebayuk.com,Global
 HOST-SUFFIX,vk.com,Global
 HOST-SUFFIX,mvk.com,Global
@@ -12595,6 +12592,7 @@ HOST-SUFFIX,avcool.com,Global
 HOST-SUFFIX,tycool.com,Global
 HOST-SUFFIX,eromanga-school.com,Global
 HOST-SUFFIX,oli-school.com,Global
+HOST-SUFFIX,yandexdataschool.com,Global
 HOST-SUFFIX,minimotoringschool.com,Global
 HOST-SUFFIX,leaguehighschool.com,Global
 HOST-SUFFIX,ischool.com,Global
@@ -12758,6 +12756,7 @@ HOST-SUFFIX,brand-protection-team.com,Global
 HOST-SUFFIX,yango-team.com,Global
 HOST-SUFFIX,svp-team.com,Global
 HOST-SUFFIX,z3x-team.com,Global
+HOST-SUFFIX,yandex-team.com,Global
 HOST-SUFFIX,miteam.com,Global
 HOST-SUFFIX,marioandluigidreamteam.com,Global
 HOST-SUFFIX,icqsupportteam.com,Global
@@ -13088,6 +13087,7 @@ HOST-SUFFIX,babecentrum.com,Global
 HOST-SUFFIX,bmw-auslieferungszentrum.com,Global
 HOST-SUFFIX,bmwauslieferungszentrum.com,Global
 HOST-SUFFIX,bmwzentrum.com,Global
+HOST-SUFFIX,shedevrum.com,Global
 HOST-SUFFIX,qdmomentum.com,Global
 HOST-SUFFIX,ocsp-certum.com,Global
 HOST-SUFFIX,hpcontinuum.com,Global
@@ -14776,7 +14776,6 @@ HOST-SUFFIX,virsto.com,Global
 HOST-SUFFIX,flitto.com,Global
 HOST-SUFFIX,freelotto.com,Global
 HOST-SUFFIX,gyutto.com,Global
-HOST-SUFFIX,sberauto.com,Global
 HOST-SUFFIX,avwto.com,Global
 HOST-SUFFIX,uo.com,Global
 HOST-SUFFIX,coreduo.com,Global
@@ -18337,7 +18336,6 @@ HOST-SUFFIX,chat.com,Global
 HOST-SUFFIX,safechat.com,Global
 HOST-SUFFIX,freewechat.com,Global
 HOST-SUFFIX,yiyechat.com,Global
-HOST-SUFFIX,jivochat.com,Global
 HOST-SUFFIX,snapchat.com,Global
 HOST-SUFFIX,stripchat.com,Global
 HOST-SUFFIX,icqchat.com,Global
@@ -19784,6 +19782,7 @@ HOST-SUFFIX,quakemachinex.com,Global
 HOST-SUFFIX,coinex.com,Global
 HOST-SUFFIX,oex.com,Global
 HOST-SUFFIX,chaoex.com,Global
+HOST-SUFFIX,moex.com,Global
 HOST-SUFFIX,asproex.com,Global
 HOST-SUFFIX,projectapex.com,Global
 HOST-SUFFIX,playapex.com,Global
@@ -20219,6 +20218,7 @@ HOST-SUFFIX,uplay.com,Global
 HOST-SUFFIX,cadoverlay.com,Global
 HOST-SUFFIX,airmay.com,Global
 HOST-SUFFIX,apple-pay.com,Global
+HOST-SUFFIX,koronapay.com,Global
 HOST-SUFFIX,liberapay.com,Global
 HOST-SUFFIX,eachpay.com,Global
 HOST-SUFFIX,facebookpay.com,Global
@@ -21049,7 +21049,6 @@ HOST-SUFFIX,adidas.co.in,Global
 HOST-SUFFIX,harpercollins.co.in,Global
 HOST-SUFFIX,interactivebrokers.co.in,Global
 HOST-SUFFIX,ichat.co.in,Global
-HOST-SUFFIX,jivochat.co.in,Global
 HOST-SUFFIX,veet.co.in,Global
 HOST-SUFFIX,pinterest.co.in,Global
 HOST-SUFFIX,enfagrow.co.in,Global
@@ -21359,7 +21358,6 @@ HOST-SUFFIX,starbucks.com.co,Global
 HOST-SUFFIX,volvotrucks.com.co,Global
 HOST-SUFFIX,strepsils.com.co,Global
 HOST-SUFFIX,foxsports.com.co,Global
-HOST-SUFFIX,jivochat.com.co,Global
 HOST-SUFFIX,veet.com.co,Global
 HOST-SUFFIX,blogspot.com.co,Global
 HOST-SUFFIX,jav.com.co,Global
@@ -21824,7 +21822,6 @@ HOST-SUFFIX,datalore.io,Global
 HOST-SUFFIX,snapstore.io,Global
 HOST-SUFFIX,firebase.io,Global
 HOST-SUFFIX,keybase.io,Global
-HOST-SUFFIX,getsynapse.io,Global
 HOST-SUFFIX,weverse.io,Global
 HOST-SUFFIX,jiuse.io,Global
 HOST-SUFFIX,chatterbate.io,Global
@@ -22177,7 +22174,6 @@ HOST-SUFFIX,zooporn.pro,Global
 HOST-SUFFIX,gayporn.pro,Global
 HOST-SUFFIX,redwap.pro,Global
 HOST-SUFFIX,ozoncamp.pro,Global
-HOST-SUFFIX,sber.pro,Global
 HOST-SUFFIX,hgamer.pro,Global
 HOST-SUFFIX,vaginapics.pro,Global
 HOST-SUFFIX,xxxhentaipics.pro,Global
@@ -22193,6 +22189,7 @@ HOST-SUFFIX,cutout.pro,Global
 HOST-SUFFIX,18av.pro,Global
 HOST-SUFFIX,tubev.pro,Global
 HOST-SUFFIX,skbx.pro,Global
+HOST-SUFFIX,yandex.pro,Global
 HOST-SUFFIX,hdsex.pro,Global
 HOST-SUFFIX,drobbox.pro,Global
 HOST-SUFFIX,skillbox.pro,Global
@@ -23269,7 +23266,6 @@ HOST-SUFFIX,20thcenturystudios.com.br,Global
 HOST-SUFFIX,iphoneacessorios.com.br,Global
 HOST-SUFFIX,thomsonreuters.com.br,Global
 HOST-SUFFIX,foxsports.com.br,Global
-HOST-SUFFIX,jivochat.com.br,Global
 HOST-SUFFIX,veet.com.br,Global
 HOST-SUFFIX,blogspot.com.br,Global
 HOST-SUFFIX,livrariart.com.br,Global
@@ -23683,7 +23679,6 @@ HOST-SUFFIX,adidas.com.tr,Global
 HOST-SUFFIX,starbucks.com.tr,Global
 HOST-SUFFIX,volvotrucks.com.tr,Global
 HOST-SUFFIX,thomsonreuters.com.tr,Global
-HOST-SUFFIX,jivochat.com.tr,Global
 HOST-SUFFIX,veet.com.tr,Global
 HOST-SUFFIX,hurriyet.com.tr,Global
 HOST-SUFFIX,eraysoft.com.tr,Global
@@ -23831,7 +23826,6 @@ HOST-SUFFIX,xvideos.es,Global
 HOST-SUFFIX,thomsonreuters.es,Global
 HOST-SUFFIX,disneymagicmoments.es,Global
 HOST-SUFFIX,adidasspecialtysports.es,Global
-HOST-SUFFIX,jivochat.es,Global
 HOST-SUFFIX,alphabet.es,Global
 HOST-SUFFIX,veet.es,Global
 HOST-SUFFIX,microsoft.es,Global
@@ -24264,10 +24258,8 @@ HOST-SUFFIX,microsoft.cat,Global
 HOST-SUFFIX,blogspot.cat,Global
 HOST-SUFFIX,catcert.cat,Global
 HOST-SUFFIX,wxw.cat,Global
-HOST-SUFFIX,giga.chat,Global
 HOST-SUFFIX,appleone.chat,Global
 HOST-SUFFIX,tamtam.chat,Global
-HOST-SUFFIX,jivo.chat,Global
 HOST-SUFFIX,crisp.chat,Global
 HOST-SUFFIX,webcamgirls.chat,Global
 HOST-SUFFIX,rocket.chat,Global
@@ -24284,6 +24276,7 @@ HOST-SUFFIX,google.com.et,Global
 HOST-SUFFIX,lolita.bet,Global
 HOST-SUFFIX,ozon.market,Global
 HOST-SUFFIX,spasibo.market,Global
+HOST-SUFFIX,yandex.market,Global
 HOST-SUFFIX,d100.net,Global
 HOST-SUFFIX,1e100.net,Global
 HOST-SUFFIX,thaigirls100.net,Global
@@ -27036,6 +27029,7 @@ HOST-SUFFIX,9k6v4y.cyou,Global
 HOST-SUFFIX,vlb100.ru,Global
 HOST-SUFFIX,r0.ru,Global
 HOST-SUFFIX,r01.ru,Global
+HOST-SUFFIX,bank131.ru,Global
 HOST-SUFFIX,stin31.ru,Global
 HOST-SUFFIX,tele2.ru,Global
 HOST-SUFFIX,t2.ru,Global
@@ -27048,8 +27042,6 @@ HOST-SUFFIX,tilda.ru,Global
 HOST-SUFFIX,ikea.ru,Global
 HOST-SUFFIX,bfa.ru,Global
 HOST-SUFFIX,sm3ha.ru,Global
-HOST-SUFFIX,afisha.ru,Global
-HOST-SUFFIX,raiffeisen-media.ru,Global
 HOST-SUFFIX,on-media.ru,Global
 HOST-SUFFIX,mtsmedia.ru,Global
 HOST-SUFFIX,ucozmedia.ru,Global
@@ -27058,8 +27050,6 @@ HOST-SUFFIX,ria.ru,Global
 HOST-SUFFIX,pressria.ru,Global
 HOST-SUFFIX,gatewaytorussia.ru,Global
 HOST-SUFFIX,amediateka.ru,Global
-HOST-SUFFIX,eapteka.ru,Global
-HOST-SUFFIX,sbertroika.ru,Global
 HOST-SUFFIX,psb-ocenka.ru,Global
 HOST-SUFFIX,setka.ru,Global
 HOST-SUFFIX,ozon-dostavka.ru,Global
@@ -27078,36 +27068,54 @@ HOST-SUFFIX,gandhara.ru,Global
 HOST-SUFFIX,sinara.ru,Global
 HOST-SUFFIX,koddobra.ru,Global
 HOST-SUFFIX,dzeninfra.ru,Global
+HOST-SUFFIX,bancaintesa.ru,Global
+HOST-SUFFIX,yookassa.ru,Global
 HOST-SUFFIX,zarplata.ru,Global
+HOST-SUFFIX,moneta.ru,Global
 HOST-SUFFIX,azbukainterneta.ru,Global
+HOST-SUFFIX,lanta.ru,Global
 HOST-SUFFIX,vsemrabota.ru,Global
 HOST-SUFFIX,yota.ru,Global
+HOST-SUFFIX,derzhava.ru,Global
 HOST-SUFFIX,ya.ru,Global
 HOST-SUFFIX,t-investlab.ru,Global
+HOST-SUFFIX,kbb.ru,Global
+HOST-SUFFIX,vlbb.ru,Global
 HOST-SUFFIX,mhcb.ru,Global
+HOST-SUFFIX,rncb.ru,Global
 HOST-SUFFIX,killercb.ru,Global
+HOST-SUFFIX,scb.ru,Global
+HOST-SUFFIX,rdb.ru,Global
 HOST-SUFFIX,seb.ru,Global
+HOST-SUFFIX,veb.ru,Global
 HOST-SUFFIX,drweb.ru,Global
 HOST-SUFFIX,sweb.ru,Global
 HOST-SUFFIX,uweb.ru,Global
 HOST-SUFFIX,gb.ru,Global
+HOST-SUFFIX,sngb.ru,Global
 HOST-SUFFIX,rshb.ru,Global
 HOST-SUFFIX,g-ib.ru,Global
 HOST-SUFFIX,group-ib.ru,Global
 HOST-SUFFIX,cert-gib.ru,Global
 HOST-SUFFIX,uralsib.ru,Global
+HOST-SUFFIX,metib.ru,Global
 HOST-SUFFIX,mkb.ru,Global
 HOST-SUFFIX,ankb.ru,Global
-HOST-SUFFIX,pskb.ru,Global
+HOST-SUFFIX,emb.ru,Global
 HOST-SUFFIX,airbnb.ru,Global
+HOST-SUFFIX,sevnb.ru,Global
 HOST-SUFFIX,gpb.ru,Global
-HOST-SUFFIX,sberpb.ru,Global
 HOST-SUFFIX,bspb.ru,Global
 HOST-SUFFIX,cplsb.ru,Global
 HOST-SUFFIX,spasibosb.ru,Global
 HOST-SUFFIX,psb.ru,Global
+HOST-SUFFIX,rsb.ru,Global
+HOST-SUFFIX,itb.ru,Global
 HOST-SUFFIX,vtb.ru,Global
+HOST-SUFFIX,sbpvtb.ru,Global
 HOST-SUFFIX,thothub.ru,Global
+HOST-SUFFIX,delivery-club.ru,Global
+HOST-SUFFIX,spvb.ru,Global
 HOST-SUFFIX,wb.ru,Global
 HOST-SUFFIX,digital-wb.ru,Global
 HOST-SUFFIX,digitalwb.ru,Global
@@ -27132,29 +27140,31 @@ HOST-SUFFIX,wbstatic.ru,Global
 HOST-SUFFIX,arctic.ru,Global
 HOST-SUFFIX,sbibankllc.ru,Global
 HOST-SUFFIX,blanc.ru,Global
+HOST-SUFFIX,boc.ru,Global
+HOST-SUFFIX,sibsoc.ru,Global
 HOST-SUFFIX,bmw-motorrad.ru,Global
 HOST-SUFFIX,berizaryad.ru,Global
 HOST-SUFFIX,pornocd.ru,Global
-HOST-SUFFIX,id.ru,Global
-HOST-SUFFIX,gid.ru,Global
+HOST-SUFFIX,united.ru,Global
+HOST-SUFFIX,uralfd.ru,Global
 HOST-SUFFIX,solid.ru,Global
 HOST-SUFFIX,ipod.ru,Global
 HOST-SUFFIX,narod.ru,Global
 HOST-SUFFIX,zenit-card.ru,Global
+HOST-SUFFIX,halvacard.ru,Global
 HOST-SUFFIX,ozoncard.ru,Global
 HOST-SUFFIX,mastercard.ru,Global
 HOST-SUFFIX,avangard.ru,Global
 HOST-SUFFIX,ntp.fiord.ru,Global
-HOST-SUFFIX,cloud.ru,Global
+HOST-SUFFIX,nsd.ru,Global
 HOST-SUFFIX,wb-cloud.ru,Global
-HOST-SUFFIX,sbercloud.ru,Global
 HOST-SUFFIX,crazycloud.ru,Global
 HOST-SUFFIX,youtube.ru,Global
 HOST-SUFFIX,rutube.ru,Global
 HOST-SUFFIX,t-finance.ru,Global
 HOST-SUFFIX,mfk-t-finance.ru,Global
+HOST-SUFFIX,evrofinance.ru,Global
 HOST-SUFFIX,rusfinance.ru,Global
-HOST-SUFFIX,sberbank-insurance.ru,Global
 HOST-SUFFIX,tinkoffinsurance.ru,Global
 HOST-SUFFIX,tinsurance.ru,Global
 HOST-SUFFIX,esforce.ru,Global
@@ -27162,12 +27172,12 @@ HOST-SUFFIX,uguide.ru,Global
 HOST-SUFFIX,twcstorage.ru,Global
 HOST-SUFFIX,summerstage.ru,Global
 HOST-SUFFIX,bestchange.ru,Global
+HOST-SUFFIX,spbexchange.ru,Global
 HOST-SUFFIX,vscale.ru,Global
 HOST-SUFFIX,wb-sale.ru,Global
 HOST-SUFFIX,tvigle.ru,Global
 HOST-SUFFIX,google.ru,Global
 HOST-SUFFIX,rf-sim-mobile.ru,Global
-HOST-SUFFIX,sbermobile.ru,Global
 HOST-SUFFIX,cardsmobile.ru,Global
 HOST-SUFFIX,apple.ru,Global
 HOST-SUFFIX,biqle.ru,Global
@@ -27178,21 +27188,22 @@ HOST-SUFFIX,onlyprime.ru,Global
 HOST-SUFFIX,bankline.ru,Global
 HOST-SUFFIX,iphone.ru,Global
 HOST-SUFFIX,ozone.ru,Global
+HOST-SUFFIX,crediteurope.ru,Global
 HOST-SUFFIX,idecosoftware.ru,Global
 HOST-SUFFIX,chipcore.ru,Global
 HOST-SUFFIX,rustore.ru,Global
+HOST-SUFFIX,nationalclearingcentre.ru,Global
 HOST-SUFFIX,electronicsignature.ru,Global
 HOST-SUFFIX,ipicture.ru,Global
 HOST-SUFFIX,tinkoffinsurancefuture.ru,Global
 HOST-SUFFIX,tinsurancefuture.ru,Global
 HOST-SUFFIX,wildberrise.ru,Global
 HOST-SUFFIX,t-pulse.ru,Global
-HOST-SUFFIX,gitverse.ru,Global
+HOST-SUFFIX,bookmate.ru,Global
 HOST-SUFFIX,ozoncorporate.ru,Global
-HOST-SUFFIX,jivosite.ru,Global
 HOST-SUFFIX,vkontakte.ru,Global
 HOST-SUFFIX,bmw-connecteddrive.ru,Global
-HOST-SUFFIX,citydrive.ru,Global
+HOST-SUFFIX,priobye.ru,Global
 HOST-SUFFIX,atomyze.ru,Global
 HOST-SUFFIX,tmiaf.ru,Global
 HOST-SUFFIX,tinkoff.ru,Global
@@ -27205,18 +27216,14 @@ HOST-SUFFIX,reg.ru,Global
 HOST-SUFFIX,antiphishing.ru,Global
 HOST-SUFFIX,sexyfucking.ru,Global
 HOST-SUFFIX,private-banking.ru,Global
-HOST-SUFFIX,sberfactoring.ru,Global
 HOST-SUFFIX,rosbank-leasing.ru,Global
-HOST-SUFFIX,sberleasing.ru,Global
 HOST-SUFFIX,book-catalog.ru,Global
 HOST-SUFFIX,ozon-tech.ru,Global
 HOST-SUFFIX,t-tech.ru,Global
 HOST-SUFFIX,oktech.ru,Global
-HOST-SUFFIX,sbertech.ru,Global
 HOST-SUFFIX,gainstech.ru,Global
 HOST-SUFFIX,hh.ru,Global
 HOST-SUFFIX,vanish.ru,Global
-HOST-SUFFIX,sberhealth.ru,Global
 HOST-SUFFIX,wbwh.ru,Global
 HOST-SUFFIX,truyen-hentai.ru,Global
 HOST-SUFFIX,9hentai.ru,Global
@@ -27233,9 +27240,11 @@ HOST-SUFFIX,golos-ameriki.ru,Global
 HOST-SUFFIX,prastitutki.ru,Global
 HOST-SUFFIX,inosmi.ru,Global
 HOST-SUFFIX,mini.ru,Global
+HOST-SUFFIX,svoi.ru,Global
 HOST-SUFFIX,userapi.ru,Global
 HOST-SUFFIX,widberri.ru,Global
 HOST-SUFFIX,ivi.ru,Global
+HOST-SUFFIX,rutaxi.ru,Global
 HOST-SUFFIX,t-j.ru,Global
 HOST-SUFFIX,bankermak.ru,Global
 HOST-SUFFIX,bk.ru,Global
@@ -27252,33 +27261,85 @@ HOST-SUFFIX,radiosputnik.ru,Global
 HOST-SUFFIX,uchilk.ru,Global
 HOST-SUFFIX,t-tolk.ru,Global
 HOST-SUFFIX,kama-nk.ru,Global
+HOST-SUFFIX,cifra-bank.ru,Global
+HOST-SUFFIX,toyota-bank.ru,Global
 HOST-SUFFIX,wb-bank.ru,Global
 HOST-SUFFIX,deutsche-bank.ru,Global
+HOST-SUFFIX,ai-bank.ru,Global
 HOST-SUFFIX,mfk-bank.ru,Global
 HOST-SUFFIX,bm-bank.ru,Global
+HOST-SUFFIX,socium-bank.ru,Global
+HOST-SUFFIX,in-bank.ru,Global
+HOST-SUFFIX,nico-bank.ru,Global
 HOST-SUFFIX,smbcr-bank.ru,Global
 HOST-SUFFIX,bcs-bank.ru,Global
+HOST-SUFFIX,ns-bank.ru,Global
+HOST-SUFFIX,venets-bank.ru,Global
 HOST-SUFFIX,mvs-bank.ru,Global
+HOST-SUFFIX,koshelev-bank.ru,Global
 HOST-SUFFIX,alfabank.ru,Global
 HOST-SUFFIX,noosferabank.ru,Global
+HOST-SUFFIX,forabank.ru,Global
+HOST-SUFFIX,databank.ru,Global
 HOST-SUFFIX,pochtabank.ru,Global
+HOST-SUFFIX,pikhtabank.ru,Global
 HOST-SUFFIX,tkbbank.ru,Global
+HOST-SUFFIX,nkcbank.ru,Global
+HOST-SUFFIX,mcbank.ru,Global
 HOST-SUFFIX,data-tscbank.ru,Global
+HOST-SUFFIX,solidbank.ru,Global
+HOST-SUFFIX,chelindbank.ru,Global
+HOST-SUFFIX,autofinancebank.ru,Global
 HOST-SUFFIX,rusfinancebank.ru,Global
+HOST-SUFFIX,gebank.ru,Global
 HOST-SUFFIX,deutschebank.ru,Global
+HOST-SUFFIX,efbank.ru,Global
 HOST-SUFFIX,domrfbank.ru,Global
+HOST-SUFFIX,vfbank.ru,Global
 HOST-SUFFIX,tagbank.ru,Global
+HOST-SUFFIX,thbank.ru,Global
+HOST-SUFFIX,cibank.ru,Global
+HOST-SUFFIX,akibank.ru,Global
+HOST-SUFFIX,norvikbank.ru,Global
+HOST-SUFFIX,okbank.ru,Global
+HOST-SUFFIX,apkbank.ru,Global
+HOST-SUFFIX,albank.ru,Global
+HOST-SUFFIX,slbank.ru,Global
+HOST-SUFFIX,modulbank.ru,Global
 HOST-SUFFIX,finambank.ru,Global
 HOST-SUFFIX,primbank.ru,Global
+HOST-SUFFIX,eximbank.ru,Global
 HOST-SUFFIX,sovcombank.ru,Global
 HOST-SUFFIX,selkombank.ru,Global
+HOST-SUFFIX,kamkombank.ru,Global
+HOST-SUFFIX,uralprombank.ru,Global
 HOST-SUFFIX,gazprombank.ru,Global
+HOST-SUFFIX,umbank.ru,Global
+HOST-SUFFIX,genbank.ru,Global
+HOST-SUFFIX,kremlinbank.ru,Global
+HOST-SUFFIX,snbank.ru,Global
+HOST-SUFFIX,isnbank.ru,Global
+HOST-SUFFIX,ingobank.ru,Global
+HOST-SUFFIX,energobank.ru,Global
+HOST-SUFFIX,lockobank.ru,Global
+HOST-SUFFIX,expobank.ru,Global
+HOST-SUFFIX,bystrobank.ru,Global
+HOST-SUFFIX,novobank.ru,Global
 HOST-SUFFIX,rencapbank.ru,Global
+HOST-SUFFIX,nipbank.ru,Global
+HOST-SUFFIX,mspbank.ru,Global
 HOST-SUFFIX,otpbank.ru,Global
+HOST-SUFFIX,finstarbank.ru,Global
 HOST-SUFFIX,sberbank.ru,Global
 HOST-SUFFIX,spasibosberbank.ru,Global
+HOST-SUFFIX,timerbank.ru,Global
+HOST-SUFFIX,cmrbank.ru,Global
+HOST-SUFFIX,orbank.ru,Global
+HOST-SUFFIX,rosdorbank.ru,Global
 HOST-SUFFIX,tcsbank.ru,Global
 HOST-SUFFIX,jira-tcsbank.ru,Global
+HOST-SUFFIX,aresbank.ru,Global
+HOST-SUFFIX,gaztransbank.ru,Global
 HOST-SUFFIX,rosbank.ru,Global
 HOST-SUFFIX,psbank.ru,Global
 HOST-SUFFIX,aversbank.ru,Global
@@ -27287,12 +27348,23 @@ HOST-SUFFIX,tatsotsbank.ru,Global
 HOST-SUFFIX,tbank.ru,Global
 HOST-SUFFIX,my-tbank.ru,Global
 HOST-SUFFIX,ziraatbank.ru,Global
+HOST-SUFFIX,coalmetbank.ru,Global
+HOST-SUFFIX,unicreditbank.ru,Global
+HOST-SUFFIX,resocreditbank.ru,Global
 HOST-SUFFIX,autokreditbank.ru,Global
+HOST-SUFFIX,metallinvestbank.ru,Global
 HOST-SUFFIX,absolutbank.ru,Global
 HOST-SUFFIX,slavbank.ru,Global
+HOST-SUFFIX,dvbank.ru,Global
+HOST-SUFFIX,pervbank.ru,Global
 HOST-SUFFIX,prvbank.ru,Global
+HOST-SUFFIX,bmwbank.ru,Global
+HOST-SUFFIX,transstroybank.ru,Global
 HOST-SUFFIX,commerzbank.ru,Global
+HOST-SUFFIX,kuzbank.ru,Global
 HOST-SUFFIX,fank.ru,Global
+HOST-SUFFIX,k-bnk.ru,Global
+HOST-SUFFIX,tsbnk.ru,Global
 HOST-SUFFIX,quizlink.ru,Global
 HOST-SUFFIX,wink.ru,Global
 HOST-SUFFIX,ok.ru,Global
@@ -27302,7 +27374,6 @@ HOST-SUFFIX,etradebook.ru,Global
 HOST-SUFFIX,it-katok.ru,Global
 HOST-SUFFIX,nspk.ru,Global
 HOST-SUFFIX,jumpwork.ru,Global
-HOST-SUFFIX,sberdisk.ru,Global
 HOST-SUFFIX,kinopoisk.ru,Global
 HOST-SUFFIX,apples-msk.ru,Global
 HOST-SUFFIX,ssb.msk.ru,Global
@@ -27310,11 +27381,15 @@ HOST-SUFFIX,test-ipv6.ttk.ru,Global
 HOST-SUFFIX,vk.ru,Global
 HOST-SUFFIX,cdn-vk.ru,Global
 HOST-SUFFIX,sexfilm.al.ru,Global
+HOST-SUFFIX,edadeal.ru,Global
 HOST-SUFFIX,ebaysocial.ru,Global
 HOST-SUFFIX,tinkoffjournal.ru,Global
+HOST-SUFFIX,creditural.ru,Global
 HOST-SUFFIX,rosbank-capital.ru,Global
+HOST-SUFFIX,dcapital.ru,Global
 HOST-SUFFIX,tinkoffcapital.ru,Global
 HOST-SUFFIX,rtfestival.ru,Global
+HOST-SUFFIX,nskbl.ru,Global
 HOST-SUFFIX,selectel.ru,Global
 HOST-SUFFIX,intel.ru,Global
 HOST-SUFFIX,scartel.ru,Global
@@ -27331,30 +27406,35 @@ HOST-SUFFIX,xmail.ru,Global
 HOST-SUFFIX,odkl.ru,Global
 HOST-SUFFIX,bananacall.ru,Global
 HOST-SUFFIX,dell.ru,Global
-HOST-SUFFIX,21-school.ru,Global
 HOST-SUFFIX,tetrika-school.ru,Global
+HOST-SUFFIX,yandexdataschool.ru,Global
 HOST-SUFFIX,dettol.ru,Global
 HOST-SUFFIX,b37mrtl.ru,Global
+HOST-SUFFIX,bankvl.ru,Global
 HOST-SUFFIX,restream.ru,Global
 HOST-SUFFIX,yandex-team.ru,Global
 HOST-SUFFIX,o3team.ru,Global
+HOST-SUFFIX,sdm.ru,Global
+HOST-SUFFIX,poidem.ru,Global
 HOST-SUFFIX,tb-esim.ru,Global
 HOST-SUFFIX,com.ru,Global
-HOST-SUFFIX,platiecom.ru,Global
 HOST-SUFFIX,rostelecom.ru,Global
-HOST-SUFFIX,payecom.ru,Global
 HOST-SUFFIX,rosbank-dom.ru,Global
+HOST-SUFFIX,novikom.ru,Global
 HOST-SUFFIX,boom.ru,Global
 HOST-SUFFIX,drom.ru,Global
 HOST-SUFFIX,rdrom.ru,Global
 HOST-SUFFIX,beescrm.ru,Global
+HOST-SUFFIX,bankperm.ru,Global
 HOST-SUFFIX,yandexlyceum.ru,Global
 HOST-SUFFIX,vk-stadium.ru,Global
 HOST-SUFFIX,sferum.ru,Global
+HOST-SUFFIX,shedevrum.ru,Global
 HOST-SUFFIX,technogym.ru,Global
 HOST-SUFFIX,jpmorgan.ru,Global
 HOST-SUFFIX,cian.ru,Global
 HOST-SUFFIX,t-human.ru,Global
+HOST-SUFFIX,bankofkazan.ru,Global
 HOST-SUFFIX,rtbcdn.ru,Global
 HOST-SUFFIX,yccdn.ru,Global
 HOST-SUFFIX,mrgcdn.ru,Global
@@ -27365,6 +27445,7 @@ HOST-SUFFIX,nurofen.ru,Global
 HOST-SUFFIX,raiffeisen.ru,Global
 HOST-SUFFIX,dzen.ru,Global
 HOST-SUFFIX,mgfn.ru,Global
+HOST-SUFFIX,smbfin.ru,Global
 HOST-SUFFIX,myapelsin.ru,Global
 HOST-SUFFIX,megafon.ru,Global
 HOST-SUFFIX,report-megafon.ru,Global
@@ -27374,8 +27455,10 @@ HOST-SUFFIX,westernunion.ru,Global
 HOST-SUFFIX,tpension.ru,Global
 HOST-SUFFIX,wbautomation.ru,Global
 HOST-SUFFIX,rwbautomation.ru,Global
+HOST-SUFFIX,thequestion.ru,Global
 HOST-SUFFIX,canon.ru,Global
 HOST-SUFFIX,ozon.ru,Global
+HOST-SUFFIX,vtbbo.ru,Global
 HOST-SUFFIX,sberspasibo.ru,Global
 HOST-SUFFIX,ideco.ru,Global
 HOST-SUFFIX,vfsco.ru,Global
@@ -27389,9 +27472,7 @@ HOST-SUFFIX,rwbgeo.ru,Global
 HOST-SUFFIX,finishinfo.ru,Global
 HOST-SUFFIX,malotogo.ru,Global
 HOST-SUFFIX,vkuseraudio.ru,Global
-HOST-SUFFIX,otello.ru,Global
 HOST-SUFFIX,gigporno.ru,Global
-HOST-SUFFIX,sberbankaktivno.ru,Global
 HOST-SUFFIX,yahoo.ru,Global
 HOST-SUFFIX,selectelpro.ru,Global
 HOST-SUFFIX,megafonpro.ru,Global
@@ -27401,7 +27482,6 @@ HOST-SUFFIX,auto.ru,Global
 HOST-SUFFIX,rosbank-auto.ru,Global
 HOST-SUFFIX,apiauto.ru,Global
 HOST-SUFFIX,avto.ru,Global
-HOST-SUFFIX,jivo.ru,Global
 HOST-SUFFIX,envycdp.ru,Global
 HOST-SUFFIX,wbrep.ru,Global
 HOST-SUFFIX,t-ofp.ru,Global
@@ -27428,21 +27508,22 @@ HOST-SUFFIX,o-courier.ru,Global
 HOST-SUFFIX,ocourier.ru,Global
 HOST-SUFFIX,broker.ru,Global
 HOST-SUFFIX,yotagamer.ru,Global
-HOST-SUFFIX,kuper.ru,Global
 HOST-SUFFIX,samair.ru,Global
 HOST-SUFFIX,dmir.ru,Global
 HOST-SUFFIX,russoutdoor.ru,Global
 HOST-SUFFIX,wbmotivator.ru,Global
 HOST-SUFFIX,erovizor.ru,Global
+HOST-SUFFIX,ubrr.ru,Global
+HOST-SUFFIX,vbrr.ru,Global
 HOST-SUFFIX,wildberr.ru,Global
 HOST-SUFFIX,thecandidforum-voyeur.ru,Global
+HOST-SUFFIX,bankstavr.ru,Global
 HOST-SUFFIX,bimsaas.ru,Global
 HOST-SUFFIX,adidas.ru,Global
 HOST-SUFFIX,bank-arzamas.ru,Global
 HOST-SUFFIX,onlyjobs.ru,Global
 HOST-SUFFIX,future-cs.ru,Global
 HOST-SUFFIX,bcs.ru,Global
-HOST-SUFFIX,sberlogistics.ru,Global
 HOST-SUFFIX,max-tcs.ru,Global
 HOST-SUFFIX,wbkids.ru,Global
 HOST-SUFFIX,t-capital-funds.ru,Global
@@ -27450,7 +27531,6 @@ HOST-SUFFIX,e-goods.ru,Global
 HOST-SUFFIX,vk-records.ru,Global
 HOST-SUFFIX,gibtds.ru,Global
 HOST-SUFFIX,wibes.ru,Global
-HOST-SUFFIX,sberdevices.ru,Global
 HOST-SUFFIX,wildberdes.ru,Global
 HOST-SUFFIX,t-technologies.ru,Global
 HOST-SUFFIX,wildbaries.ru,Global
@@ -27495,9 +27575,9 @@ HOST-SUFFIX,volvotrucks.ru,Global
 HOST-SUFFIX,strepsils.ru,Global
 HOST-SUFFIX,t-calls.ru,Global
 HOST-SUFFIX,jetbrains.ru,Global
-HOST-SUFFIX,sberbankins.ru,Global
 HOST-SUFFIX,mindbox-notifications.ru,Global
 HOST-SUFFIX,mos.ru,Global
+HOST-SUFFIX,agroros.ru,Global
 HOST-SUFFIX,vk-apps.ru,Global
 HOST-SUFFIX,akbars.ru,Global
 HOST-SUFFIX,ozonpartners.ru,Global
@@ -27510,7 +27590,6 @@ HOST-SUFFIX,wildberriess.ru,Global
 HOST-SUFFIX,yoobusiness.ru,Global
 HOST-SUFFIX,wildbress.ru,Global
 HOST-SUFFIX,wildberiss.ru,Global
-HOST-SUFFIX,restnproducts.ru,Global
 HOST-SUFFIX,mts.ru,Global
 HOST-SUFFIX,mymts.ru,Global
 HOST-SUFFIX,adidasspecialtysports.ru,Global
@@ -27518,8 +27597,6 @@ HOST-SUFFIX,tarantoolplus.ru,Global
 HOST-SUFFIX,spasibobonus.ru,Global
 HOST-SUFFIX,ozonstatus.ru,Global
 HOST-SUFFIX,o3t.ru,Global
-HOST-SUFFIX,jivochat.ru,Global
-HOST-SUFFIX,samokat.ru,Global
 HOST-SUFFIX,inplat.ru,Global
 HOST-SUFFIX,facct.ru,Global
 HOST-SUFFIX,rbcollect.ru,Global
@@ -27529,18 +27606,20 @@ HOST-SUFFIX,clinica-tibet.ru,Global
 HOST-SUFFIX,savetibet.ru,Global
 HOST-SUFFIX,veet.ru,Global
 HOST-SUFFIX,beget.ru,Global
-HOST-SUFFIX,megamarket.ru,Global
-HOST-SUFFIX,sbermegamarket.ru,Global
+HOST-SUFFIX,market.ru,Global
 HOST-SUFFIX,wb-basket.ru,Global
 HOST-SUFFIX,wbbasket.ru,Global
 HOST-SUFFIX,geobasket.ru,Global
 HOST-SUFFIX,yastatic-net.ru,Global
+HOST-SUFFIX,yandex.net.ru,Global
 HOST-SUFFIX,internet.ru,Global
+HOST-SUFFIX,vezet.ru,Global
 HOST-SUFFIX,microsoft.ru,Global
 HOST-SUFFIX,ozon-credit.ru,Global
 HOST-SUFFIX,deltacredit.ru,Global
 HOST-SUFFIX,rbcredit.ru,Global
 HOST-SUFFIX,homecredit.ru,Global
+HOST-SUFFIX,unicredit.ru,Global
 HOST-SUFFIX,rencredit.ru,Global
 HOST-SUFFIX,kubankredit.ru,Global
 HOST-SUFFIX,ceosummit.ru,Global
@@ -27549,6 +27628,7 @@ HOST-SUFFIX,credit-zenit.ru,Global
 HOST-SUFFIX,capitalt.ru,Global
 HOST-SUFFIX,payment.ru,Global
 HOST-SUFFIX,blogspot.ru,Global
+HOST-SUFFIX,akcept.ru,Global
 HOST-SUFFIX,rt.ru,Global
 HOST-SUFFIX,start.ru,Global
 HOST-SUFFIX,arabicrt.ru,Global
@@ -27558,6 +27638,8 @@ HOST-SUFFIX,vkfest.ru,Global
 HOST-SUFFIX,b2c-digest.ru,Global
 HOST-SUFFIX,pinterest.ru,Global
 HOST-SUFFIX,era-invest.ru,Global
+HOST-SUFFIX,chelinvest.ru,Global
+HOST-SUFFIX,centrinvest.ru,Global
 HOST-SUFFIX,list.ru,Global
 HOST-SUFFIX,rutubelist.ru,Global
 HOST-SUFFIX,nichost.ru,Global
@@ -27567,7 +27649,9 @@ HOST-SUFFIX,cu.ru,Global
 HOST-SUFFIX,tinkoff-edu.ru,Global
 HOST-SUFFIX,oknovrossiu.ru,Global
 HOST-SUFFIX,viju.ru,Global
+HOST-SUFFIX,beru.ru,Global
 HOST-SUFFIX,sferum-dev.ru,Global
+HOST-SUFFIX,bank-hlynov.ru,Global
 HOST-SUFFIX,ntdtv.ru,Global
 HOST-SUFFIX,rttv.ru,Global
 HOST-SUFFIX,rtxv.ru,Global
@@ -27578,7 +27662,6 @@ HOST-SUFFIX,dbmoscow.ru,Global
 HOST-SUFFIX,medow.ru,Global
 HOST-SUFFIX,max.ru,Global
 HOST-SUFFIX,yandex.ru,Global
-HOST-SUFFIX,sberindex.ru,Global
 HOST-SUFFIX,itirex.ru,Global
 HOST-SUFFIX,durex.ru,Global
 HOST-SUFFIX,selectelix.ru,Global
@@ -27587,6 +27670,7 @@ HOST-SUFFIX,mind-box.ru,Global
 HOST-SUFFIX,mindbox.ru,Global
 HOST-SUFFIX,skillbox.ru,Global
 HOST-SUFFIX,inbox.ru,Global
+HOST-SUFFIX,foodfox.ru,Global
 HOST-SUFFIX,russiatoday.ru,Global
 HOST-SUFFIX,envyday.ru,Global
 HOST-SUFFIX,vkplay.ru,Global
@@ -27594,9 +27678,11 @@ HOST-SUFFIX,asia-pay.ru,Global
 HOST-SUFFIX,wbpay.ru,Global
 HOST-SUFFIX,vkpay.ru,Global
 HOST-SUFFIX,funpay.ru,Global
+HOST-SUFFIX,investpay.ru,Global
 HOST-SUFFIX,geceguby.ru,Global
 HOST-SUFFIX,kanzlerdaddy.ru,Global
 HOST-SUFFIX,custody.ru,Global
+HOST-SUFFIX,yoomoney.ru,Global
 HOST-SUFFIX,disney.ru,Global
 HOST-SUFFIX,kaspersky.ru,Global
 HOST-SUFFIX,playfamily.ru,Global
@@ -29300,7 +29386,6 @@ HOST-SUFFIX,miniso.uz,Global
 HOST-SUFFIX,wildberries.uz,Global
 HOST-SUFFIX,2gis.uz,Global
 HOST-SUFFIX,microsoft.uz,Global
-HOST-SUFFIX,accesspoint.uz,Global
 HOST-SUFFIX,bmw.uz,Global
 HOST-SUFFIX,yandex.uz,Global
 HOST-SUFFIX,movie1000.xyz,Global
