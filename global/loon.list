@@ -1,17 +1,17 @@
 # NAME: GlobalMerged
 # GENERATED-BY: proxy-rules/scripts/build_rules.py
-# UPDATED: 2026-10-12T00:41:42.807353+00:00
+# UPDATED: 2026-10-14T00:30:34.172261+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_All.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Scholar/Scholar.list
-# DOMAIN-SUFFIX: 29385
+# DOMAIN-SUFFIX: 29386
 # DOMAIN: 124
 # DOMAIN-KEYWORD: 36
 # USER-AGENT: 43
 # IP-ASN: 0
 # IP-CIDR: 115
 # IP-CIDR6: 4
-# TOTAL: 29707
+# TOTAL: 29708
 
 DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,1e100
@@ -18939,6 +18939,7 @@ DOMAIN-SUFFIX,intescort.com
 DOMAIN-SUFFIX,amsterdamhotescort.com
 DOMAIN-SUFFIX,londonhotescort.com
 DOMAIN-SUFFIX,amsterdamluxescort.com
+DOMAIN-SUFFIX,91short.com
 DOMAIN-SUFFIX,twishort.com
 DOMAIN-SUFFIX,siport.com
 DOMAIN-SUFFIX,teenport.com
