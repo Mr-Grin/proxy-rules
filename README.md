@@ -133,14 +133,14 @@ rules:
 
 | Type | Count |
 |---|---|
-| DOMAIN-SUFFIX | 111,254 |
+| DOMAIN-SUFFIX | 110,967 |
 | DOMAIN | 0 |
 | DOMAIN-KEYWORD | 14 |
 | USER-AGENT | 51 |
 | IP-ASN | 5,230 |
-| IP-CIDR (v4) | 8,273 |
+| IP-CIDR (v4) | 8,270 |
 | IP-CIDR6 (v6) | 4,284 |
-| **TOTAL** | **129,106** |
+| **TOTAL** | **128,816** |
 
 <!-- RULE-STATS:END -->
 
@@ -155,9 +155,9 @@ rules:
 | DOMAIN-KEYWORD | 9 |
 | USER-AGENT | 28 |
 | IP-ASN | 5,230 |
-| IP-CIDR (v4) | 7,227 |
+| IP-CIDR (v4) | 7,224 |
 | IP-CIDR6 (v6) | 4,226 |
-| **TOTAL** | **20,411** |
+| **TOTAL** | **20,408** |
 
 <!-- RULE-STATS-LITE:END -->
 
