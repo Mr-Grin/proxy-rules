@@ -1,17 +1,17 @@
 # NAME: GlobalMerged
 # GENERATED-BY: proxy-rules/scripts/build_rules.py
-# UPDATED: 2026-10-14T00:30:34.177143+00:00
+# UPDATED: 2026-10-17T23:19:23.192468+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_All.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Scholar/Scholar.list
-# DOMAIN-SUFFIX: 29386
+# DOMAIN-SUFFIX: 29392
 # DOMAIN: 124
 # DOMAIN-KEYWORD: 36
 # USER-AGENT: 43
 # IP-ASN: 0
 # IP-CIDR: 115
 # IP-CIDR6: 4
-# TOTAL: 29708
+# TOTAL: 29714
 
 HOST-KEYWORD,1drv,Global
 HOST-KEYWORD,1e100,Global
@@ -5348,6 +5348,7 @@ HOST-SUFFIX,theclub.com.hk,Global
 HOST-SUFFIX,appleclub.com.hk,Global
 HOST-SUFFIX,hsbc.com.hk,Global
 HOST-SUFFIX,etbc.com.hk,Global
+HOST-SUFFIX,sonymusic.com.hk,Global
 HOST-SUFFIX,eprc.com.hk,Global
 HOST-SUFFIX,gfgold.com.hk,Global
 HOST-SUFFIX,ipod.com.hk,Global
@@ -7100,6 +7101,7 @@ HOST-SUFFIX,huj-pizda.com,Global
 HOST-SUFFIX,ea.com,Global
 HOST-SUFFIX,tnt-ea.com,Global
 HOST-SUFFIX,monstersdebea.com,Global
+HOST-SUFFIX,scea.com,Global
 HOST-SUFFIX,new2fea.com,Global
 HOST-SUFFIX,20yearsoffea.com,Global
 HOST-SUFFIX,neifea.com,Global
@@ -7722,6 +7724,7 @@ HOST-SUFFIX,translatetheweb.com,Global
 HOST-SUFFIX,timeweb.com,Global
 HOST-SUFFIX,hindiweb.com,Global
 HOST-SUFFIX,openallweb.com,Global
+HOST-SUFFIX,bscdnweb.com,Global
 HOST-SUFFIX,protonweb.com,Global
 HOST-SUFFIX,drweb.com,Global
 HOST-SUFFIX,voyeurweb.com,Global
@@ -10530,6 +10533,7 @@ HOST-SUFFIX,facebookcanadianelectionintegrityinitiative.com,Global
 HOST-SUFFIX,indianarrative.com,Global
 HOST-SUFFIX,omekinteractive.com,Global
 HOST-SUFFIX,cbsinteractive.com,Global
+HOST-SUFFIX,sonyinteractive.com,Global
 HOST-SUFFIX,xattractive.com,Global
 HOST-SUFFIX,easportsactive.com,Global
 HOST-SUFFIX,opencollective.com,Global
@@ -17712,6 +17716,7 @@ HOST-SUFFIX,tiffany-towers.com,Global
 HOST-SUFFIX,wixanswers.com,Global
 HOST-SUFFIX,brazzers.com,Global
 HOST-SUFFIX,samsungrs.com,Global
+HOST-SUFFIX,7x24hrs.com,Global
 HOST-SUFFIX,realclearpublicaffairs.com,Global
 HOST-SUFFIX,theaffairs.com,Global
 HOST-SUFFIX,foreignaffairs.com,Global
@@ -29062,6 +29067,7 @@ HOST-SUFFIX,miniso.com.py,Global
 HOST-SUFFIX,foxsports.com.py,Global
 HOST-SUFFIX,pinterest.com.py,Global
 HOST-SUFFIX,bmw.com.py,Global
+HOST-SUFFIX,sony.com.py,Global
 HOST-SUFFIX,heartbreakers.gallery,Global
 HOST-SUFFIX,jav.gallery,Global
 HOST-SUFFIX,quiz.directory,Global

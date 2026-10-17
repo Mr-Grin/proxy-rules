@@ -1,17 +1,17 @@
 # NAME: GlobalMerged
 # GENERATED-BY: proxy-rules/scripts/build_rules.py
-# UPDATED: 2026-10-14T00:30:34.182388+00:00
+# UPDATED: 2026-10-17T23:19:23.196816+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_All.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Scholar/Scholar.list
-# DOMAIN-SUFFIX: 29386
+# DOMAIN-SUFFIX: 29392
 # DOMAIN: 124
 # DOMAIN-KEYWORD: 36
 # USER-AGENT: 43
 # IP-ASN: 0
 # IP-CIDR: 115
 # IP-CIDR6: 4
-# TOTAL: 29708
+# TOTAL: 29714
 payload:
   - DOMAIN-KEYWORD,1drv
   - DOMAIN-KEYWORD,1e100
@@ -5305,6 +5305,7 @@ payload:
   - DOMAIN-SUFFIX,appleclub.com.hk
   - DOMAIN-SUFFIX,hsbc.com.hk
   - DOMAIN-SUFFIX,etbc.com.hk
+  - DOMAIN-SUFFIX,sonymusic.com.hk
   - DOMAIN-SUFFIX,eprc.com.hk
   - DOMAIN-SUFFIX,gfgold.com.hk
   - DOMAIN-SUFFIX,ipod.com.hk
@@ -7057,6 +7058,7 @@ payload:
   - DOMAIN-SUFFIX,ea.com
   - DOMAIN-SUFFIX,tnt-ea.com
   - DOMAIN-SUFFIX,monstersdebea.com
+  - DOMAIN-SUFFIX,scea.com
   - DOMAIN-SUFFIX,new2fea.com
   - DOMAIN-SUFFIX,20yearsoffea.com
   - DOMAIN-SUFFIX,neifea.com
@@ -7679,6 +7681,7 @@ payload:
   - DOMAIN-SUFFIX,timeweb.com
   - DOMAIN-SUFFIX,hindiweb.com
   - DOMAIN-SUFFIX,openallweb.com
+  - DOMAIN-SUFFIX,bscdnweb.com
   - DOMAIN-SUFFIX,protonweb.com
   - DOMAIN-SUFFIX,drweb.com
   - DOMAIN-SUFFIX,voyeurweb.com
@@ -10487,6 +10490,7 @@ payload:
   - DOMAIN-SUFFIX,indianarrative.com
   - DOMAIN-SUFFIX,omekinteractive.com
   - DOMAIN-SUFFIX,cbsinteractive.com
+  - DOMAIN-SUFFIX,sonyinteractive.com
   - DOMAIN-SUFFIX,xattractive.com
   - DOMAIN-SUFFIX,easportsactive.com
   - DOMAIN-SUFFIX,opencollective.com
@@ -17669,6 +17673,7 @@ payload:
   - DOMAIN-SUFFIX,wixanswers.com
   - DOMAIN-SUFFIX,brazzers.com
   - DOMAIN-SUFFIX,samsungrs.com
+  - DOMAIN-SUFFIX,7x24hrs.com
   - DOMAIN-SUFFIX,realclearpublicaffairs.com
   - DOMAIN-SUFFIX,theaffairs.com
   - DOMAIN-SUFFIX,foreignaffairs.com
@@ -29019,6 +29024,7 @@ payload:
   - DOMAIN-SUFFIX,foxsports.com.py
   - DOMAIN-SUFFIX,pinterest.com.py
   - DOMAIN-SUFFIX,bmw.com.py
+  - DOMAIN-SUFFIX,sony.com.py
   - DOMAIN-SUFFIX,heartbreakers.gallery
   - DOMAIN-SUFFIX,jav.gallery
   - DOMAIN-SUFFIX,quiz.directory
