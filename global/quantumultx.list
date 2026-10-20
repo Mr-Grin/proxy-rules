@@ -1,17 +1,17 @@
 # NAME: GlobalMerged
 # GENERATED-BY: proxy-rules/scripts/build_rules.py
-# UPDATED: 2026-10-17T23:19:23.192468+00:00
+# UPDATED: 2026-10-20T00:32:42.540834+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_All.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Scholar/Scholar.list
-# DOMAIN-SUFFIX: 29392
+# DOMAIN-SUFFIX: 29408
 # DOMAIN: 124
 # DOMAIN-KEYWORD: 36
 # USER-AGENT: 43
 # IP-ASN: 0
 # IP-CIDR: 115
 # IP-CIDR6: 4
-# TOTAL: 29714
+# TOTAL: 29730
 
 HOST-KEYWORD,1drv,Global
 HOST-KEYWORD,1e100,Global
@@ -1306,6 +1306,7 @@ HOST-SUFFIX,oath.cloud,Global
 HOST-SUFFIX,youtrack.cloud,Global
 HOST-SUFFIX,nicegram.cloud,Global
 HOST-SUFFIX,vrcdn.cloud,Global
+HOST-SUFFIX,begetcdn.cloud,Global
 HOST-SUFFIX,globalsign.cloud,Global
 HOST-SUFFIX,appdomain.cloud,Global
 HOST-SUFFIX,mastodon.cloud,Global
@@ -1316,6 +1317,7 @@ HOST-SUFFIX,erolabs.cloud,Global
 HOST-SUFFIX,vkcs.cloud,Global
 HOST-SUFFIX,jetbrains.cloud,Global
 HOST-SUFFIX,vrchat.cloud,Global
+HOST-SUFFIX,beget.cloud,Global
 HOST-SUFFIX,bybit.cloud,Global
 HOST-SUFFIX,turn.livekit.cloud,Global
 HOST-SUFFIX,chatgpt.livekit.cloud,Global
@@ -1618,6 +1620,7 @@ HOST-SUFFIX,thieme-connect.de,Global
 HOST-SUFFIX,alphabet.de,Global
 HOST-SUFFIX,savetibet.de,Global
 HOST-SUFFIX,veet.de,Global
+HOST-SUFFIX,beget.de,Global
 HOST-SUFFIX,microsoft.de,Global
 HOST-SUFFIX,berlinerbericht.de,Global
 HOST-SUFFIX,bmw-carit.de,Global
@@ -2609,6 +2612,7 @@ HOST-SUFFIX,diabrowser.engineering,Global
 HOST-SUFFIX,creativecommons.engineering,Global
 HOST-SUFFIX,pinterest.engineering,Global
 HOST-SUFFIX,vps.hosting,Global
+HOST-SUFFIX,beget.hosting,Global
 HOST-SUFFIX,muncloud.dog,Global
 HOST-SUFFIX,telegram.dog,Global
 HOST-SUFFIX,esu.dog,Global
@@ -3294,6 +3298,7 @@ HOST-SUFFIX,mastercardcenterforinclusivegrowth.org,Global
 HOST-SUFFIX,i.org,Global
 HOST-SUFFIX,laogai.org,Global
 HOST-SUFFIX,lvhai.org,Global
+HOST-SUFFIX,openai.org,Global
 HOST-SUFFIX,deepai.org,Global
 HOST-SUFFIX,youpai.org,Global
 HOST-SUFFIX,fuyindiantai.org,Global
@@ -4735,6 +4740,7 @@ HOST-SUFFIX,sony.ch,Global
 HOST-SUFFIX,rea.tech,Global
 HOST-SUFFIX,mirailab.tech,Global
 HOST-SUFFIX,ydb.tech,Global
+HOST-SUFFIX,timeweb.tech,Global
 HOST-SUFFIX,freede.tech,Global
 HOST-SUFFIX,rtnewsde.tech,Global
 HOST-SUFFIX,rtde.tech,Global
@@ -4758,6 +4764,7 @@ HOST-SUFFIX,faronics.tech,Global
 HOST-SUFFIX,ipfs.tech,Global
 HOST-SUFFIX,2gis.tech,Global
 HOST-SUFFIX,bystys.tech,Global
+HOST-SUFFIX,beget.tech,Global
 HOST-SUFFIX,insight.tech,Global
 HOST-SUFFIX,freegpt.tech,Global
 HOST-SUFFIX,dert.tech,Global
@@ -4892,6 +4899,7 @@ HOST-SUFFIX,youmind.ai,Global
 HOST-SUFFIX,trae.ai,Global
 HOST-SUFFIX,opencode.ai,Global
 HOST-SUFFIX,claude.ai,Global
+HOST-SUFFIX,typesafe.ai,Global
 HOST-SUFFIX,grazie.ai,Global
 HOST-SUFFIX,google.ai,Global
 HOST-SUFFIX,cohere.ai,Global
@@ -4967,6 +4975,7 @@ HOST-SUFFIX,xn--80a9a4b.xn--p1ai,Global
 HOST-SUFFIX,xn--e1aigb.xn--p1ai,Global
 HOST-SUFFIX,xn--80asgb.xn--p1ai,Global
 HOST-SUFFIX,xn--90ab2c.xn--p1ai,Global
+HOST-SUFFIX,xn--90aefb9d.xn--p1ai,Global
 HOST-SUFFIX,xn----8sbwjbxyd.xn--p1ai,Global
 HOST-SUFFIX,xn----7sbhmncai5a0arm7c1e.xn--p1ai,Global
 HOST-SUFFIX,xn--d1acpjx3f.xn--p1ai,Global
@@ -13099,6 +13108,7 @@ HOST-SUFFIX,tsyum.com,Global
 HOST-SUFFIX,alivevm.com,Global
 HOST-SUFFIX,hhvm.com,Global
 HOST-SUFFIX,metaaivm.com,Global
+HOST-SUFFIX,cursorvm.com,Global
 HOST-SUFFIX,pctlwm.com,Global
 HOST-SUFFIX,bmwm.com,Global
 HOST-SUFFIX,xm.com,Global
@@ -13284,6 +13294,7 @@ HOST-SUFFIX,sentry-cdn.com,Global
 HOST-SUFFIX,mi9cdn.com,Global
 HOST-SUFFIX,tildacdn.com,Global
 HOST-SUFFIX,hbomax-images.warnermediacdn.com,Global
+HOST-SUFFIX,schwabcdn.com,Global
 HOST-SUFFIX,fbcdn.com,Global
 HOST-SUFFIX,zlibcdn.com,Global
 HOST-SUFFIX,vbcdn.com,Global
@@ -14503,7 +14514,6 @@ HOST-SUFFIX,xlstudio.com,Global
 HOST-SUFFIX,aliasvisualizationstudio.com,Global
 HOST-SUFFIX,airgunstudio.com,Global
 HOST-SUFFIX,shotgunstudio.com,Global
-HOST-SUFFIX,asobostudio.com,Global
 HOST-SUFFIX,gyatsostudio.com,Global
 HOST-SUFFIX,beatsbydresstudio.com,Global
 HOST-SUFFIX,drebeatstudio.com,Global
@@ -15833,7 +15843,6 @@ HOST-SUFFIX,microsofttranslator.com,Global
 HOST-SUFFIX,charticulator.com,Global
 HOST-SUFFIX,globalriskregulator.com,Global
 HOST-SUFFIX,sexemulator.com,Global
-HOST-SUFFIX,flightsimulator.com,Global
 HOST-SUFFIX,sexsimulator.com,Global
 HOST-SUFFIX,familysexsimulator.com,Global
 HOST-SUFFIX,familysimulator.com,Global
@@ -21987,6 +21996,7 @@ HOST-SUFFIX,blast.io,Global
 HOST-SUFFIX,carrotquest.io,Global
 HOST-SUFFIX,mail-carrotquest.io,Global
 HOST-SUFFIX,blockfrost.io,Global
+HOST-SUFFIX,sprut.io,Global
 HOST-SUFFIX,pxt.io,Global
 HOST-SUFFIX,userpxt.io,Global
 HOST-SUFFIX,xiaoou.io,Global
@@ -22188,6 +22198,7 @@ HOST-SUFFIX,dyndns.pro,Global
 HOST-SUFFIX,yourxxxvideos.pro,Global
 HOST-SUFFIX,net-fits.pro,Global
 HOST-SUFFIX,hxcsxs.pro,Global
+HOST-SUFFIX,beget.pro,Global
 HOST-SUFFIX,payget.pro,Global
 HOST-SUFFIX,pixnet.pro,Global
 HOST-SUFFIX,xhot.pro,Global
@@ -23085,6 +23096,7 @@ HOST-SUFFIX,authpass.app,Global
 HOST-SUFFIX,comments.app,Global
 HOST-SUFFIX,tokenplus.app,Global
 HOST-SUFFIX,get.app,Global
+HOST-SUFFIX,beget.app,Global
 HOST-SUFFIX,meawallet.app,Global
 HOST-SUFFIX,carrotquest.app,Global
 HOST-SUFFIX,vscodeedu.app,Global
@@ -25247,6 +25259,7 @@ HOST-SUFFIX,vk-cdn.net,Global
 HOST-SUFFIX,hotstar-cdn.net,Global
 HOST-SUFFIX,faceit-cdn.net,Global
 HOST-SUFFIX,aiv-cdn.net,Global
+HOST-SUFFIX,pv-cdn.net,Global
 HOST-SUFFIX,9cdn.net,Global
 HOST-SUFFIX,tildacdn.net,Global
 HOST-SUFFIX,quoracdn.net,Global
@@ -27514,6 +27527,7 @@ HOST-SUFFIX,o-courier.ru,Global
 HOST-SUFFIX,ocourier.ru,Global
 HOST-SUFFIX,broker.ru,Global
 HOST-SUFFIX,yotagamer.ru,Global
+HOST-SUFFIX,beserver.ru,Global
 HOST-SUFFIX,samair.ru,Global
 HOST-SUFFIX,dmir.ru,Global
 HOST-SUFFIX,russoutdoor.ru,Global
@@ -27611,6 +27625,7 @@ HOST-SUFFIX,forshtadt.ru,Global
 HOST-SUFFIX,clinica-tibet.ru,Global
 HOST-SUFFIX,savetibet.ru,Global
 HOST-SUFFIX,veet.ru,Global
+HOST-SUFFIX,bget.ru,Global
 HOST-SUFFIX,beget.ru,Global
 HOST-SUFFIX,market.ru,Global
 HOST-SUFFIX,wb-basket.ru,Global
@@ -29290,6 +29305,7 @@ HOST-SUFFIX,drweb.kz,Global
 HOST-SUFFIX,wb.kz,Global
 HOST-SUFFIX,vkcloud-static.kz,Global
 HOST-SUFFIX,mastercard.kz,Global
+HOST-SUFFIX,timewebcloud.kz,Global
 HOST-SUFFIX,vkcloud.kz,Global
 HOST-SUFFIX,youtube.kz,Global
 HOST-SUFFIX,vkworkspace.kz,Global

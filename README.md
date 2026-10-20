@@ -167,14 +167,14 @@ rules:
 
 | Type | Count |
 |---|---|
-| DOMAIN-SUFFIX | 29,392 |
+| DOMAIN-SUFFIX | 29,408 |
 | DOMAIN | 124 |
 | DOMAIN-KEYWORD | 36 |
 | USER-AGENT | 43 |
 | IP-ASN | 0 |
 | IP-CIDR (v4) | 115 |
 | IP-CIDR6 (v6) | 4 |
-| **TOTAL** | **29,714** |
+| **TOTAL** | **29,730** |
 
 <!-- RULE-STATS-GLOBAL:END -->
 

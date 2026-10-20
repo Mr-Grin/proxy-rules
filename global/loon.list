@@ -1,17 +1,17 @@
 # NAME: GlobalMerged
 # GENERATED-BY: proxy-rules/scripts/build_rules.py
-# UPDATED: 2026-10-17T23:19:23.188449+00:00
+# UPDATED: 2026-10-20T00:32:42.534782+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_All.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Scholar/Scholar.list
-# DOMAIN-SUFFIX: 29392
+# DOMAIN-SUFFIX: 29408
 # DOMAIN: 124
 # DOMAIN-KEYWORD: 36
 # USER-AGENT: 43
 # IP-ASN: 0
 # IP-CIDR: 115
 # IP-CIDR6: 4
-# TOTAL: 29714
+# TOTAL: 29730
 
 DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,1e100
@@ -1306,6 +1306,7 @@ DOMAIN-SUFFIX,oath.cloud
 DOMAIN-SUFFIX,youtrack.cloud
 DOMAIN-SUFFIX,nicegram.cloud
 DOMAIN-SUFFIX,vrcdn.cloud
+DOMAIN-SUFFIX,begetcdn.cloud
 DOMAIN-SUFFIX,globalsign.cloud
 DOMAIN-SUFFIX,appdomain.cloud
 DOMAIN-SUFFIX,mastodon.cloud
@@ -1316,6 +1317,7 @@ DOMAIN-SUFFIX,erolabs.cloud
 DOMAIN-SUFFIX,vkcs.cloud
 DOMAIN-SUFFIX,jetbrains.cloud
 DOMAIN-SUFFIX,vrchat.cloud
+DOMAIN-SUFFIX,beget.cloud
 DOMAIN-SUFFIX,bybit.cloud
 DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
@@ -1618,6 +1620,7 @@ DOMAIN-SUFFIX,thieme-connect.de
 DOMAIN-SUFFIX,alphabet.de
 DOMAIN-SUFFIX,savetibet.de
 DOMAIN-SUFFIX,veet.de
+DOMAIN-SUFFIX,beget.de
 DOMAIN-SUFFIX,microsoft.de
 DOMAIN-SUFFIX,berlinerbericht.de
 DOMAIN-SUFFIX,bmw-carit.de
@@ -2609,6 +2612,7 @@ DOMAIN-SUFFIX,diabrowser.engineering
 DOMAIN-SUFFIX,creativecommons.engineering
 DOMAIN-SUFFIX,pinterest.engineering
 DOMAIN-SUFFIX,vps.hosting
+DOMAIN-SUFFIX,beget.hosting
 DOMAIN-SUFFIX,muncloud.dog
 DOMAIN-SUFFIX,telegram.dog
 DOMAIN-SUFFIX,esu.dog
@@ -3294,6 +3298,7 @@ DOMAIN-SUFFIX,mastercardcenterforinclusivegrowth.org
 DOMAIN-SUFFIX,i.org
 DOMAIN-SUFFIX,laogai.org
 DOMAIN-SUFFIX,lvhai.org
+DOMAIN-SUFFIX,openai.org
 DOMAIN-SUFFIX,deepai.org
 DOMAIN-SUFFIX,youpai.org
 DOMAIN-SUFFIX,fuyindiantai.org
@@ -4735,6 +4740,7 @@ DOMAIN-SUFFIX,sony.ch
 DOMAIN-SUFFIX,rea.tech
 DOMAIN-SUFFIX,mirailab.tech
 DOMAIN-SUFFIX,ydb.tech
+DOMAIN-SUFFIX,timeweb.tech
 DOMAIN-SUFFIX,freede.tech
 DOMAIN-SUFFIX,rtnewsde.tech
 DOMAIN-SUFFIX,rtde.tech
@@ -4758,6 +4764,7 @@ DOMAIN-SUFFIX,faronics.tech
 DOMAIN-SUFFIX,ipfs.tech
 DOMAIN-SUFFIX,2gis.tech
 DOMAIN-SUFFIX,bystys.tech
+DOMAIN-SUFFIX,beget.tech
 DOMAIN-SUFFIX,insight.tech
 DOMAIN-SUFFIX,freegpt.tech
 DOMAIN-SUFFIX,dert.tech
@@ -4892,6 +4899,7 @@ DOMAIN-SUFFIX,youmind.ai
 DOMAIN-SUFFIX,trae.ai
 DOMAIN-SUFFIX,opencode.ai
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,typesafe.ai
 DOMAIN-SUFFIX,grazie.ai
 DOMAIN-SUFFIX,google.ai
 DOMAIN-SUFFIX,cohere.ai
@@ -4967,6 +4975,7 @@ DOMAIN-SUFFIX,xn--80a9a4b.xn--p1ai
 DOMAIN-SUFFIX,xn--e1aigb.xn--p1ai
 DOMAIN-SUFFIX,xn--80asgb.xn--p1ai
 DOMAIN-SUFFIX,xn--90ab2c.xn--p1ai
+DOMAIN-SUFFIX,xn--90aefb9d.xn--p1ai
 DOMAIN-SUFFIX,xn----8sbwjbxyd.xn--p1ai
 DOMAIN-SUFFIX,xn----7sbhmncai5a0arm7c1e.xn--p1ai
 DOMAIN-SUFFIX,xn--d1acpjx3f.xn--p1ai
@@ -13099,6 +13108,7 @@ DOMAIN-SUFFIX,tsyum.com
 DOMAIN-SUFFIX,alivevm.com
 DOMAIN-SUFFIX,hhvm.com
 DOMAIN-SUFFIX,metaaivm.com
+DOMAIN-SUFFIX,cursorvm.com
 DOMAIN-SUFFIX,pctlwm.com
 DOMAIN-SUFFIX,bmwm.com
 DOMAIN-SUFFIX,xm.com
@@ -13284,6 +13294,7 @@ DOMAIN-SUFFIX,sentry-cdn.com
 DOMAIN-SUFFIX,mi9cdn.com
 DOMAIN-SUFFIX,tildacdn.com
 DOMAIN-SUFFIX,hbomax-images.warnermediacdn.com
+DOMAIN-SUFFIX,schwabcdn.com
 DOMAIN-SUFFIX,fbcdn.com
 DOMAIN-SUFFIX,zlibcdn.com
 DOMAIN-SUFFIX,vbcdn.com
@@ -14503,7 +14514,6 @@ DOMAIN-SUFFIX,xlstudio.com
 DOMAIN-SUFFIX,aliasvisualizationstudio.com
 DOMAIN-SUFFIX,airgunstudio.com
 DOMAIN-SUFFIX,shotgunstudio.com
-DOMAIN-SUFFIX,asobostudio.com
 DOMAIN-SUFFIX,gyatsostudio.com
 DOMAIN-SUFFIX,beatsbydresstudio.com
 DOMAIN-SUFFIX,drebeatstudio.com
@@ -15833,7 +15843,6 @@ DOMAIN-SUFFIX,microsofttranslator.com
 DOMAIN-SUFFIX,charticulator.com
 DOMAIN-SUFFIX,globalriskregulator.com
 DOMAIN-SUFFIX,sexemulator.com
-DOMAIN-SUFFIX,flightsimulator.com
 DOMAIN-SUFFIX,sexsimulator.com
 DOMAIN-SUFFIX,familysexsimulator.com
 DOMAIN-SUFFIX,familysimulator.com
@@ -21987,6 +21996,7 @@ DOMAIN-SUFFIX,blast.io
 DOMAIN-SUFFIX,carrotquest.io
 DOMAIN-SUFFIX,mail-carrotquest.io
 DOMAIN-SUFFIX,blockfrost.io
+DOMAIN-SUFFIX,sprut.io
 DOMAIN-SUFFIX,pxt.io
 DOMAIN-SUFFIX,userpxt.io
 DOMAIN-SUFFIX,xiaoou.io
@@ -22188,6 +22198,7 @@ DOMAIN-SUFFIX,dyndns.pro
 DOMAIN-SUFFIX,yourxxxvideos.pro
 DOMAIN-SUFFIX,net-fits.pro
 DOMAIN-SUFFIX,hxcsxs.pro
+DOMAIN-SUFFIX,beget.pro
 DOMAIN-SUFFIX,payget.pro
 DOMAIN-SUFFIX,pixnet.pro
 DOMAIN-SUFFIX,xhot.pro
@@ -23085,6 +23096,7 @@ DOMAIN-SUFFIX,authpass.app
 DOMAIN-SUFFIX,comments.app
 DOMAIN-SUFFIX,tokenplus.app
 DOMAIN-SUFFIX,get.app
+DOMAIN-SUFFIX,beget.app
 DOMAIN-SUFFIX,meawallet.app
 DOMAIN-SUFFIX,carrotquest.app
 DOMAIN-SUFFIX,vscodeedu.app
@@ -25247,6 +25259,7 @@ DOMAIN-SUFFIX,vk-cdn.net
 DOMAIN-SUFFIX,hotstar-cdn.net
 DOMAIN-SUFFIX,faceit-cdn.net
 DOMAIN-SUFFIX,aiv-cdn.net
+DOMAIN-SUFFIX,pv-cdn.net
 DOMAIN-SUFFIX,9cdn.net
 DOMAIN-SUFFIX,tildacdn.net
 DOMAIN-SUFFIX,quoracdn.net
@@ -27514,6 +27527,7 @@ DOMAIN-SUFFIX,o-courier.ru
 DOMAIN-SUFFIX,ocourier.ru
 DOMAIN-SUFFIX,broker.ru
 DOMAIN-SUFFIX,yotagamer.ru
+DOMAIN-SUFFIX,beserver.ru
 DOMAIN-SUFFIX,samair.ru
 DOMAIN-SUFFIX,dmir.ru
 DOMAIN-SUFFIX,russoutdoor.ru
@@ -27611,6 +27625,7 @@ DOMAIN-SUFFIX,forshtadt.ru
 DOMAIN-SUFFIX,clinica-tibet.ru
 DOMAIN-SUFFIX,savetibet.ru
 DOMAIN-SUFFIX,veet.ru
+DOMAIN-SUFFIX,bget.ru
 DOMAIN-SUFFIX,beget.ru
 DOMAIN-SUFFIX,market.ru
 DOMAIN-SUFFIX,wb-basket.ru
@@ -29290,6 +29305,7 @@ DOMAIN-SUFFIX,drweb.kz
 DOMAIN-SUFFIX,wb.kz
 DOMAIN-SUFFIX,vkcloud-static.kz
 DOMAIN-SUFFIX,mastercard.kz
+DOMAIN-SUFFIX,timewebcloud.kz
 DOMAIN-SUFFIX,vkcloud.kz
 DOMAIN-SUFFIX,youtube.kz
 DOMAIN-SUFFIX,vkworkspace.kz
