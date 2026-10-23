@@ -1,6 +1,6 @@
 # NAME: ChinaMerged
 # GENERATED-BY: proxy-rules/scripts/build_rules.py
-# UPDATED: 2026-10-17T23:19:21.341894+00:00
+# UPDATED: 2026-10-23T00:04:54.375540+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -14,9 +14,9 @@
 # DOMAIN-KEYWORD: 14
 # USER-AGENT: 51
 # IP-ASN: 5231
-# IP-CIDR: 8270
+# IP-CIDR: 8269
 # IP-CIDR6: 4282
-# TOTAL: 128728
+# TOTAL: 128727
 
 DOMAIN-KEYWORD,.tmall.com
 DOMAIN-KEYWORD,alicdn
@@ -11278,8 +11278,7 @@ IP-CIDR,202.91.96.0/20,no-resolve
 IP-CIDR,202.91.128.0/22,no-resolve
 IP-CIDR,202.91.176.0/20,no-resolve
 IP-CIDR,202.91.224.0/19,no-resolve
-IP-CIDR,202.92.0.0/22,no-resolve
-IP-CIDR,202.92.8.0/21,no-resolve
+IP-CIDR,202.92.0.0/20,no-resolve
 IP-CIDR,202.92.48.0/20,no-resolve
 IP-CIDR,202.92.252.0/22,no-resolve
 IP-CIDR,202.93.0.0/22,no-resolve
