@@ -1,6 +1,6 @@
 # NAME: ChinaMerged
 # GENERATED-BY: proxy-rules/scripts/build_rules.py
-# UPDATED: 2026-10-23T00:04:54.481284+00:00
+# UPDATED: 2026-10-23T23:56:06.193981+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -9,14 +9,14 @@
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaIPs/ChinaIPs.list
 #   https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt
 #   https://raw.githubusercontent.com/missuo/ASN-China/refs/heads/main/ASN.China.list
-# DOMAIN-SUFFIX: 110880
+# DOMAIN-SUFFIX: 110882
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 14
 # USER-AGENT: 51
 # IP-ASN: 5231
 # IP-CIDR: 8269
-# IP-CIDR6: 4282
-# TOTAL: 128727
+# IP-CIDR6: 4283
+# TOTAL: 128730
 
 HOST-KEYWORD,.tmall.com,China
 HOST-KEYWORD,alicdn,China
@@ -6287,6 +6287,7 @@ IP-CIDR,45.117.20.0/22,China
 IP-CIDR,45.117.68.0/22,China
 IP-CIDR,45.117.124.0/22,China
 IP-CIDR,45.117.252.0/22,China
+IP-CIDR,45.119.42.0/23,China
 IP-CIDR,45.119.52.0/22,China
 IP-CIDR,45.119.60.0/22,China
 IP-CIDR,45.119.64.0/21,China
@@ -8407,6 +8408,7 @@ IP-CIDR,103.186.228.0/23,China
 IP-CIDR,103.189.92.0/23,China
 IP-CIDR,103.189.140.0/23,China
 IP-CIDR,103.189.152.0/22,China
+IP-CIDR,103.189.197.0/24,China
 IP-CIDR,103.190.20.0/23,China
 IP-CIDR,103.190.71.0/24,China
 IP-CIDR,103.190.104.0/23,China
@@ -10700,8 +10702,7 @@ IP-CIDR,175.24.0.0/14,China
 IP-CIDR,175.30.0.0/15,China
 IP-CIDR,175.42.0.0/15,China
 IP-CIDR,175.44.0.0/16,China
-IP-CIDR,175.45.176.0/24,China
-IP-CIDR,175.45.178.0/23,China
+IP-CIDR,175.45.179.0/24,China
 IP-CIDR,175.46.0.0/15,China
 IP-CIDR,175.48.0.0/12,China
 IP-CIDR,175.64.0.0/11,China
@@ -10906,7 +10907,6 @@ IP-CIDR,192.163.11.0/24,China
 IP-CIDR,192.168.10.1/32,China
 IP-CIDR,192.168.119.253/32,China
 IP-CIDR,192.171.224.0/21,China
-IP-CIDR,192.186.4.0/24,China
 IP-CIDR,192.197.113.0/24,China
 IP-CIDR,192.232.34.0/23,China
 IP-CIDR,192.232.44.0/22,China
@@ -15595,7 +15595,10 @@ IP6-CIDR,2406:840:890::/44,China
 IP6-CIDR,2406:840:8a0::/43,China
 IP6-CIDR,2406:840:8c0::/42,China
 IP6-CIDR,2406:840:900::/40,China
-IP6-CIDR,2406:840:a00::/44,China
+IP6-CIDR,2406:840:a01::/48,China
+IP6-CIDR,2406:840:a02::/47,China
+IP6-CIDR,2406:840:a04::/46,China
+IP6-CIDR,2406:840:a08::/45,China
 IP6-CIDR,2406:840:a12::/47,China
 IP6-CIDR,2406:840:a14::/46,China
 IP6-CIDR,2406:840:a18::/45,China
@@ -16362,11 +16365,9 @@ IP6-CIDR,2607:740:18::/48,China
 IP6-CIDR,2607:6b80:69::/48,China
 IP6-CIDR,2610:a1:3074::/46,China
 IP6-CIDR,2610:a1:3078::/46,China
-IP6-CIDR,2620:57:4004::/47,China
 IP6-CIDR,2620:171:32::/48,China
 IP6-CIDR,2620:171:5a:f0::/64,China
 IP6-CIDR,2620:171:fb::/48,China
-IP6-CIDR,2804:1e48:9002::/48,China
 IP6-CIDR,2a00:79e0:200:500::/56,China
 IP6-CIDR,2a00:79e0:ffe5:3a00::/56,China
 IP6-CIDR,2a00:79e1:abc:ab00::/56,China
@@ -20742,6 +20743,7 @@ HOST-SUFFIX,genshinimpact.moe,China
 HOST-SUFFIX,gw.craft.moe,China
 HOST-SUFFIX,play.craft.moe,China
 HOST-SUFFIX,iot.moe,China
+HOST-SUFFIX,szu.moe,China
 HOST-SUFFIX,blw.moe,China
 HOST-SUFFIX,mix.moe,China
 HOST-SUFFIX,koz.moe,China
@@ -118612,6 +118614,7 @@ HOST-SUFFIX,nyat.app,China
 HOST-SUFFIX,136bet.app,China
 HOST-SUFFIX,falconnet.app,China
 HOST-SUFFIX,nt.app,China
+HOST-SUFFIX,szu.app,China
 HOST-SUFFIX,dockx.app,China
 HOST-SUFFIX,menubarx.app,China
 HOST-SUFFIX,mqttx.app,China
