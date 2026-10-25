@@ -1,6 +1,6 @@
 # NAME: ChinaMerged
 # GENERATED-BY: proxy-rules/scripts/build_rules.py
-# UPDATED: 2026-10-23T23:56:06.193981+00:00
+# UPDATED: 2026-10-25T23:27:53.632678+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -9,14 +9,14 @@
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaIPs/ChinaIPs.list
 #   https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt
 #   https://raw.githubusercontent.com/missuo/ASN-China/refs/heads/main/ASN.China.list
-# DOMAIN-SUFFIX: 110882
+# DOMAIN-SUFFIX: 110610
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 14
 # USER-AGENT: 51
 # IP-ASN: 5231
 # IP-CIDR: 8269
 # IP-CIDR6: 4283
-# TOTAL: 128730
+# TOTAL: 128458
 
 HOST-KEYWORD,.tmall.com,China
 HOST-KEYWORD,alicdn,China
@@ -18647,7 +18647,6 @@ HOST-SUFFIX,ddblquge.cc,China
 HOST-SUFFIX,molihe.cc,China
 HOST-SUFFIX,shtianhe.cc,China
 HOST-SUFFIX,chenhe.cc,China
-HOST-SUFFIX,hyshe.cc,China
 HOST-SUFFIX,cubie.cc,China
 HOST-SUFFIX,niudie.cc,China
 HOST-SUFFIX,tuijie.cc,China
@@ -18691,7 +18690,6 @@ HOST-SUFFIX,juzone.cc,China
 HOST-SUFFIX,vearne.cc,China
 HOST-SUFFIX,amoe.cc,China
 HOST-SUFFIX,gmoe.cc,China
-HOST-SUFFIX,lolimoe.cc,China
 HOST-SUFFIX,xcape.cc,China
 HOST-SUFFIX,winpe.cc,China
 HOST-SUFFIX,cqe.cc,China
@@ -19650,7 +19648,6 @@ HOST-SUFFIX,zjnav.cc,China
 HOST-SUFFIX,faidev.cc,China
 HOST-SUFFIX,minglv.cc,China
 HOST-SUFFIX,openmv.cc,China
-HOST-SUFFIX,oov.cc,China
 HOST-SUFFIX,bhtv.cc,China
 HOST-SUFFIX,file.hhtv.cc,China
 HOST-SUFFIX,live.hhtv.cc,China
@@ -19930,7 +19927,6 @@ HOST-SUFFIX,shb.ltd,China
 HOST-SUFFIX,lcrc.ltd,China
 HOST-SUFFIX,mrmfsc.ltd,China
 HOST-SUFFIX,nmxc.ltd,China
-HOST-SUFFIX,apecloud.ltd,China
 HOST-SUFFIX,jeee.ltd,China
 HOST-SUFFIX,louge.ltd,China
 HOST-SUFFIX,kuike.ltd,China
@@ -20701,6 +20697,7 @@ HOST-SUFFIX,waf.one,China
 HOST-SUFFIX,0xffff.one,China
 HOST-SUFFIX,yinhuadm.one,China
 HOST-SUFFIX,xingtan.one,China
+HOST-SUFFIX,kiko-play-niptan.one,China
 HOST-SUFFIX,37wan.one,China
 HOST-SUFFIX,ikuuu.one,China
 HOST-SUFFIX,0.zone,China
@@ -20756,7 +20753,6 @@ HOST-SUFFIX,bldaea.store,China
 HOST-SUFFIX,discount-polska.store,China
 HOST-SUFFIX,papatya.store,China
 HOST-SUFFIX,100web.store,China
-HOST-SUFFIX,flashsalesfb.store,China
 HOST-SUFFIX,ksdyob.store,China
 HOST-SUFFIX,xyclub.store,China
 HOST-SUFFIX,qqmusic.store,China
@@ -20769,8 +20765,6 @@ HOST-SUFFIX,topping.store,China
 HOST-SUFFIX,taozg.store,China
 HOST-SUFFIX,sapphiretech.store,China
 HOST-SUFFIX,homearch.store,China
-HOST-SUFFIX,kingsh.store,China
-HOST-SUFFIX,hungsh.store,China
 HOST-SUFFIX,ienglish.store,China
 HOST-SUFFIX,hnzhhzh.store,China
 HOST-SUFFIX,huaji.store,China
@@ -21647,7 +21641,6 @@ HOST-SUFFIX,dantengge.org,China
 HOST-SUFFIX,yige.org,China
 HOST-SUFFIX,dingdiange.org,China
 HOST-SUFFIX,shuge.org,China
-HOST-SUFFIX,ishuquge.org,China
 HOST-SUFFIX,aapinche.org,China
 HOST-SUFFIX,runhe.org,China
 HOST-SUFFIX,jitashe.org,China
@@ -21919,7 +21912,6 @@ HOST-SUFFIX,bizsmooth.org,China
 HOST-SUFFIX,bjtth.org,China
 HOST-SUFFIX,zghbxh.org,China
 HOST-SUFFIX,sbxh.org,China
-HOST-SUFFIX,lnfdcxh.org,China
 HOST-SUFFIX,xtjcxh.org,China
 HOST-SUFFIX,cdtcxh.org,China
 HOST-SUFFIX,zsjdxh.org,China
@@ -22110,13 +22102,11 @@ HOST-SUFFIX,goolink.org,China
 HOST-SUFFIX,coolook.org,China
 HOST-SUFFIX,zkpk.org,China
 HOST-SUFFIX,xframework.org,China
-HOST-SUFFIX,urbansocialwork.org,China
 HOST-SUFFIX,mcc460.pub.3gppnetwork.org,China
 HOST-SUFFIX,stream2.cprnetwork.org,China
 HOST-SUFFIX,100ask.org,China
 HOST-SUFFIX,biqugesk.org,China
 HOST-SUFFIX,wenxuesk.org,China
-HOST-SUFFIX,anpsk.org,China
 HOST-SUFFIX,aidusk.org,China
 HOST-SUFFIX,radleybagssaleuk.org,China
 HOST-SUFFIX,zgxk.org,China
@@ -22128,7 +22118,6 @@ HOST-SUFFIX,qggzszk.org,China
 HOST-SUFFIX,cngal.org,China
 HOST-SUFFIX,oejournal.org,China
 HOST-SUFFIX,sungoal.org,China
-HOST-SUFFIX,cncapital.org,China
 HOST-SUFFIX,clifford-hospital.org,China
 HOST-SUFFIX,qh-hospital.org,China
 HOST-SUFFIX,sj-hospital.org,China
@@ -22230,7 +22219,6 @@ HOST-SUFFIX,lujiazuiforum.org,China
 HOST-SUFFIX,boaoforum.org,China
 HOST-SUFFIX,imperialspringsforum.org,China
 HOST-SUFFIX,whwm.org,China
-HOST-SUFFIX,17ym.org,China
 HOST-SUFFIX,ygym.org,China
 HOST-SUFFIX,shzm.org,China
 HOST-SUFFIX,gmzm.org,China
@@ -22661,7 +22649,6 @@ HOST-SUFFIX,hdschools.org,China
 HOST-SUFFIX,ams.org,China
 HOST-SUFFIX,appcms.org,China
 HOST-SUFFIX,chinaims.org,China
-HOST-SUFFIX,jamms.org,China
 HOST-SUFFIX,daoisms.org,China
 HOST-SUFFIX,ismsms.org,China
 HOST-SUFFIX,openfans.org,China
@@ -23442,6 +23429,7 @@ HOST-SUFFIX,pc28.ai,China
 HOST-SUFFIX,atlab.ai,China
 HOST-SUFFIX,tidb.ai,China
 HOST-SUFFIX,voc.ai,China
+HOST-SUFFIX,advance.ai,China
 HOST-SUFFIX,alime.ai,China
 HOST-SUFFIX,edgeone.ai,China
 HOST-SUFFIX,modelscope.ai,China
@@ -23608,7 +23596,6 @@ HOST-SUFFIX,pc.wiki,China
 HOST-SUFFIX,huoche.wiki,China
 HOST-SUFFIX,lvke.wiki,China
 HOST-SUFFIX,tf.wiki,China
-HOST-SUFFIX,chucheng.wiki,China
 HOST-SUFFIX,dongbing.wiki,China
 HOST-SUFFIX,mei.wiki,China
 HOST-SUFFIX,caomei.wiki,China
@@ -24205,7 +24192,6 @@ HOST-SUFFIX,fanyu.work,China
 HOST-SUFFIX,tanxinyu.work,China
 HOST-SUFFIX,zhiquhuyu.work,China
 HOST-SUFFIX,openlaw.work,China
-HOST-SUFFIX,mdxw.work,China
 HOST-SUFFIX,baosiwushidhex.work,China
 HOST-SUFFIX,mtex.work,China
 HOST-SUFFIX,allday.work,China
@@ -24220,6 +24206,7 @@ HOST-SUFFIX,gtbuy.work,China
 HOST-SUFFIX,naozoejnnwzjaz.work,China
 HOST-SUFFIX,ljclz.work,China
 HOST-SUFFIX,lb.streaming.sk,China
+HOST-SUFFIX,digitalmall.uk,China
 HOST-SUFFIX,travel6.co.uk,China
 HOST-SUFFIX,classix-unlimited.co.uk,China
 HOST-SUFFIX,sl.al,China
@@ -24313,7 +24300,6 @@ HOST-SUFFIX,qingting.fm,China
 HOST-SUFFIX,lizhi.fm,China
 HOST-SUFFIX,xiami.fm,China
 HOST-SUFFIX,douban.fm,China
-HOST-SUFFIX,octo.fm,China
 HOST-SUFFIX,anyway.fm,China
 HOST-SUFFIX,560.im,China
 HOST-SUFFIX,508.im,China
@@ -24859,7 +24845,6 @@ HOST-SUFFIX,985900.com,China
 HOST-SUFFIX,029900.com,China
 HOST-SUFFIX,yzra900.com,China
 HOST-SUFFIX,zuche900.com,China
-HOST-SUFFIX,zhe900.com,China
 HOST-SUFFIX,game900.com,China
 HOST-SUFFIX,jf900.com,China
 HOST-SUFFIX,jiaqing900.com,China
@@ -25384,7 +25369,6 @@ HOST-SUFFIX,68606060.com,China
 HOST-SUFFIX,7766060.com,China
 HOST-SUFFIX,160.com,China
 HOST-SUFFIX,91160.com,China
-HOST-SUFFIX,4006758160.com,China
 HOST-SUFFIX,5a8878b99c8f9160.com,China
 HOST-SUFFIX,nb160.com,China
 HOST-SUFFIX,te160.com,China
@@ -26089,7 +26073,6 @@ HOST-SUFFIX,wz01.com,China
 HOST-SUFFIX,awsdns-cn-11.com,China
 HOST-SUFFIX,011.com,China
 HOST-SUFFIX,11000011.com,China
-HOST-SUFFIX,4008600011.com,China
 HOST-SUFFIX,6840011.com,China
 HOST-SUFFIX,aliyunga0011.com,China
 HOST-SUFFIX,aliyunddos0011.com,China
@@ -26980,7 +26963,6 @@ HOST-SUFFIX,c1a8330703dc6f12.com,China
 HOST-SUFFIX,cdnhwcjog12.com,China
 HOST-SUFFIX,qyg12.com,China
 HOST-SUFFIX,dnsapi12.com,China
-HOST-SUFFIX,krak12.com,China
 HOST-SUFFIX,ukusk12.com,China
 HOST-SUFFIX,yfdurl12.com,China
 HOST-SUFFIX,888win12.com,China
@@ -27749,7 +27731,6 @@ HOST-SUFFIX,cdnhwcoph123.com,China
 HOST-SUFFIX,ucai123.com,China
 HOST-SUFFIX,shucai123.com,China
 HOST-SUFFIX,cihai123.com,China
-HOST-SUFFIX,shangpai123.com,China
 HOST-SUFFIX,paipai123.com,China
 HOST-SUFFIX,shipai123.com,China
 HOST-SUFFIX,xingtai123.com,China
@@ -27895,7 +27876,6 @@ HOST-SUFFIX,tielu123.com,China
 HOST-SUFFIX,zhifou123.com,China
 HOST-SUFFIX,haosou123.com,China
 HOST-SUFFIX,cheyou123.com,China
-HOST-SUFFIX,lyou123.com,China
 HOST-SUFFIX,chenyou123.com,China
 HOST-SUFFIX,hepu123.com,China
 HOST-SUFFIX,zhoupu123.com,China
@@ -28086,7 +28066,6 @@ HOST-SUFFIX,63243.com,China
 HOST-SUFFIX,6677243.com,China
 HOST-SUFFIX,11343.com,China
 HOST-SUFFIX,6699343.com,China
-HOST-SUFFIX,56099443.com,China
 HOST-SUFFIX,hnw443.com,China
 HOST-SUFFIX,36543.com,China
 HOST-SUFFIX,eia543.com,China
@@ -29080,7 +29059,6 @@ HOST-SUFFIX,101505.com,China
 HOST-SUFFIX,0605.com,China
 HOST-SUFFIX,nicky1605.com,China
 HOST-SUFFIX,34c5fe453528e605.com,China
-HOST-SUFFIX,ziyuan605.com,China
 HOST-SUFFIX,ls605.com,China
 HOST-SUFFIX,t7805.com,China
 HOST-SUFFIX,1905.com,China
@@ -29291,6 +29269,7 @@ HOST-SUFFIX,xp535.com,China
 HOST-SUFFIX,0635.com,China
 HOST-SUFFIX,123635.com,China
 HOST-SUFFIX,363635.com,China
+HOST-SUFFIX,jkik635.com,China
 HOST-SUFFIX,0735.com,China
 HOST-SUFFIX,4735.com,China
 HOST-SUFFIX,0835.com,China
@@ -30628,7 +30607,6 @@ HOST-SUFFIX,bds666.com,China
 HOST-SUFFIX,ls666.com,China
 HOST-SUFFIX,dns666.com,China
 HOST-SUFFIX,ghzs666.com,China
-HOST-SUFFIX,xygt666.com,China
 HOST-SUFFIX,sdht666.com,China
 HOST-SUFFIX,it666.com,China
 HOST-SUFFIX,jxjt666.com,China
@@ -31104,7 +31082,6 @@ HOST-SUFFIX,qipai007.com,China
 HOST-SUFFIX,yuewei007.com,China
 HOST-SUFFIX,zhengwei007.com,China
 HOST-SUFFIX,dianji007.com,China
-HOST-SUFFIX,leyi007.com,China
 HOST-SUFFIX,siyi007.com,China
 HOST-SUFFIX,snail007.com,China
 HOST-SUFFIX,fiscan007.com,China
@@ -32217,7 +32194,6 @@ HOST-SUFFIX,gongji58.com,China
 HOST-SUFFIX,qi58.com,China
 HOST-SUFFIX,hack58.com,China
 HOST-SUFFIX,exam58.com,China
-HOST-SUFFIX,pan58.com,China
 HOST-SUFFIX,yn58.com,China
 HOST-SUFFIX,jingtao58.com,China
 HOST-SUFFIX,mycar58.com,China
@@ -32373,7 +32349,6 @@ HOST-SUFFIX,lers168.com,China
 HOST-SUFFIX,ys168.com,China
 HOST-SUFFIX,hrzs168.com,China
 HOST-SUFFIX,tbt168.com,China
-HOST-SUFFIX,ybt168.com,China
 HOST-SUFFIX,nmet168.com,China
 HOST-SUFFIX,it168.com,China
 HOST-SUFFIX,gxcyhjt168.com,China
@@ -32771,7 +32746,6 @@ HOST-SUFFIX,ap8888.com,China
 HOST-SUFFIX,cdnjs8888.com,China
 HOST-SUFFIX,wns8888.com,China
 HOST-SUFFIX,ygx8888.com,China
-HOST-SUFFIX,ttxx8888.com,China
 HOST-SUFFIX,shjy8888.com,China
 HOST-SUFFIX,dnsy8888.com,China
 HOST-SUFFIX,10639888.com,China
@@ -32861,7 +32835,6 @@ HOST-SUFFIX,corlercar888.com,China
 HOST-SUFFIX,clear888.com,China
 HOST-SUFFIX,txjsjgs888.com,China
 HOST-SUFFIX,wns888.com,China
-HOST-SUFFIX,zshtys888.com,China
 HOST-SUFFIX,yabet888.com,China
 HOST-SUFFIX,pujingjt888.com,China
 HOST-SUFFIX,yjhnt888.com,China
@@ -33312,7 +33285,6 @@ HOST-SUFFIX,kah8.com,China
 HOST-SUFFIX,cartech8.com,China
 HOST-SUFFIX,ich8.com,China
 HOST-SUFFIX,nnhh8.com,China
-HOST-SUFFIX,wjmh8.com,China
 HOST-SUFFIX,zsh8.com,China
 HOST-SUFFIX,qth8.com,China
 HOST-SUFFIX,55i8.com,China
@@ -33756,6 +33728,7 @@ HOST-SUFFIX,c7fffvip29.com,China
 HOST-SUFFIX,39.com,China
 HOST-SUFFIX,awsdns-cn-39.com,China
 HOST-SUFFIX,aliyunga0039.com,China
+HOST-SUFFIX,mos0039.com,China
 HOST-SUFFIX,guangdong1039.com,China
 HOST-SUFFIX,px1039.com,China
 HOST-SUFFIX,d3490d69fd4b2039.com,China
@@ -33852,7 +33825,6 @@ HOST-SUFFIX,jj59.com,China
 HOST-SUFFIX,scdnjk59.com,China
 HOST-SUFFIX,et59.com,China
 HOST-SUFFIX,dev59.com,China
-HOST-SUFFIX,525069.com,China
 HOST-SUFFIX,169.com,China
 HOST-SUFFIX,yy2169.com,China
 HOST-SUFFIX,95169.com,China
@@ -34520,7 +34492,6 @@ HOST-SUFFIX,cn-caa.com,China
 HOST-SUFFIX,gdccaa.com,China
 HOST-SUFFIX,gdcaa.com,China
 HOST-SUFFIX,staticaa.com,China
-HOST-SUFFIX,haocaa.com,China
 HOST-SUFFIX,coocaa.com,China
 HOST-SUFFIX,vvhcwpddaa.com,China
 HOST-SUFFIX,duodaa.com,China
@@ -34615,7 +34586,6 @@ HOST-SUFFIX,guangjieba.com,China
 HOST-SUFFIX,tieba.com,China
 HOST-SUFFIX,xitieba.com,China
 HOST-SUFFIX,cqtieba.com,China
-HOST-SUFFIX,baidutieba.com,China
 HOST-SUFFIX,kaikeba.com,China
 HOST-SUFFIX,beikeba.com,China
 HOST-SUFFIX,17xueba.com,China
@@ -35406,6 +35376,7 @@ HOST-SUFFIX,99cha.com,China
 HOST-SUFFIX,chacha.com,China
 HOST-SUFFIX,7chacha.com,China
 HOST-SUFFIX,17chacha.com,China
+HOST-SUFFIX,liechacha.com,China
 HOST-SUFFIX,ichacha.com,China
 HOST-SUFFIX,qichacha.com,China
 HOST-SUFFIX,hanchacha.com,China
@@ -35421,7 +35392,6 @@ HOST-SUFFIX,naixuecha.com,China
 HOST-SUFFIX,ewecha.com,China
 HOST-SUFFIX,hgcha.com,China
 HOST-SUFFIX,hanghangcha.com,China
-HOST-SUFFIX,gzhangcha.com,China
 HOST-SUFFIX,qidongcha.com,China
 HOST-SUFFIX,heibandongcha.com,China
 HOST-SUFFIX,cnzhongcha.com,China
@@ -36207,7 +36177,6 @@ HOST-SUFFIX,duolaika.com,China
 HOST-SUFFIX,cqmaika.com,China
 HOST-SUFFIX,xiangshuheika.com,China
 HOST-SUFFIX,51hika.com,China
-HOST-SUFFIX,boshika.com,China
 HOST-SUFFIX,uzhika.com,China
 HOST-SUFFIX,mrlika.com,China
 HOST-SUFFIX,pabulika.com,China
@@ -36956,7 +36925,6 @@ HOST-SUFFIX,zhuoyachina.com,China
 HOST-SUFFIX,abchina.com,China
 HOST-SUFFIX,ccabchina.com,China
 HOST-SUFFIX,crabchina.com,China
-HOST-SUFFIX,phpbbchina.com,China
 HOST-SUFFIX,jdbchina.com,China
 HOST-SUFFIX,mdbchina.com,China
 HOST-SUFFIX,ebchina.com,China
@@ -38103,6 +38071,7 @@ HOST-SUFFIX,doucehua.com,China
 HOST-SUFFIX,gehua.com,China
 HOST-SUFFIX,hzhehua.com,China
 HOST-SUFFIX,jiehua.com,China
+HOST-SUFFIX,kehua.com,China
 HOST-SUFFIX,samanlehua.com,China
 HOST-SUFFIX,shuxuehua.com,China
 HOST-SUFFIX,jiayuehua.com,China
@@ -38565,8 +38534,6 @@ HOST-SUFFIX,cmccb2b.com,China
 HOST-SUFFIX,cecb2b.com,China
 HOST-SUFFIX,safeb2b.com,China
 HOST-SUFFIX,bagb2b.com,China
-HOST-SUFFIX,qgb2b.com,China
-HOST-SUFFIX,switchb2b.com,China
 HOST-SUFFIX,delib2b.com,China
 HOST-SUFFIX,yanyib2b.com,China
 HOST-SUFFIX,amallb2b.com,China
@@ -39713,7 +39680,6 @@ HOST-SUFFIX,baojijob.com,China
 HOST-SUFFIX,jilulijob.com,China
 HOST-SUFFIX,guijob.com,China
 HOST-SUFFIX,weihuijob.com,China
-HOST-SUFFIX,yuhuijob.com,China
 HOST-SUFFIX,zsjjob.com,China
 HOST-SUFFIX,zjkjob.com,China
 HOST-SUFFIX,52ykjob.com,China
@@ -39785,7 +39751,6 @@ HOST-SUFFIX,wingmob.com,China
 HOST-SUFFIX,yunchongmob.com,China
 HOST-SUFFIX,aoongmob.com,China
 HOST-SUFFIX,qqsgmob.com,China
-HOST-SUFFIX,yhmob.com,China
 HOST-SUFFIX,edimob.com,China
 HOST-SUFFIX,xiaoleimob.com,China
 HOST-SUFFIX,weimob.com,China
@@ -41611,7 +41576,6 @@ HOST-SUFFIX,sinochemehc.com,China
 HOST-SUFFIX,xinyinghc.com,China
 HOST-SUFFIX,fuzhhc.com,China
 HOST-SUFFIX,xunweihc.com,China
-HOST-SUFFIX,hbjhc.com,China
 HOST-SUFFIX,gxgmjhc.com,China
 HOST-SUFFIX,jlhc.com,China
 HOST-SUFFIX,wuximhc.com,China
@@ -41787,7 +41751,6 @@ HOST-SUFFIX,ingenic.com,China
 HOST-SUFFIX,bestechnic.com,China
 HOST-SUFFIX,hainic.com,China
 HOST-SUFFIX,cinic.com,China
-HOST-SUFFIX,doublleclinic.com,China
 HOST-SUFFIX,dehengclinic.com,China
 HOST-SUFFIX,teachclinic.com,China
 HOST-SUFFIX,worldpathclinic.com,China
@@ -43517,6 +43480,7 @@ HOST-SUFFIX,gdyxc.com,China
 HOST-SUFFIX,zkyxc.com,China
 HOST-SUFFIX,glyxc.com,China
 HOST-SUFFIX,szmyxc.com,China
+HOST-SUFFIX,cqyyxc.com,China
 HOST-SUFFIX,nnggzxc.com,China
 HOST-SUFFIX,zjhzxc.com,China
 HOST-SUFFIX,gxqtszxc.com,China
@@ -44077,7 +44041,6 @@ HOST-SUFFIX,xmjkbd.com,China
 HOST-SUFFIX,jkllbd.com,China
 HOST-SUFFIX,hxlbd.com,China
 HOST-SUFFIX,ckd-mbd.com,China
-HOST-SUFFIX,emiretasnbd.com,China
 HOST-SUFFIX,shunbd.com,China
 HOST-SUFFIX,frontopbd.com,China
 HOST-SUFFIX,hqbd.com,China
@@ -44647,6 +44610,7 @@ HOST-SUFFIX,120bid.com,China
 HOST-SUFFIX,122bid.com,China
 HOST-SUFFIX,56bid.com,China
 HOST-SUFFIX,119bid.com,China
+HOST-SUFFIX,luciabid.com,China
 HOST-SUFFIX,scbid.com,China
 HOST-SUFFIX,ebidbid.com,China
 HOST-SUFFIX,jcebid.com,China
@@ -44732,7 +44696,6 @@ HOST-SUFFIX,plll-fluid.com,China
 HOST-SUFFIX,cfluid.com,China
 HOST-SUFFIX,axisfluid.com,China
 HOST-SUFFIX,nbdavid.com,China
-HOST-SUFFIX,chinavid.com,China
 HOST-SUFFIX,tripvivid.com,China
 HOST-SUFFIX,ovid.com,China
 HOST-SUFFIX,touzid.com,China
@@ -44911,7 +44874,6 @@ HOST-SUFFIX,jdjygold.com,China
 HOST-SUFFIX,yygold.com,China
 HOST-SUFFIX,homey-household.com,China
 HOST-SUFFIX,suntimehousehold.com,China
-HOST-SUFFIX,tophold.com,China
 HOST-SUFFIX,yahong-mold.com,China
 HOST-SUFFIX,hwjm-mold.com,China
 HOST-SUFFIX,fy-mold.com,China
@@ -45214,6 +45176,7 @@ HOST-SUFFIX,yofond.com,China
 HOST-SUFFIX,risfond.com,China
 HOST-SUFFIX,ad-diamond.com,China
 HOST-SUFFIX,erdiamond.com,China
+HOST-SUFFIX,ycbeyond.com,China
 HOST-SUFFIX,channelbeyond.com,China
 HOST-SUFFIX,gacrnd.com,China
 HOST-SUFFIX,c-snd.com,China
@@ -48392,7 +48355,6 @@ HOST-SUFFIX,kanfeidie.com,China
 HOST-SUFFIX,xidie.com,China
 HOST-SUFFIX,hualiandie.com,China
 HOST-SUFFIX,huandie.com,China
-HOST-SUFFIX,ezindie.com,China
 HOST-SUFFIX,hostdie.com,China
 HOST-SUFFIX,xyxdie.com,China
 HOST-SUFFIX,gaofeie.com,China
@@ -48721,7 +48683,6 @@ HOST-SUFFIX,mulanlake.com,China
 HOST-SUFFIX,qinlake.com,China
 HOST-SUFFIX,macrolake.com,China
 HOST-SUFFIX,printlake.com,China
-HOST-SUFFIX,jiuhengmake.com,China
 HOST-SUFFIX,smkmake.com,China
 HOST-SUFFIX,oomake.com,China
 HOST-SUFFIX,ampmake.com,China
@@ -50068,7 +50029,6 @@ HOST-SUFFIX,0518home.com,China
 HOST-SUFFIX,0759home.com,China
 HOST-SUFFIX,0379home.com,China
 HOST-SUFFIX,cjiahome.com,China
-HOST-SUFFIX,yingxiahome.com,China
 HOST-SUFFIX,kukahome.com,China
 HOST-SUFFIX,arowanahome.com,China
 HOST-SUFFIX,edatahome.com,China
@@ -50204,7 +50164,6 @@ HOST-SUFFIX,xmsme.com,China
 HOST-SUFFIX,hansme.com,China
 HOST-SUFFIX,fujiansme.com,China
 HOST-SUFFIX,uume.com,China
-HOST-SUFFIX,newume.com,China
 HOST-SUFFIX,solidigm-nvme.com,China
 HOST-SUFFIX,ktvme.com,China
 HOST-SUFFIX,qxme.com,China
@@ -51285,7 +51244,6 @@ HOST-SUFFIX,forenose.com,China
 HOST-SUFFIX,haigoose.com,China
 HOST-SUFFIX,iepose.com,China
 HOST-SUFFIX,easternpose.com,China
-HOST-SUFFIX,molerose.com,China
 HOST-SUFFIX,chineserose.com,China
 HOST-SUFFIX,terose.com,China
 HOST-SUFFIX,aiprose.com,China
@@ -51351,7 +51309,6 @@ HOST-SUFFIX,lvkhouse.com,China
 HOST-SUFFIX,xkhouse.com,China
 HOST-SUFFIX,oemhouse.com,China
 HOST-SUFFIX,xmhouse.com,China
-HOST-SUFFIX,anhouse.com,China
 HOST-SUFFIX,walsongreenhouse.com,China
 HOST-SUFFIX,mandarinhouse.com,China
 HOST-SUFFIX,jnhouse.com,China
@@ -52182,7 +52139,6 @@ HOST-SUFFIX,ido-love.com,China
 HOST-SUFFIX,371love.com,China
 HOST-SUFFIX,279love.com,China
 HOST-SUFFIX,51weblove.com,China
-HOST-SUFFIX,tongdelove.com,China
 HOST-SUFFIX,baihelove.com,China
 HOST-SUFFIX,oelove.com,China
 HOST-SUFFIX,tomatooflove.com,China
@@ -52390,7 +52346,6 @@ HOST-SUFFIX,shengjinglinye.com,China
 HOST-SUFFIX,yangguangxinye.com,China
 HOST-SUFFIX,gxxinye.com,China
 HOST-SUFFIX,fonye.com,China
-HOST-SUFFIX,gnrnye.com,China
 HOST-SUFFIX,aoye.com,China
 HOST-SUFFIX,xishaoye.com,China
 HOST-SUFFIX,shirongzhaoye.com,China
@@ -52488,7 +52443,6 @@ HOST-SUFFIX,huayoumengze.com,China
 HOST-SUFFIX,jrpengze.com,China
 HOST-SUFFIX,pingpingze.com,China
 HOST-SUFFIX,tvuctgze.com,China
-HOST-SUFFIX,tonglize.com,China
 HOST-SUFFIX,vevsmize.com,China
 HOST-SUFFIX,corpize.com,China
 HOST-SUFFIX,i-size.com,China
@@ -52615,7 +52569,6 @@ HOST-SUFFIX,uewaf.com,China
 HOST-SUFFIX,uclouduewaf.com,China
 HOST-SUFFIX,aligfwaf.com,China
 HOST-SUFFIX,uniwaf.com,China
-HOST-SUFFIX,onwaf.com,China
 HOST-SUFFIX,aidunwaf.com,China
 HOST-SUFFIX,yundunwaf.com,China
 HOST-SUFFIX,aliyundunwaf.com,China
@@ -53735,7 +53688,6 @@ HOST-SUFFIX,mangg.com,China
 HOST-SUFFIX,orientengg.com,China
 HOST-SUFFIX,jyzhongg.com,China
 HOST-SUFFIX,xuegaogg.com,China
-HOST-SUFFIX,dbqgg.com,China
 HOST-SUFFIX,gxnnjqgg.com,China
 HOST-SUFFIX,yqtsgg.com,China
 HOST-SUFFIX,initgg.com,China
@@ -53809,6 +53761,7 @@ HOST-SUFFIX,hjxhg.com,China
 HOST-SUFFIX,lxhg.com,China
 HOST-SUFFIX,sdoyhg.com,China
 HOST-SUFFIX,snsyhg.com,China
+HOST-SUFFIX,securityhg.com,China
 HOST-SUFFIX,chinayyhg.com,China
 HOST-SUFFIX,wvxkezhg.com,China
 HOST-SUFFIX,fsgzhg.com,China
@@ -54409,6 +54362,7 @@ HOST-SUFFIX,micang.com,China
 HOST-SUFFIX,yicang.com,China
 HOST-SUFFIX,lcang.com,China
 HOST-SUFFIX,zhonghuadiancang.com,China
+HOST-SUFFIX,yuanmancang.com,China
 HOST-SUFFIX,quancang.com,China
 HOST-SUFFIX,haocang.com,China
 HOST-SUFFIX,nocang.com,China
@@ -54710,7 +54664,6 @@ HOST-SUFFIX,gz-zhongshang.com,China
 HOST-SUFFIX,nongshang.com,China
 HOST-SUFFIX,weimiaocaishang.com,China
 HOST-SUFFIX,huobaoweishang.com,China
-HOST-SUFFIX,quanqiuweishang.com,China
 HOST-SUFFIX,mshishang.com,China
 HOST-SUFFIX,milanshishang.com,China
 HOST-SUFFIX,51zhishang.com,China
@@ -55946,6 +55899,7 @@ HOST-SUFFIX,gxyicheng.com,China
 HOST-SUFFIX,hetaobiancheng.com,China
 HOST-SUFFIX,aitiancheng.com,China
 HOST-SUFFIX,51xiancheng.com,China
+HOST-SUFFIX,gzxiancheng.com,China
 HOST-SUFFIX,gxjuancheng.com,China
 HOST-SUFFIX,cloudyancheng.com,China
 HOST-SUFFIX,cncheng.com,China
@@ -56200,7 +56154,6 @@ HOST-SUFFIX,chintanneng.com,China
 HOST-SUFFIX,sdhuanneng.com,China
 HOST-SUFFIX,zqjinneng.com,China
 HOST-SUFFIX,baoneng.com,China
-HOST-SUFFIX,zjzoneng.com,China
 HOST-SUFFIX,wusuobuneng.com,China
 HOST-SUFFIX,luneng.com,China
 HOST-SUFFIX,youneng.com,China
@@ -56603,7 +56556,6 @@ HOST-SUFFIX,telking.com,China
 HOST-SUFFIX,nnwilking.com,China
 HOST-SUFFIX,cyimking.com,China
 HOST-SUFFIX,grgbanking.com,China
-HOST-SUFFIX,liudanking.com,China
 HOST-SUFFIX,hanking.com,China
 HOST-SUFFIX,elanking.com,China
 HOST-SUFFIX,shanghairanking.com,China
@@ -56750,7 +56702,6 @@ HOST-SUFFIX,zhi-ming.com,China
 HOST-SUFFIX,517ming.com,China
 HOST-SUFFIX,cqdaming.com,China
 HOST-SUFFIX,bizconfstreaming.com,China
-HOST-SUFFIX,vicigaming.com,China
 HOST-SUFFIX,rkgaming.com,China
 HOST-SUFFIX,lujiaming.com,China
 HOST-SUFFIX,ucnaming.com,China
@@ -56863,6 +56814,7 @@ HOST-SUFFIX,goodmorening.com,China
 HOST-SUFFIX,suyuening.com,China
 HOST-SUFFIX,easy-signing.com,China
 HOST-SUFFIX,51signing.com,China
+HOST-SUFFIX,isigning.com,China
 HOST-SUFFIX,hebeishuangning.com,China
 HOST-SUFFIX,gxhongning.com,China
 HOST-SUFFIX,gxcaining.com,China
@@ -57792,7 +57744,6 @@ HOST-SUFFIX,w-zhong.com,China
 HOST-SUFFIX,bazhong.com,China
 HOST-SUFFIX,dazhong.com,China
 HOST-SUFFIX,guangzhoudazhong.com,China
-HOST-SUFFIX,yilandezhong.com,China
 HOST-SUFFIX,cndezhong.com,China
 HOST-SUFFIX,yinghezhong.com,China
 HOST-SUFFIX,cookiezhong.com,China
@@ -57898,7 +57849,6 @@ HOST-SUFFIX,tenwukong.com,China
 HOST-SUFFIX,jswukong.com,China
 HOST-SUFFIX,tencentwukong.com,China
 HOST-SUFFIX,swkong.com,China
-HOST-SUFFIX,blueskykong.com,China
 HOST-SUFFIX,fulykong.com,China
 HOST-SUFFIX,sykong.com,China
 HOST-SUFFIX,d-long.com,China
@@ -58071,7 +58021,6 @@ HOST-SUFFIX,jiurong.com,China
 HOST-SUFFIX,jvrong.com,China
 HOST-SUFFIX,cheng-song.com,China
 HOST-SUFFIX,ynhuasong.com,China
-HOST-SUFFIX,1jiesong.com,China
 HOST-SUFFIX,gxtengsong.com,China
 HOST-SUFFIX,zhengqingsong.com,China
 HOST-SUFFIX,lusongsong.com,China
@@ -58509,7 +58458,6 @@ HOST-SUFFIX,yuchaipg.com,China
 HOST-SUFFIX,milkjpg.com,China
 HOST-SUFFIX,gxflpg.com,China
 HOST-SUFFIX,clmpg.com,China
-HOST-SUFFIX,jinpg.com,China
 HOST-SUFFIX,xinpg.com,China
 HOST-SUFFIX,jobxinpg.com,China
 HOST-SUFFIX,ccoopg.com,China
@@ -59806,7 +59754,6 @@ HOST-SUFFIX,gxtztech.com,China
 HOST-SUFFIX,tj-fch.com,China
 HOST-SUFFIX,fyfch.com,China
 HOST-SUFFIX,jygch.com,China
-HOST-SUFFIX,gxnnthch.com,China
 HOST-SUFFIX,tedaich.com,China
 HOST-SUFFIX,cdrich.com,China
 HOST-SUFFIX,cluerich.com,China
@@ -60591,7 +60538,6 @@ HOST-SUFFIX,gtmsh.com,China
 HOST-SUFFIX,redsun-nsh.com,China
 HOST-SUFFIX,welansh.com,China
 HOST-SUFFIX,qifandianlansh.com,China
-HOST-SUFFIX,biyuansh.com,China
 HOST-SUFFIX,hanyuansh.com,China
 HOST-SUFFIX,segacnsh.com,China
 HOST-SUFFIX,censh.com,China
@@ -61488,7 +61434,6 @@ HOST-SUFFIX,pngsucai.com,China
 HOST-SUFFIX,sucaisucai.com,China
 HOST-SUFFIX,maisucai.com,China
 HOST-SUFFIX,mksucai.com,China
-HOST-SUFFIX,htmlsucai.com,China
 HOST-SUFFIX,ansucai.com,China
 HOST-SUFFIX,renrensucai.com,China
 HOST-SUFFIX,miankousucai.com,China
@@ -62897,7 +62842,6 @@ HOST-SUFFIX,gxchengmei.com,China
 HOST-SUFFIX,binghelengmei.com,China
 HOST-SUFFIX,520mingmei.com,China
 HOST-SUFFIX,tingmei.com,China
-HOST-SUFFIX,ixingmei.com,China
 HOST-SUFFIX,zhongmei.com,China
 HOST-SUFFIX,xuyongrongmei.com,China
 HOST-SUFFIX,gulinrongmei.com,China
@@ -63412,7 +63356,6 @@ HOST-SUFFIX,sslchaoshi.com,China
 HOST-SUFFIX,yuwenchaoshi.com,China
 HOST-SUFFIX,xiubiaoshi.com,China
 HOST-SUFFIX,52jiaoshi.com,China
-HOST-SUFFIX,haijiaoshi.com,China
 HOST-SUFFIX,hijiaoshi.com,China
 HOST-SUFFIX,zixijiaoshi.com,China
 HOST-SUFFIX,designjiaoshi.com,China
@@ -63821,7 +63764,6 @@ HOST-SUFFIX,qianyikeji.com,China
 HOST-SUFFIX,ynjkeji.com,China
 HOST-SUFFIX,kkeji.com,China
 HOST-SUFFIX,szhmkeji.com,China
-HOST-SUFFIX,yingcankeji.com,China
 HOST-SUFFIX,xudankeji.com,China
 HOST-SUFFIX,jiangshankeji.com,China
 HOST-SUFFIX,fengshankeji.com,China
@@ -64047,7 +63989,6 @@ HOST-SUFFIX,mchuiji.com,China
 HOST-SUFFIX,zhihuiji.com,China
 HOST-SUFFIX,yaohuiji.com,China
 HOST-SUFFIX,gxhuiji.com,China
-HOST-SUFFIX,chinaruiji.com,China
 HOST-SUFFIX,gyfensuiji.com,China
 HOST-SUFFIX,hxposuiji.com,China
 HOST-SUFFIX,xiji.com,China
@@ -65931,7 +65872,6 @@ HOST-SUFFIX,ihaohaoxuexi.com,China
 HOST-SUFFIX,niwoxuexi.com,China
 HOST-SUFFIX,ktxuexi.com,China
 HOST-SUFFIX,naiyouxuexi.com,China
-HOST-SUFFIX,czxuexi.com,China
 HOST-SUFFIX,luzexi.com,China
 HOST-SUFFIX,iyangxi.com,China
 HOST-SUFFIX,luchengxi.com,China
@@ -65993,7 +65933,6 @@ HOST-SUFFIX,ifenxi.com,China
 HOST-SUFFIX,shuizhifenxi.com,China
 HOST-SUFFIX,tifenxi.com,China
 HOST-SUFFIX,groupshenxi.com,China
-HOST-SUFFIX,musenxi.com,China
 HOST-SUFFIX,muwenxi.com,China
 HOST-SUFFIX,ruihuaxinxi.com,China
 HOST-SUFFIX,wbxinxi.com,China
@@ -66473,7 +66412,6 @@ HOST-SUFFIX,shaduizi.com,China
 HOST-SUFFIX,xizi.com,China
 HOST-SUFFIX,zizizizizi.com,China
 HOST-SUFFIX,cmzi.com,China
-HOST-SUFFIX,gmzi.com,China
 HOST-SUFFIX,sumzi.com,China
 HOST-SUFFIX,tiebanzi.com,China
 HOST-SUFFIX,xiaodanzi.com,China
@@ -66569,7 +66507,6 @@ HOST-SUFFIX,3800j.com,China
 HOST-SUFFIX,xn--65qy41j.com,China
 HOST-SUFFIX,5tjps9c62j.com,China
 HOST-SUFFIX,2m2j.com,China
-HOST-SUFFIX,jh3j.com,China
 HOST-SUFFIX,dy3j.com,China
 HOST-SUFFIX,zt24j.com,China
 HOST-SUFFIX,xn--2vxsp6vi4j.com,China
@@ -67575,7 +67512,6 @@ HOST-SUFFIX,cninj.com,China
 HOST-SUFFIX,shanxinj.com,China
 HOST-SUFFIX,cqcjnj.com,China
 HOST-SUFFIX,wellnj.com,China
-HOST-SUFFIX,5nnj.com,China
 HOST-SUFFIX,sznyyznnj.com,China
 HOST-SUFFIX,hljyqnj.com,China
 HOST-SUFFIX,waisnj.com,China
@@ -67918,7 +67854,6 @@ HOST-SUFFIX,wxsxxj.com,China
 HOST-SUFFIX,wmxxxj.com,China
 HOST-SUFFIX,smyxxj.com,China
 HOST-SUFFIX,szxxj.com,China
-HOST-SUFFIX,hnyyxj.com,China
 HOST-SUFFIX,yj.com,China
 HOST-SUFFIX,cq-yj.com,China
 HOST-SUFFIX,511yj.com,China
@@ -68296,7 +68231,6 @@ HOST-SUFFIX,testeck.com,China
 HOST-SUFFIX,aqueck.com,China
 HOST-SUFFIX,hnfck.com,China
 HOST-SUFFIX,gxyfck.com,China
-HOST-SUFFIX,gxshck.com,China
 HOST-SUFFIX,jiuweick.com,China
 HOST-SUFFIX,lugick.com,China
 HOST-SUFFIX,i-click.com,China
@@ -68907,6 +68841,7 @@ HOST-SUFFIX,cqcbank.com,China
 HOST-SUFFIX,rarcbank.com,China
 HOST-SUFFIX,lcrcbank.com,China
 HOST-SUFFIX,drcbank.com,China
+HOST-SUFFIX,cdrcbank.com,China
 HOST-SUFFIX,grcbank.com,China
 HOST-SUFFIX,lgrcbank.com,China
 HOST-SUFFIX,dhrcbank.com,China
@@ -68934,6 +68869,7 @@ HOST-SUFFIX,tctpxwebank.com,China
 HOST-SUFFIX,jyebank.com,China
 HOST-SUFFIX,fbank.com,China
 HOST-SUFFIX,9fbank.com,China
+HOST-SUFFIX,ibangbank.com,China
 HOST-SUFFIX,qianxiangbank.com,China
 HOST-SUFFIX,kingbank.com,China
 HOST-SUFFIX,suningbank.com,China
@@ -69692,7 +69628,6 @@ HOST-SUFFIX,zgtzqvk.com,China
 HOST-SUFFIX,queniuvk.com,China
 HOST-SUFFIX,123wk.com,China
 HOST-SUFFIX,sudu-q6wk.com,China
-HOST-SUFFIX,18wk.com,China
 HOST-SUFFIX,secwk.com,China
 HOST-SUFFIX,hzddwk.com,China
 HOST-SUFFIX,xsdwk.com,China
@@ -70655,7 +70590,6 @@ HOST-SUFFIX,citicsteel.com,China
 HOST-SUFFIX,holdsteel.com,China
 HOST-SUFFIX,yfsteel.com,China
 HOST-SUFFIX,lontengsteel.com,China
-HOST-SUFFIX,xingsteel.com,China
 HOST-SUFFIX,hantongsteel.com,China
 HOST-SUFFIX,fjfhsteel.com,China
 HOST-SUFFIX,yunhaisteel.com,China
@@ -71321,7 +71255,6 @@ HOST-SUFFIX,yihaomall.com,China
 HOST-SUFFIX,alimaomall.com,China
 HOST-SUFFIX,hongyaomall.com,China
 HOST-SUFFIX,tcomall.com,China
-HOST-SUFFIX,gdomall.com,China
 HOST-SUFFIX,ebiomall.com,China
 HOST-SUFFIX,ollomall.com,China
 HOST-SUFFIX,xianguomall.com,China
@@ -72163,7 +72096,6 @@ HOST-SUFFIX,wanguanwl.com,China
 HOST-SUFFIX,qiquanwl.com,China
 HOST-SUFFIX,jiaxuanwl.com,China
 HOST-SUFFIX,honyanwl.com,China
-HOST-SUFFIX,aoyanwl.com,China
 HOST-SUFFIX,chenwenwl.com,China
 HOST-SUFFIX,lebinwl.com,China
 HOST-SUFFIX,xiaolinwl.com,China
@@ -72681,7 +72613,6 @@ HOST-SUFFIX,huaren-scm.com,China
 HOST-SUFFIX,xw-scm.com,China
 HOST-SUFFIX,cy-scm.com,China
 HOST-SUFFIX,cbcscm.com,China
-HOST-SUFFIX,gxcscm.com,China
 HOST-SUFFIX,headscm.com,China
 HOST-SUFFIX,mzdscm.com,China
 HOST-SUFFIX,bytescm.com,China
@@ -72747,7 +72678,6 @@ HOST-SUFFIX,scyxcm.com,China
 HOST-SUFFIX,ztlycm.com,China
 HOST-SUFFIX,zcszcm.com,China
 HOST-SUFFIX,stszcm.com,China
-HOST-SUFFIX,0dm.com,China
 HOST-SUFFIX,71dm.com,China
 HOST-SUFFIX,22dm.com,China
 HOST-SUFFIX,fateadm.com,China
@@ -73410,7 +73340,6 @@ HOST-SUFFIX,ooomm.com,China
 HOST-SUFFIX,lenovomm.com,China
 HOST-SUFFIX,hyppmm.com,China
 HOST-SUFFIX,jypmm.com,China
-HOST-SUFFIX,zrmm.com,China
 HOST-SUFFIX,jqsmm.com,China
 HOST-SUFFIX,ccssmm.com,China
 HOST-SUFFIX,adtmm.com,China
@@ -73493,6 +73422,7 @@ HOST-SUFFIX,longliqicom.com,China
 HOST-SUFFIX,sdricom.com,China
 HOST-SUFFIX,huaruicom.com,China
 HOST-SUFFIX,hiwelcom.com,China
+HOST-SUFFIX,unimcom.com,China
 HOST-SUFFIX,simcom.com,China
 HOST-SUFFIX,ebancom.com,China
 HOST-SUFFIX,hainancom.com,China
@@ -74444,7 +74374,6 @@ HOST-SUFFIX,kunluncan.com,China
 HOST-SUFFIX,51baocan.com,China
 HOST-SUFFIX,400taocan.com,China
 HOST-SUFFIX,budingscan.com,China
-HOST-SUFFIX,akscan.com,China
 HOST-SUFFIX,nlscan.com,China
 HOST-SUFFIX,topscan.com,China
 HOST-SUFFIX,zhongshucan.com,China
@@ -74544,7 +74473,6 @@ HOST-SUFFIX,cocfan.com,China
 HOST-SUFFIX,jikefan.com,China
 HOST-SUFFIX,cnmarinefan.com,China
 HOST-SUFFIX,quefan.com,China
-HOST-SUFFIX,acglivefan.com,China
 HOST-SUFFIX,xefan.com,China
 HOST-SUFFIX,ffan.com,China
 HOST-SUFFIX,zffan.com,China
@@ -74949,7 +74877,6 @@ HOST-SUFFIX,nmweidian.com,China
 HOST-SUFFIX,kaoshidian.com,China
 HOST-SUFFIX,sdzhidian.com,China
 HOST-SUFFIX,xiaoluzhidian.com,China
-HOST-SUFFIX,xiaoyejidian.com,China
 HOST-SUFFIX,fanpaijidian.com,China
 HOST-SUFFIX,zhongjijidian.com,China
 HOST-SUFFIX,xinjidian.com,China
@@ -74981,7 +74908,6 @@ HOST-SUFFIX,365kandian.com,China
 HOST-SUFFIX,jisukandian.com,China
 HOST-SUFFIX,wkandian.com,China
 HOST-SUFFIX,mandian.com,China
-HOST-SUFFIX,91pandian.com,China
 HOST-SUFFIX,epandian.com,China
 HOST-SUFFIX,baifendian.com,China
 HOST-SUFFIX,jsendian.com,China
@@ -75079,7 +75005,6 @@ HOST-SUFFIX,daishutijian.com,China
 HOST-SUFFIX,vtijian.com,China
 HOST-SUFFIX,kytijian.com,China
 HOST-SUFFIX,mytijian.com,China
-HOST-SUFFIX,jingcaituijian.com,China
 HOST-SUFFIX,xkjian.com,China
 HOST-SUFFIX,anjian.com,China
 HOST-SUFFIX,91anjian.com,China
@@ -75096,7 +75021,6 @@ HOST-SUFFIX,caijiruanjian.com,China
 HOST-SUFFIX,xuanruanjian.com,China
 HOST-SUFFIX,ruiwenruanjian.com,China
 HOST-SUFFIX,saasruanjian.com,China
-HOST-SUFFIX,ksruanjian.com,China
 HOST-SUFFIX,weiduruanjian.com,China
 HOST-SUFFIX,025tuanjian.com,China
 HOST-SUFFIX,yunlangtuanjian.com,China
@@ -75604,7 +75528,6 @@ HOST-SUFFIX,gxbotlan.com,China
 HOST-SUFFIX,njgulan.com,China
 HOST-SUFFIX,cqshulan.com,China
 HOST-SUFFIX,yidianliulan.com,China
-HOST-SUFFIX,uuulan.com,China
 HOST-SUFFIX,xinwulan.com,China
 HOST-SUFFIX,anywlan.com,China
 HOST-SUFFIX,vmylan.com,China
@@ -75944,7 +75867,6 @@ HOST-SUFFIX,taichuan.com,China
 HOST-SUFFIX,i-weichuan.com,China
 HOST-SUFFIX,tsichuan.com,China
 HOST-SUFFIX,aiyichuan.com,China
-HOST-SUFFIX,kanchuan.com,China
 HOST-SUFFIX,ytsanchuan.com,China
 HOST-SUFFIX,meichuanchuan.com,China
 HOST-SUFFIX,iwenchuan.com,China
@@ -77729,6 +77651,7 @@ HOST-SUFFIX,bvfcdn.com,China
 HOST-SUFFIX,yzfcdn.com,China
 HOST-SUFFIX,sourcegcdn.com,China
 HOST-SUFFIX,qegcdn.com,China
+HOST-SUFFIX,bhgcdn.com,China
 HOST-SUFFIX,360imgcdn.com,China
 HOST-SUFFIX,dangcdn.com,China
 HOST-SUFFIX,chuangcdn.com,China
@@ -78151,7 +78074,6 @@ HOST-SUFFIX,xiaoniuben.com,China
 HOST-SUFFIX,ceccen.com,China
 HOST-SUFFIX,agcen.com,China
 HOST-SUFFIX,klicen.com,China
-HOST-SUFFIX,abundancen.com,China
 HOST-SUFFIX,xiaocen.com,China
 HOST-SUFFIX,laocen.com,China
 HOST-SUFFIX,dorcen.com,China
@@ -78234,7 +78156,6 @@ HOST-SUFFIX,iquanfen.com,China
 HOST-SUFFIX,zengyuanfen.com,China
 HOST-SUFFIX,fenfen.com,China
 HOST-SUFFIX,gaofen.com,China
-HOST-SUFFIX,hemaxiaofen.com,China
 HOST-SUFFIX,fofen.com,China
 HOST-SUFFIX,hcmofen.com,China
 HOST-SUFFIX,hduofen.com,China
@@ -78274,7 +78195,6 @@ HOST-SUFFIX,xigaogen.com,China
 HOST-SUFFIX,wsgeogen.com,China
 HOST-SUFFIX,tsinghydrogen.com,China
 HOST-SUFFIX,cjhydrogen.com,China
-HOST-SUFFIX,hzqyhydrogen.com,China
 HOST-SUFFIX,inovogen.com,China
 HOST-SUFFIX,callergen.com,China
 HOST-SUFFIX,kirgen.com,China
@@ -79199,7 +79119,6 @@ HOST-SUFFIX,thanmelin.com,China
 HOST-SUFFIX,erjianglin.com,China
 HOST-SUFFIX,shuanglin.com,China
 HOST-SUFFIX,hongxinglin.com,China
-HOST-SUFFIX,feiyueconglin.com,China
 HOST-SUFFIX,yonglin.com,China
 HOST-SUFFIX,gdbailin.com,China
 HOST-SUFFIX,hailin.com,China
@@ -79953,7 +79872,6 @@ HOST-SUFFIX,volcmedialivecnn.com,China
 HOST-SUFFIX,cicnn.com,China
 HOST-SUFFIX,epcnn.com,China
 HOST-SUFFIX,ctcnn.com,China
-HOST-SUFFIX,uucnn.com,China
 HOST-SUFFIX,azchcdnn.com,China
 HOST-SUFFIX,woodnn.com,China
 HOST-SUFFIX,yuudnn.com,China
@@ -80397,6 +80315,7 @@ HOST-SUFFIX,bandoristation.com,China
 HOST-SUFFIX,lhcreditevaluation.com,China
 HOST-SUFFIX,zj-equation.com,China
 HOST-SUFFIX,d-innovation.com,China
+HOST-SUFFIX,uniminnovation.com,China
 HOST-SUFFIX,gvlocalization.com,China
 HOST-SUFFIX,cnaction.com,China
 HOST-SUFFIX,ces-transaction.com,China
@@ -80754,7 +80673,6 @@ HOST-SUFFIX,foturn.com,China
 HOST-SUFFIX,ahgyrn.com,China
 HOST-SUFFIX,glxyrn.com,China
 HOST-SUFFIX,15sn.com,China
-HOST-SUFFIX,goglew5sn.com,China
 HOST-SUFFIX,ccasn.com,China
 HOST-SUFFIX,celucasn.com,China
 HOST-SUFFIX,ieasn.com,China
@@ -82702,7 +82620,6 @@ HOST-SUFFIX,dgpenghao.com,China
 HOST-SUFFIX,shuibengxinghao.com,China
 HOST-SUFFIX,yundonghao.com,China
 HOST-SUFFIX,hzzhonghao.com,China
-HOST-SUFFIX,chakonghao.com,China
 HOST-SUFFIX,maimaihao.com,China
 HOST-SUFFIX,jingpaihao.com,China
 HOST-SUFFIX,gdtaihao.com,China
@@ -83393,7 +83310,6 @@ HOST-SUFFIX,jiaoyumao.com,China
 HOST-SUFFIX,tvmao.com,China
 HOST-SUFFIX,shen-nao.com,China
 HOST-SUFFIX,66nao.com,China
-HOST-SUFFIX,smianao.com,China
 HOST-SUFFIX,zanao.com,China
 HOST-SUFFIX,dingdangnao.com,China
 HOST-SUFFIX,sh-xinao.com,China
@@ -83807,7 +83723,6 @@ HOST-SUFFIX,fraeco.com,China
 HOST-SUFFIX,toptubeco.com,China
 HOST-SUFFIX,china-ceco.com,China
 HOST-SUFFIX,bestchoiceco.com,China
-HOST-SUFFIX,bgdeco.com,China
 HOST-SUFFIX,feeeco.com,China
 HOST-SUFFIX,pieeco.com,China
 HOST-SUFFIX,leeco.com,China
@@ -87123,6 +87038,7 @@ HOST-SUFFIX,xw-chip.com,China
 HOST-SUFFIX,sigmachip.com,China
 HOST-SUFFIX,geoforcechip.com,China
 HOST-SUFFIX,hurricanechip.com,China
+HOST-SUFFIX,nanocorechip.com,China
 HOST-SUFFIX,chinesechip.com,China
 HOST-SUFFIX,zkhgchip.com,China
 HOST-SUFFIX,fangchip.com,China
@@ -87462,7 +87378,6 @@ HOST-SUFFIX,zckp.com,China
 HOST-SUFFIX,kjkp.com,China
 HOST-SUFFIX,szjkp.com,China
 HOST-SUFFIX,svqsokp.com,China
-HOST-SUFFIX,1skp.com,China
 HOST-SUFFIX,ezyotkp.com,China
 HOST-SUFFIX,jxkp.com,China
 HOST-SUFFIX,hlyykp.com,China
@@ -87617,7 +87532,6 @@ HOST-SUFFIX,2cshop.com,China
 HOST-SUFFIX,ecshop.com,China
 HOST-SUFFIX,68ecshop.com,China
 HOST-SUFFIX,elecshop.com,China
-HOST-SUFFIX,jsswordshop.com,China
 HOST-SUFFIX,jdcloudshop.com,China
 HOST-SUFFIX,51eshop.com,China
 HOST-SUFFIX,bbeshop.com,China
@@ -87909,7 +87823,6 @@ HOST-SUFFIX,zhiyeapp.com,China
 HOST-SUFFIX,effapp.com,China
 HOST-SUFFIX,jlkfapp.com,China
 HOST-SUFFIX,dmgapp.com,China
-HOST-SUFFIX,shouzhangapp.com,China
 HOST-SUFFIX,zhongjiangapp.com,China
 HOST-SUFFIX,huiliangapp.com,China
 HOST-SUFFIX,xuelangapp.com,China
@@ -88067,7 +87980,6 @@ HOST-SUFFIX,okywqapp.com,China
 HOST-SUFFIX,ddstarapp.com,China
 HOST-SUFFIX,1sapp.com,China
 HOST-SUFFIX,pubbcsapp.com,China
-HOST-SUFFIX,knotesapp.com,China
 HOST-SUFFIX,xesapp.com,China
 HOST-SUFFIX,prizesapp.com,China
 HOST-SUFFIX,llsapp.com,China
@@ -89818,7 +89730,6 @@ HOST-SUFFIX,akylq.com,China
 HOST-SUFFIX,nnsylq.com,China
 HOST-SUFFIX,itylq.com,China
 HOST-SUFFIX,glgzlq.com,China
-HOST-SUFFIX,bbbmq.com,China
 HOST-SUFFIX,tencentcmq.com,China
 HOST-SUFFIX,51dmq.com,China
 HOST-SUFFIX,tencenttdmq.com,China
@@ -90020,6 +89931,7 @@ HOST-SUFFIX,ttysq.com,China
 HOST-SUFFIX,nbzsq.com,China
 HOST-SUFFIX,gzsq.com,China
 HOST-SUFFIX,yckjzsq.com,China
+HOST-SUFFIX,qilongnianzsq.com,China
 HOST-SUFFIX,xyzsq.com,China
 HOST-SUFFIX,nj-tq.com,China
 HOST-SUFFIX,i8tq.com,China
@@ -93171,7 +93083,6 @@ HOST-SUFFIX,crcgas.com,China
 HOST-SUFFIX,qjcrcgas.com,China
 HOST-SUFFIX,zjcrcgas.com,China
 HOST-SUFFIX,fycrcgas.com,China
-HOST-SUFFIX,dzcrcgas.com,China
 HOST-SUFFIX,zzcrcgas.com,China
 HOST-SUFFIX,cdgas.com,China
 HOST-SUFFIX,tydgas.com,China
@@ -93357,7 +93268,6 @@ HOST-SUFFIX,whbbs.com,China
 HOST-SUFFIX,huwaibbs.com,China
 HOST-SUFFIX,powerbibbs.com,China
 HOST-SUFFIX,hujibbs.com,China
-HOST-SUFFIX,hjbbs.com,China
 HOST-SUFFIX,jjbbs.com,China
 HOST-SUFFIX,rclbbs.com,China
 HOST-SUFFIX,dlbbs.com,China
@@ -93772,6 +93682,7 @@ HOST-SUFFIX,xiaoyiads.com,China
 HOST-SUFFIX,funlinkads.com,China
 HOST-SUFFIX,hanmads.com,China
 HOST-SUFFIX,antibanads.com,China
+HOST-SUFFIX,tongwenads.com,China
 HOST-SUFFIX,roadsignads.com,China
 HOST-SUFFIX,functionads.com,China
 HOST-SUFFIX,landroads.com,China
@@ -94499,7 +94410,6 @@ HOST-SUFFIX,chunhingplasticbags.com,China
 HOST-SUFFIX,idealbags.com,China
 HOST-SUFFIX,ingags.com,China
 HOST-SUFFIX,ylhags.com,China
-HOST-SUFFIX,zjags.com,China
 HOST-SUFFIX,szjags.com,China
 HOST-SUFFIX,sinomags.com,China
 HOST-SUFFIX,thatsmags.com,China
@@ -96151,7 +96061,6 @@ HOST-SUFFIX,exaphotons.com,China
 HOST-SUFFIX,ruons.com,China
 HOST-SUFFIX,lwons.com,China
 HOST-SUFFIX,darwinlearns.com,China
-HOST-SUFFIX,cdsns.com,China
 HOST-SUFFIX,windsns.com,China
 HOST-SUFFIX,tradesns.com,China
 HOST-SUFFIX,umsns.com,China
@@ -96438,7 +96347,6 @@ HOST-SUFFIX,xmgps.com,China
 HOST-SUFFIX,gxqgps.com,China
 HOST-SUFFIX,cetgps.com,China
 HOST-SUFFIX,bcxgps.com,China
-HOST-SUFFIX,qhdxgps.com,China
 HOST-SUFFIX,lzgps.com,China
 HOST-SUFFIX,fjhps.com,China
 HOST-SUFFIX,ips.com,China
@@ -97005,7 +96913,6 @@ HOST-SUFFIX,dustess.com,China
 HOST-SUFFIX,lvgangss.com,China
 HOST-SUFFIX,yuanjingss.com,China
 HOST-SUFFIX,joiningss.com,China
-HOST-SUFFIX,hywngss.com,China
 HOST-SUFFIX,cqyhss.com,China
 HOST-SUFFIX,ppaiss.com,China
 HOST-SUFFIX,prociss.com,China
@@ -97319,7 +97226,6 @@ HOST-SUFFIX,saagasports.com,China
 HOST-SUFFIX,panchinasports.com,China
 HOST-SUFFIX,aohuasports.com,China
 HOST-SUFFIX,sichuanbojiesports.com,China
-HOST-SUFFIX,lesports.com,China
 HOST-SUFFIX,heroesports.com,China
 HOST-SUFFIX,afpchinesesports.com,China
 HOST-SUFFIX,aokangsports.com,China
@@ -97503,7 +97409,6 @@ HOST-SUFFIX,shjus.com,China
 HOST-SUFFIX,scienjus.com,China
 HOST-SUFFIX,9kus.com,China
 HOST-SUFFIX,icbkus.com,China
-HOST-SUFFIX,weekus.com,China
 HOST-SUFFIX,wzpkus.com,China
 HOST-SUFFIX,whale-plus.com,China
 HOST-SUFFIX,pacs-plus.com,China
@@ -97910,7 +97815,6 @@ HOST-SUFFIX,lvdxs.com,China
 HOST-SUFFIX,znxdxs.com,China
 HOST-SUFFIX,fastindexs.com,China
 HOST-SUFFIX,bequgexs.com,China
-HOST-SUFFIX,biqugexs.com,China
 HOST-SUFFIX,kuailexs.com,China
 HOST-SUFFIX,xuesexs.com,China
 HOST-SUFFIX,ruyuexs.com,China
@@ -97928,6 +97832,7 @@ HOST-SUFFIX,xfjxs.com,China
 HOST-SUFFIX,gxljxs.com,China
 HOST-SUFFIX,ujxs.com,China
 HOST-SUFFIX,hxjxs.com,China
+HOST-SUFFIX,00kxs.com,China
 HOST-SUFFIX,83kxs.com,China
 HOST-SUFFIX,gkxs.com,China
 HOST-SUFFIX,nnlxs.com,China
@@ -98073,7 +97978,6 @@ HOST-SUFFIX,shunjunys.com,China
 HOST-SUFFIX,cooboys.com,China
 HOST-SUFFIX,hijoys.com,China
 HOST-SUFFIX,mjoys.com,China
-HOST-SUFFIX,palmjoys.com,China
 HOST-SUFFIX,ienjoys.com,China
 HOST-SUFFIX,fingerjoys.com,China
 HOST-SUFFIX,ferro-alloys.com,China
@@ -98388,7 +98292,6 @@ HOST-SUFFIX,ningbocat.com,China
 HOST-SUFFIX,jocat.com,China
 HOST-SUFFIX,xiezuocat.com,China
 HOST-SUFFIX,jumpjumpcat.com,China
-HOST-SUFFIX,zombiescat.com,China
 HOST-SUFFIX,toolscat.com,China
 HOST-SUFFIX,hellostreetcat.com,China
 HOST-SUFFIX,wuliucat.com,China
@@ -98657,7 +98560,6 @@ HOST-SUFFIX,tcisct.com,China
 HOST-SUFFIX,cksct.com,China
 HOST-SUFFIX,respeaonsct.com,China
 HOST-SUFFIX,szssct.com,China
-HOST-SUFFIX,khysct.com,China
 HOST-SUFFIX,nn-tct.com,China
 HOST-SUFFIX,91petct.com,China
 HOST-SUFFIX,ipetct.com,China
@@ -100185,7 +100087,6 @@ HOST-SUFFIX,wjjfjt.com,China
 HOST-SUFFIX,gxjjfjt.com,China
 HOST-SUFFIX,sxhlfjt.com,China
 HOST-SUFFIX,wzofjt.com,China
-HOST-SUFFIX,cnpfjt.com,China
 HOST-SUFFIX,cqpfjt.com,China
 HOST-SUFFIX,zxqfjt.com,China
 HOST-SUFFIX,scsfjt.com,China
@@ -100228,7 +100129,6 @@ HOST-SUFFIX,shrgjt.com,China
 HOST-SUFFIX,jlsgjt.com,China
 HOST-SUFFIX,jsxgjt.com,China
 HOST-SUFFIX,gdchjt.com,China
-HOST-SUFFIX,dhjt.com,China
 HOST-SUFFIX,jsddhjt.com,China
 HOST-SUFFIX,szsdhjt.com,China
 HOST-SUFFIX,jhzdhjt.com,China
@@ -100385,7 +100285,6 @@ HOST-SUFFIX,njcbcmjt.com,China
 HOST-SUFFIX,zncmjt.com,China
 HOST-SUFFIX,fscmjt.com,China
 HOST-SUFFIX,jscmjt.com,China
-HOST-SUFFIX,md-hmjt.com,China
 HOST-SUFFIX,gxlmjt.com,China
 HOST-SUFFIX,cqmmjt.com,China
 HOST-SUFFIX,nbsmjt.com,China
@@ -100779,7 +100678,6 @@ HOST-SUFFIX,nnjtkt.com,China
 HOST-SUFFIX,ktkt.com,China
 HOST-SUFFIX,queniukt.com,China
 HOST-SUFFIX,ymvkt.com,China
-HOST-SUFFIX,abykt.com,China
 HOST-SUFFIX,hcykt.com,China
 HOST-SUFFIX,tttcykt.com,China
 HOST-SUFFIX,hfykt.com,China
@@ -102497,6 +102395,7 @@ HOST-SUFFIX,sdgdxt.com,China
 HOST-SUFFIX,hbjdxt.com,China
 HOST-SUFFIX,yiyaodxt.com,China
 HOST-SUFFIX,xbext.com,China
+HOST-SUFFIX,mediext.com,China
 HOST-SUFFIX,tewsiext.com,China
 HOST-SUFFIX,mackext.com,China
 HOST-SUFFIX,tcdnext.com,China
@@ -102541,7 +102440,6 @@ HOST-SUFFIX,bjsxt.com,China
 HOST-SUFFIX,msxt.com,China
 HOST-SUFFIX,gxwsxt.com,China
 HOST-SUFFIX,cqxsxt.com,China
-HOST-SUFFIX,80txt.com,China
 HOST-SUFFIX,71txt.com,China
 HOST-SUFFIX,word2txt.com,China
 HOST-SUFFIX,23txt.com,China
@@ -102764,7 +102662,6 @@ HOST-SUFFIX,yixianfabu.com,China
 HOST-SUFFIX,yanfabu.com,China
 HOST-SUFFIX,ntfabu.com,China
 HOST-SUFFIX,xuzhoufabu.com,China
-HOST-SUFFIX,shjiabu.com,China
 HOST-SUFFIX,xiabu.com,China
 HOST-SUFFIX,guabu.com,China
 HOST-SUFFIX,xuechebu.com,China
@@ -104623,7 +104520,6 @@ HOST-SUFFIX,sdxinglu.com,China
 HOST-SUFFIX,ixinglu.com,China
 HOST-SUFFIX,luzhonggonglu.com,China
 HOST-SUFFIX,51tonglu.com,China
-HOST-SUFFIX,9ilu.com,China
 HOST-SUFFIX,cndailu.com,China
 HOST-SUFFIX,gxmailu.com,China
 HOST-SUFFIX,wzkuailu.com,China
@@ -104827,7 +104723,6 @@ HOST-SUFFIX,pmdoudou.com,China
 HOST-SUFFIX,wandoudou.com,China
 HOST-SUFFIX,xsdoudou.com,China
 HOST-SUFFIX,joudou.com,China
-HOST-SUFFIX,xoudou.com,China
 HOST-SUFFIX,tudou.com,China
 HOST-SUFFIX,001tudou.com,China
 HOST-SUFFIX,yxdou.com,China
@@ -105321,7 +105216,6 @@ HOST-SUFFIX,lieyou.com,China
 HOST-SUFFIX,nieyou.com,China
 HOST-SUFFIX,qieyou.com,China
 HOST-SUFFIX,tieyou.com,China
-HOST-SUFFIX,youleyou.com,China
 HOST-SUFFIX,haoeyou.com,China
 HOST-SUFFIX,qxueyou.com,China
 HOST-SUFFIX,2loveyou.com,China
@@ -105369,7 +105263,6 @@ HOST-SUFFIX,dashiyou.com,China
 HOST-SUFFIX,yingshiyou.com,China
 HOST-SUFFIX,xuezhiyou.com,China
 HOST-SUFFIX,zhuajiyou.com,China
-HOST-SUFFIX,kljiyou.com,China
 HOST-SUFFIX,xjiyou.com,China
 HOST-SUFFIX,114naliyou.com,China
 HOST-SUFFIX,chinaliyou.com,China
@@ -105491,10 +105384,8 @@ HOST-SUFFIX,okwuyou.com,China
 HOST-SUFFIX,haoyunwuyou.com,China
 HOST-SUFFIX,qudaowuyou.com,China
 HOST-SUFFIX,maihaowuyou.com,China
-HOST-SUFFIX,apwuyou.com,China
 HOST-SUFFIX,yezhuwuyou.com,China
 HOST-SUFFIX,dituwuyou.com,China
-HOST-SUFFIX,yunyuwuyou.com,China
 HOST-SUFFIX,langxiyuyou.com,China
 HOST-SUFFIX,52lvyou.com,China
 HOST-SUFFIX,tianmalvyou.com,China
@@ -105719,7 +105610,6 @@ HOST-SUFFIX,1gbru.com,China
 HOST-SUFFIX,mecru.com,China
 HOST-SUFFIX,pidru.com,China
 HOST-SUFFIX,iquaveizeeru.com,China
-HOST-SUFFIX,giomeru.com,China
 HOST-SUFFIX,yueru.com,China
 HOST-SUFFIX,hongru.com,China
 HOST-SUFFIX,xinhongru.com,China
@@ -107112,7 +107002,6 @@ HOST-SUFFIX,letv.com,China
 HOST-SUFFIX,hdletv.com,China
 HOST-SUFFIX,leletv.com,China
 HOST-SUFFIX,easytimetv.com,China
-HOST-SUFFIX,51livetv.com,China
 HOST-SUFFIX,izetvetv.com,China
 HOST-SUFFIX,jxetv.com,China
 HOST-SUFFIX,chuangyetv.com,China
@@ -108232,6 +108121,7 @@ HOST-SUFFIX,52wlw.com,China
 HOST-SUFFIX,jscdwlw.com,China
 HOST-SUFFIX,wxkjwlw.com,China
 HOST-SUFFIX,jlwlw.com,China
+HOST-SUFFIX,bqpwlw.com,China
 HOST-SUFFIX,xfaqwlw.com,China
 HOST-SUFFIX,itwlw.com,China
 HOST-SUFFIX,szltwlw.com,China
@@ -109245,7 +109135,6 @@ HOST-SUFFIX,renren-x.com,China
 HOST-SUFFIX,kunst-x.com,China
 HOST-SUFFIX,xcx-x.com,China
 HOST-SUFFIX,jin10x.com,China
-HOST-SUFFIX,5760x.com,China
 HOST-SUFFIX,5811x.com,China
 HOST-SUFFIX,2l4938221x.com,China
 HOST-SUFFIX,1j1x.com,China
@@ -109721,7 +109610,6 @@ HOST-SUFFIX,bjrdhx.com,China
 HOST-SUFFIX,mdaehx.com,China
 HOST-SUFFIX,xfhx.com,China
 HOST-SUFFIX,jsghx.com,China
-HOST-SUFFIX,zsjhx.com,China
 HOST-SUFFIX,dg-360lhx.com,China
 HOST-SUFFIX,8lhx.com,China
 HOST-SUFFIX,cddlhx.com,China
@@ -109736,7 +109624,6 @@ HOST-SUFFIX,cdshx.com,China
 HOST-SUFFIX,gdfshx.com,China
 HOST-SUFFIX,flyfishx.com,China
 HOST-SUFFIX,wxjshx.com,China
-HOST-SUFFIX,chinakshx.com,China
 HOST-SUFFIX,smshx.com,China
 HOST-SUFFIX,zthx.com,China
 HOST-SUFFIX,queniuhx.com,China
@@ -110959,7 +110846,6 @@ HOST-SUFFIX,haizhuyx.com,China
 HOST-SUFFIX,zhizhuyx.com,China
 HOST-SUFFIX,tudouyx.com,China
 HOST-SUFFIX,huishouyx.com,China
-HOST-SUFFIX,weiquyx.com,China
 HOST-SUFFIX,zhongyuyx.com,China
 HOST-SUFFIX,xdwyx.com,China
 HOST-SUFFIX,finewyx.com,China
@@ -111546,6 +111432,7 @@ HOST-SUFFIX,shengpay.com,China
 HOST-SUFFIX,suningpay.com,China
 HOST-SUFFIX,suixingpay.com,China
 HOST-SUFFIX,chuxingpay.com,China
+HOST-SUFFIX,hmhpay.com,China
 HOST-SUFFIX,jiupaipay.com,China
 HOST-SUFFIX,zsaipay.com,China
 HOST-SUFFIX,wandipay.com,China
@@ -112097,7 +111984,6 @@ HOST-SUFFIX,sh-fy.com,China
 HOST-SUFFIX,nn2fy.com,China
 HOST-SUFFIX,ay2fy.com,China
 HOST-SUFFIX,wy2fy.com,China
-HOST-SUFFIX,alafy.com,China
 HOST-SUFFIX,hbfy.com,China
 HOST-SUFFIX,bjdcfy.com,China
 HOST-SUFFIX,ntcfy.com,China
@@ -115151,7 +115037,6 @@ HOST-SUFFIX,fnxzyy.com,China
 HOST-SUFFIX,dyxzyy.com,China
 HOST-SUFFIX,zxzyy.com,China
 HOST-SUFFIX,nbyzyy.com,China
-HOST-SUFFIX,myzyy.com,China
 HOST-SUFFIX,gxyzyy.com,China
 HOST-SUFFIX,jsshasczzyy.com,China
 HOST-SUFFIX,sjzzyy.com,China
@@ -115172,7 +115057,6 @@ HOST-SUFFIX,977zy.com,China
 HOST-SUFFIX,8zy.com,China
 HOST-SUFFIX,mideazy.com,China
 HOST-SUFFIX,soldeazy.com,China
-HOST-SUFFIX,hwcrazy.com,China
 HOST-SUFFIX,shtazy.com,China
 HOST-SUFFIX,dgbzy.com,China
 HOST-SUFFIX,llbzy.com,China
@@ -116772,7 +116656,6 @@ HOST-SUFFIX,082.xin,China
 HOST-SUFFIX,00fkh408382.xin,China
 HOST-SUFFIX,0mrzee12192.xin,China
 HOST-SUFFIX,0m7eaq04292.xin,China
-HOST-SUFFIX,fefd203.xin,China
 HOST-SUFFIX,0jl3h724403.xin,China
 HOST-SUFFIX,0o6wqk24113.xin,China
 HOST-SUFFIX,0oo70c26213.xin,China
@@ -117008,6 +116891,7 @@ HOST-SUFFIX,jibite.fun,China
 HOST-SUFFIX,hawkeye.fun,China
 HOST-SUFFIX,capturetheflag.fun,China
 HOST-SUFFIX,crazybig.fun,China
+HOST-SUFFIX,croakfang.fun,China
 HOST-SUFFIX,yunrang.fun,China
 HOST-SUFFIX,guitang.fun,China
 HOST-SUFFIX,linwushuang.fun,China
@@ -117103,7 +116987,6 @@ HOST-SUFFIX,qls.fun,China
 HOST-SUFFIX,pwns.fun,China
 HOST-SUFFIX,91ios.fun,China
 HOST-SUFFIX,gamecat.fun,China
-HOST-SUFFIX,tpwallet.fun,China
 HOST-SUFFIX,yingt.fun,China
 HOST-SUFFIX,hyht.fun,China
 HOST-SUFFIX,moment.fun,China
@@ -117129,6 +117012,7 @@ HOST-SUFFIX,kikoplay.fun,China
 HOST-SUFFIX,1fly.fun,China
 HOST-SUFFIX,dragonfly.fun,China
 HOST-SUFFIX,fily.fun,China
+HOST-SUFFIX,sysy.fun,China
 HOST-SUFFIX,lty.fun,China
 HOST-SUFFIX,chaz.fun,China
 HOST-SUFFIX,fazz.fun,China
@@ -117334,6 +117218,7 @@ HOST-SUFFIX,mcbbs.co,China
 HOST-SUFFIX,yyds.co,China
 HOST-SUFFIX,tencentgames.co,China
 HOST-SUFFIX,mlinks.co,China
+HOST-SUFFIX,auditoryworks.co,China
 HOST-SUFFIX,hbrsks.co,China
 HOST-SUFFIX,minishops.co,China
 HOST-SUFFIX,wxshops.co,China
@@ -117558,7 +117443,6 @@ HOST-SUFFIX,zhuoqun.info,China
 HOST-SUFFIX,eshiyun.info,China
 HOST-SUFFIX,appdown.info,China
 HOST-SUFFIX,95shubao.info,China
-HOST-SUFFIX,18dao.info,China
 HOST-SUFFIX,yodao.info,China
 HOST-SUFFIX,tonggao.info,China
 HOST-SUFFIX,qunliao.info,China
@@ -117926,7 +117810,6 @@ HOST-SUFFIX,3721.vip,China
 HOST-SUFFIX,87131.vip,China
 HOST-SUFFIX,32331.vip,China
 HOST-SUFFIX,539831.vip,China
-HOST-SUFFIX,dpafmp641.vip,China
 HOST-SUFFIX,slldbs641.vip,China
 HOST-SUFFIX,c4752e8a51.vip,China
 HOST-SUFFIX,87161.vip,China
@@ -117961,7 +117844,6 @@ HOST-SUFFIX,vurl3.vip,China
 HOST-SUFFIX,ts3.vip,China
 HOST-SUFFIX,gbskptu1044.vip,China
 HOST-SUFFIX,e-xp05.vip,China
-HOST-SUFFIX,kydl308015.vip,China
 HOST-SUFFIX,qizbov8115.vip,China
 HOST-SUFFIX,28715.vip,China
 HOST-SUFFIX,fkwvya4035.vip,China
@@ -118006,7 +117888,6 @@ HOST-SUFFIX,68.vip,China
 HOST-SUFFIX,188.vip,China
 HOST-SUFFIX,eyy8.vip,China
 HOST-SUFFIX,xnw19.vip,China
-HOST-SUFFIX,kydl308029.vip,China
 HOST-SUFFIX,sohfvx3149.vip,China
 HOST-SUFFIX,5959.vip,China
 HOST-SUFFIX,281669.vip,China
@@ -118429,14 +118310,11 @@ HOST-SUFFIX,ottcn.help,China
 HOST-SUFFIX,cioln.help,China
 HOST-SUFFIX,labview.help,China
 HOST-SUFFIX,com.mp,China
-HOST-SUFFIX,5559000ab0.shop,China
-HOST-SUFFIX,0007999ab0.shop,China
 HOST-SUFFIX,0000552bb0.shop,China
 HOST-SUFFIX,qd8kbq0.shop,China
 HOST-SUFFIX,hjd111.shop,China
 HOST-SUFFIX,ql361.shop,China
 HOST-SUFFIX,hj44103a1.shop,China
-HOST-SUFFIX,0007999ab1.shop,China
 HOST-SUFFIX,0000552bb1.shop,China
 HOST-SUFFIX,ssw777734dh1.shop,China
 HOST-SUFFIX,000868adh1.shop,China
@@ -118444,14 +118322,12 @@ HOST-SUFFIX,000868agl1.shop,China
 HOST-SUFFIX,9999224xtz1.shop,China
 HOST-SUFFIX,0003399xtz1.shop,China
 HOST-SUFFIX,qdd2223338a2.shop,China
-HOST-SUFFIX,0007999ab2.shop,China
 HOST-SUFFIX,0000552bb2.shop,China
 HOST-SUFFIX,000868atz2.shop,China
 HOST-SUFFIX,0000550xtz2.shop,China
 HOST-SUFFIX,0006111xtz2.shop,China
 HOST-SUFFIX,922997xtz2.shop,China
 HOST-SUFFIX,0003399xtz2.shop,China
-HOST-SUFFIX,0007999ab3.shop,China
 HOST-SUFFIX,0000552bb3.shop,China
 HOST-SUFFIX,36rv3j3.shop,China
 HOST-SUFFIX,psf0404.shop,China
@@ -118459,21 +118335,14 @@ HOST-SUFFIX,4888777a14.shop,China
 HOST-SUFFIX,49zz1110002a4.shop,China
 HOST-SUFFIX,2288116ab4.shop,China
 HOST-SUFFIX,8882258ab4.shop,China
-HOST-SUFFIX,0007999ab4.shop,China
 HOST-SUFFIX,0000552bb4.shop,China
 HOST-SUFFIX,6666343ac4.shop,China
 HOST-SUFFIX,under-5.shop,China
-HOST-SUFFIX,0007999ab5.shop,China
-HOST-SUFFIX,0007999ab6.shop,China
 HOST-SUFFIX,jqs4463333a7.shop,China
 HOST-SUFFIX,2233488aa7.shop,China
-HOST-SUFFIX,5559000ab7.shop,China
-HOST-SUFFIX,0007999ab7.shop,China
 HOST-SUFFIX,mk1688.shop,China
-HOST-SUFFIX,0007999ab8.shop,China
 HOST-SUFFIX,jqs4463333a9.shop,China
 HOST-SUFFIX,qdd2223338a9.shop,China
-HOST-SUFFIX,0007999ab9.shop,China
 HOST-SUFFIX,ngaa.shop,China
 HOST-SUFFIX,jddaojia.shop,China
 HOST-SUFFIX,fxjia.shop,China
@@ -118485,7 +118354,6 @@ HOST-SUFFIX,amusic.shop,China
 HOST-SUFFIX,qgqc.shop,China
 HOST-SUFFIX,51015kid.shop,China
 HOST-SUFFIX,jd.shop,China
-HOST-SUFFIX,jxckd.shop,China
 HOST-SUFFIX,iseafood.shop,China
 HOST-SUFFIX,morange.shop,China
 HOST-SUFFIX,huijie.shop,China
@@ -118498,7 +118366,6 @@ HOST-SUFFIX,3b1bm3f.shop,China
 HOST-SUFFIX,xuekuibang.shop,China
 HOST-SUFFIX,haowang.shop,China
 HOST-SUFFIX,jiuwang.shop,China
-HOST-SUFFIX,hongsheng.shop,China
 HOST-SUFFIX,yousheng.shop,China
 HOST-SUFFIX,wuhanshiliantong.shop,China
 HOST-SUFFIX,itbug.shop,China
@@ -118655,29 +118522,6 @@ HOST-SUFFIX,iqiyi.demo.uwp,China
 HOST-SUFFIX,so.car,China
 HOST-SUFFIX,wondershare.com.br,China
 HOST-SUFFIX,icbcbr.com.br,China
-HOST-SUFFIX,5a6fed2321010.beer,China
-HOST-SUFFIX,da563c3c21010.beer,China
-HOST-SUFFIX,c5a13eec21010.beer,China
-HOST-SUFFIX,4c37ebc131010.beer,China
-HOST-SUFFIX,696b333851010.beer,China
-HOST-SUFFIX,f6d4a4f461010.beer,China
-HOST-SUFFIX,3bfc4d6861010.beer,China
-HOST-SUFFIX,b230ed9d61010.beer,China
-HOST-SUFFIX,49eb891471010.beer,China
-HOST-SUFFIX,59220ab771010.beer,China
-HOST-SUFFIX,dc5febe781010.beer,China
-HOST-SUFFIX,65bb2d6d81010.beer,China
-HOST-SUFFIX,523c8cb891010.beer,China
-HOST-SUFFIX,e27e02c891010.beer,China
-HOST-SUFFIX,4c55033b91010.beer,China
-HOST-SUFFIX,b18e55f8a1010.beer,China
-HOST-SUFFIX,231e3dffa1010.beer,China
-HOST-SUFFIX,daf30622c1010.beer,China
-HOST-SUFFIX,4ebf1036c1010.beer,China
-HOST-SUFFIX,7597af9ac1010.beer,China
-HOST-SUFFIX,59b1a9d9d1010.beer,China
-HOST-SUFFIX,0800c988e1010.beer,China
-HOST-SUFFIX,1a4a282fe1010.beer,China
 HOST-SUFFIX,653697e101020.beer,China
 HOST-SUFFIX,c6bad2ad01020.beer,China
 HOST-SUFFIX,07ba0de711020.beer,China
@@ -118713,45 +118557,18 @@ HOST-SUFFIX,03369709d10301.beer,China
 HOST-SUFFIX,8b92b52bd10301.beer,China
 HOST-SUFFIX,59dead1ce10301.beer,China
 HOST-SUFFIX,3b2479faf10301.beer,China
-HOST-SUFFIX,0429f95301011.beer,China
-HOST-SUFFIX,0990fc0011011.beer,China
 HOST-SUFFIX,d0bf4234011011.beer,China
-HOST-SUFFIX,c43c3cb111011.beer,China
 HOST-SUFFIX,5ba6319c311011.beer,China
 HOST-SUFFIX,5e17f526411011.beer,China
 HOST-SUFFIX,a142b5e7511011.beer,China
-HOST-SUFFIX,4587c00611011.beer,China
 HOST-SUFFIX,f4b2ed8f711011.beer,China
 HOST-SUFFIX,4d458710811011.beer,China
 HOST-SUFFIX,cded23c0b11011.beer,China
 HOST-SUFFIX,88fe6607b11011.beer,China
 HOST-SUFFIX,cd7a871ab11011.beer,China
 HOST-SUFFIX,96ac893dd11011.beer,China
-HOST-SUFFIX,7214fa7e11011.beer,China
 HOST-SUFFIX,af4bfc60f11011.beer,China
 HOST-SUFFIX,7315297af11011.beer,China
-HOST-SUFFIX,ed403ab821011.beer,China
-HOST-SUFFIX,98b8cd6b21011.beer,China
-HOST-SUFFIX,18d9535531011.beer,China
-HOST-SUFFIX,7265a5ef31011.beer,China
-HOST-SUFFIX,0fe7e0a941011.beer,China
-HOST-SUFFIX,348b60ac51011.beer,China
-HOST-SUFFIX,0fe5d43561011.beer,China
-HOST-SUFFIX,aa50b44761011.beer,China
-HOST-SUFFIX,cb8a5dff61011.beer,China
-HOST-SUFFIX,b6a531b371011.beer,China
-HOST-SUFFIX,181b5f7e71011.beer,China
-HOST-SUFFIX,a33a8c8c81011.beer,China
-HOST-SUFFIX,9b37f3cc81011.beer,China
-HOST-SUFFIX,421db96b91011.beer,China
-HOST-SUFFIX,0945a5ee91011.beer,China
-HOST-SUFFIX,77ee6f16b1011.beer,China
-HOST-SUFFIX,727d5e6cb1011.beer,China
-HOST-SUFFIX,ff722fbac1011.beer,China
-HOST-SUFFIX,3e089a2bd1011.beer,China
-HOST-SUFFIX,14565cabd1011.beer,China
-HOST-SUFFIX,66c970e7e1011.beer,China
-HOST-SUFFIX,766899d4f1011.beer,China
 HOST-SUFFIX,68596e90010311.beer,China
 HOST-SUFFIX,d1226c9c010311.beer,China
 HOST-SUFFIX,5b1c73dc010311.beer,China
@@ -119112,26 +118929,6 @@ HOST-SUFFIX,4506ecebe10292.beer,China
 HOST-SUFFIX,ffca028de10292.beer,China
 HOST-SUFFIX,714b5653f10292.beer,China
 HOST-SUFFIX,daeac4faf10292.beer,China
-HOST-SUFFIX,ca5d4ce601013.beer,China
-HOST-SUFFIX,12e6824e11013.beer,China
-HOST-SUFFIX,f9f4a38021013.beer,China
-HOST-SUFFIX,7c644b8a21013.beer,China
-HOST-SUFFIX,aa433d1b51013.beer,China
-HOST-SUFFIX,f3bed1ef51013.beer,China
-HOST-SUFFIX,19ed5ce761013.beer,China
-HOST-SUFFIX,01a7d69861013.beer,China
-HOST-SUFFIX,96daa24471013.beer,China
-HOST-SUFFIX,cfb30e2181013.beer,China
-HOST-SUFFIX,23e4cb2581013.beer,China
-HOST-SUFFIX,c8f8537d91013.beer,China
-HOST-SUFFIX,56456c9fa1013.beer,China
-HOST-SUFFIX,c953b5d8b1013.beer,China
-HOST-SUFFIX,b2216419b1013.beer,China
-HOST-SUFFIX,ffbc82f8d1013.beer,China
-HOST-SUFFIX,988848a9d1013.beer,China
-HOST-SUFFIX,2128673cd1013.beer,China
-HOST-SUFFIX,f385e7fcd1013.beer,China
-HOST-SUFFIX,28d7baa3e1013.beer,China
 HOST-SUFFIX,b9a3e87f01023.beer,China
 HOST-SUFFIX,afea4f9221023.beer,China
 HOST-SUFFIX,18713d3521023.beer,China
@@ -119150,29 +118947,6 @@ HOST-SUFFIX,05cc8c4cc1023.beer,China
 HOST-SUFFIX,0693f784d1023.beer,China
 HOST-SUFFIX,7d604703e1023.beer,China
 HOST-SUFFIX,28e4cd79f1023.beer,China
-HOST-SUFFIX,ad22b2e021014.beer,China
-HOST-SUFFIX,7366cba131014.beer,China
-HOST-SUFFIX,91103d3a31014.beer,China
-HOST-SUFFIX,cf6ea43741014.beer,China
-HOST-SUFFIX,6f7b51b741014.beer,China
-HOST-SUFFIX,0efef58c41014.beer,China
-HOST-SUFFIX,29ca702351014.beer,China
-HOST-SUFFIX,b44fd0fd51014.beer,China
-HOST-SUFFIX,4bf85b0f61014.beer,China
-HOST-SUFFIX,75b58faf61014.beer,China
-HOST-SUFFIX,46d7940171014.beer,China
-HOST-SUFFIX,29227e5771014.beer,China
-HOST-SUFFIX,cb8e405b81014.beer,China
-HOST-SUFFIX,c8a8b0af81014.beer,China
-HOST-SUFFIX,5b39c2f791014.beer,China
-HOST-SUFFIX,11714ae0b1014.beer,China
-HOST-SUFFIX,92cf4088b1014.beer,China
-HOST-SUFFIX,a7479032d1014.beer,China
-HOST-SUFFIX,74ad7537d1014.beer,China
-HOST-SUFFIX,1baf107ed1014.beer,China
-HOST-SUFFIX,fb71ef91e1014.beer,China
-HOST-SUFFIX,1afaecefe1014.beer,China
-HOST-SUFFIX,cbc32120f1014.beer,China
 HOST-SUFFIX,71b394ce11114.beer,China
 HOST-SUFFIX,0bdfe52341114.beer,China
 HOST-SUFFIX,b230756fa1114.beer,China
@@ -119261,28 +119035,6 @@ HOST-SUFFIX,1de6de84b1017.beer,China
 HOST-SUFFIX,0d49f571e1017.beer,China
 HOST-SUFFIX,822ef055f1017.beer,China
 HOST-SUFFIX,719f06caf1017.beer,China
-HOST-SUFFIX,336cfe9101009.beer,China
-HOST-SUFFIX,c03b92b501009.beer,China
-HOST-SUFFIX,faadcf6d01009.beer,China
-HOST-SUFFIX,616a191f21009.beer,China
-HOST-SUFFIX,b53358ed31009.beer,China
-HOST-SUFFIX,ec4ca59341009.beer,China
-HOST-SUFFIX,021a5f9841009.beer,China
-HOST-SUFFIX,9d47e2c251009.beer,China
-HOST-SUFFIX,c837c4e951009.beer,China
-HOST-SUFFIX,b643bce461009.beer,China
-HOST-SUFFIX,001d628661009.beer,China
-HOST-SUFFIX,b214bd8861009.beer,China
-HOST-SUFFIX,39f6e28d71009.beer,China
-HOST-SUFFIX,991fd1ce91009.beer,China
-HOST-SUFFIX,321a6d50a1009.beer,China
-HOST-SUFFIX,9efca2b9a1009.beer,China
-HOST-SUFFIX,d4cd5439c1009.beer,China
-HOST-SUFFIX,8eeea09bc1009.beer,China
-HOST-SUFFIX,d6ffdb55d1009.beer,China
-HOST-SUFFIX,2b079fbcd1009.beer,China
-HOST-SUFFIX,c0c0b511e1009.beer,China
-HOST-SUFFIX,c578801be1009.beer,China
 HOST-SUFFIX,c27619fb01019.beer,China
 HOST-SUFFIX,c5b27c7c01019.beer,China
 HOST-SUFFIX,f1d28bdd11019.beer,China
@@ -120013,7 +119765,6 @@ HOST-SUFFIX,360doc36.net,China
 HOST-SUFFIX,hx36.net,China
 HOST-SUFFIX,awsdns-cn-46.net,China
 HOST-SUFFIX,600146.net,China
-HOST-SUFFIX,8246.net,China
 HOST-SUFFIX,awsdns-cn-56.net,China
 HOST-SUFFIX,456.net,China
 HOST-SUFFIX,map456.net,China
@@ -120869,7 +120620,6 @@ HOST-SUFFIX,zgslb.net,China
 HOST-SUFFIX,globalslb.net,China
 HOST-SUFFIX,bytesslb.net,China
 HOST-SUFFIX,xslb.net,China
-HOST-SUFFIX,cdnb.net,China
 HOST-SUFFIX,cqqnb.net,China
 HOST-SUFFIX,fynb.net,China
 HOST-SUFFIX,oeob.net,China
@@ -121032,6 +120782,7 @@ HOST-SUFFIX,feelec.net,China
 HOST-SUFFIX,enec.net,China
 HOST-SUFFIX,sinoec.net,China
 HOST-SUFFIX,newcapec.net,China
+HOST-SUFFIX,onesec.net,China
 HOST-SUFFIX,edisec.net,China
 HOST-SUFFIX,oksec.net,China
 HOST-SUFFIX,gmsec.net,China
@@ -121045,7 +120796,6 @@ HOST-SUFFIX,stec.net,China
 HOST-SUFFIX,fyec.net,China
 HOST-SUFFIX,h2fc.net,China
 HOST-SUFFIX,jsafc.net,China
-HOST-SUFFIX,kogfc.net,China
 HOST-SUFFIX,bhfc.net,China
 HOST-SUFFIX,ykfc.net,China
 HOST-SUFFIX,hrfc.net,China
@@ -121208,7 +120958,6 @@ HOST-SUFFIX,kmvtc.net,China
 HOST-SUFFIX,hzvtc.net,China
 HOST-SUFFIX,jswtc.net,China
 HOST-SUFFIX,dnxtc.net,China
-HOST-SUFFIX,aauc.net,China
 HOST-SUFFIX,xlysauc.net,China
 HOST-SUFFIX,uauc.net,China
 HOST-SUFFIX,liveuc.net,China
@@ -122226,7 +121975,6 @@ HOST-SUFFIX,wulintang.net,China
 HOST-SUFFIX,tiaotiaotang.net,China
 HOST-SUFFIX,funiutang.net,China
 HOST-SUFFIX,zytang.net,China
-HOST-SUFFIX,maguang.net,China
 HOST-SUFFIX,heiguang.net,China
 HOST-SUFFIX,wangzhantuiguang.net,China
 HOST-SUFFIX,zhuoguang.net,China
@@ -122801,7 +122549,6 @@ HOST-SUFFIX,wanmei.net,China
 HOST-SUFFIX,xunmei.net,China
 HOST-SUFFIX,smei.net,China
 HOST-SUFFIX,jingnei.net,China
-HOST-SUFFIX,laipei.net,China
 HOST-SUFFIX,daopei.net,China
 HOST-SUFFIX,web-rakouetnsei.net,China
 HOST-SUFFIX,tingchewei.net,China
@@ -123273,6 +123020,7 @@ HOST-SUFFIX,quicksdk.net,China
 HOST-SUFFIX,xn--8ou124e6ek.net,China
 HOST-SUFFIX,imgeek.net,China
 HOST-SUFFIX,uleek.net,China
+HOST-SUFFIX,deeepseek.net,China
 HOST-SUFFIX,ofweek.net,China
 HOST-SUFFIX,softweek.net,China
 HOST-SUFFIX,bodatek.net,China
@@ -123547,7 +123295,6 @@ HOST-SUFFIX,uitool.net,China
 HOST-SUFFIX,sootool.net,China
 HOST-SUFFIX,qtool.net,China
 HOST-SUFFIX,windowstool.net,China
-HOST-SUFFIX,forsol.net,China
 HOST-SUFFIX,bitol.net,China
 HOST-SUFFIX,optol.net,China
 HOST-SUFFIX,cyol.net,China
@@ -124125,7 +123872,6 @@ HOST-SUFFIX,byfen.net,China
 HOST-SUFFIX,qianggen.net,China
 HOST-SUFFIX,teligen.net,China
 HOST-SUFFIX,paichen.net,China
-HOST-SUFFIX,caochen.net,China
 HOST-SUFFIX,leeshen.net,China
 HOST-SUFFIX,wenshen.net,China
 HOST-SUFFIX,guozhen.net,China
@@ -124240,7 +123986,6 @@ HOST-SUFFIX,dianxin.net,China
 HOST-SUFFIX,zidanduanxin.net,China
 HOST-SUFFIX,shgaoxin.net,China
 HOST-SUFFIX,kouxin.net,China
-HOST-SUFFIX,yueshifengyin.net,China
 HOST-SUFFIX,dongyin.net,China
 HOST-SUFFIX,longyin.net,China
 HOST-SUFFIX,peiyin.net,China
@@ -124271,7 +124016,6 @@ HOST-SUFFIX,yishion.net,China
 HOST-SUFFIX,funshion.net,China
 HOST-SUFFIX,ejion.net,China
 HOST-SUFFIX,sinolion.net,China
-HOST-SUFFIX,auto-union.net,China
 HOST-SUFFIX,accessibility-union.net,China
 HOST-SUFFIX,cameraunion.net,China
 HOST-SUFFIX,kofunion.net,China
@@ -124867,7 +124611,6 @@ HOST-SUFFIX,cloudyo.net,China
 HOST-SUFFIX,banwoyo.net,China
 HOST-SUFFIX,91yoyo.net,China
 HOST-SUFFIX,ruyo.net,China
-HOST-SUFFIX,doorzo.net,China
 HOST-SUFFIX,uuzo.net,China
 HOST-SUFFIX,71p.net,China
 HOST-SUFFIX,yfp2p.net,China
@@ -125483,7 +125226,6 @@ HOST-SUFFIX,lnes.net,China
 HOST-SUFFIX,synjones.net,China
 HOST-SUFFIX,k-res.net,China
 HOST-SUFFIX,whres.net,China
-HOST-SUFFIX,mbitrres.net,China
 HOST-SUFFIX,plures.net,China
 HOST-SUFFIX,ssses.net,China
 HOST-SUFFIX,tses.net,China
@@ -126430,7 +126172,6 @@ HOST-SUFFIX,changqingshu.net,China
 HOST-SUFFIX,xiaohongshu.net,China
 HOST-SUFFIX,feishu.net,China
 HOST-SUFFIX,ebanshu.net,China
-HOST-SUFFIX,ixuanshu.net,China
 HOST-SUFFIX,zikaoshu.net,China
 HOST-SUFFIX,sooshu.net,China
 HOST-SUFFIX,95dushu.net,China
@@ -127679,15 +127420,9 @@ HOST-SUFFIX,hnpwholesale.com.au,China
 HOST-SUFFIX,bankcomm.com.au,China
 HOST-SUFFIX,rtvcdn.com.au,China
 HOST-SUFFIX,abcpost.com.au,China
-HOST-SUFFIX,9799251212480.icu,China
-HOST-SUFFIX,4502512122531.icu,China
-HOST-SUFFIX,8733777251212.icu,China
-HOST-SUFFIX,521251212122.icu,China
 HOST-SUFFIX,270326012f82.icu,China
 HOST-SUFFIX,yzsz3.icu,China
 HOST-SUFFIX,12345.icu,China
-HOST-SUFFIX,2512124740355.icu,China
-HOST-SUFFIX,212512124156.icu,China
 HOST-SUFFIX,like996.icu,China
 HOST-SUFFIX,wanan8888.icu,China
 HOST-SUFFIX,jj99.icu,China
@@ -127695,7 +127430,6 @@ HOST-SUFFIX,lulugda.icu,China
 HOST-SUFFIX,gagaga.icu,China
 HOST-SUFFIX,ihaoma.icu,China
 HOST-SUFFIX,lhasa.icu,China
-HOST-SUFFIX,fullcopecb.icu,China
 HOST-SUFFIX,7head.icu,China
 HOST-SUFFIX,clfdked.icu,China
 HOST-SUFFIX,jayce.icu,China
@@ -127722,11 +127456,8 @@ HOST-SUFFIX,dnspro.icu,China
 HOST-SUFFIX,maomp.icu,China
 HOST-SUFFIX,slcyber.icu,China
 HOST-SUFFIX,miuss.icu,China
-HOST-SUFFIX,puoraiatorcubt.icu,China
 HOST-SUFFIX,yllt.icu,China
-HOST-SUFFIX,cttptru-pt.icu,China
 HOST-SUFFIX,ert.icu,China
-HOST-SUFFIX,turs-ptt.icu,China
 HOST-SUFFIX,youku.icu,China
 HOST-SUFFIX,zhou.icu,China
 HOST-SUFFIX,ouou.icu,China
@@ -127756,7 +127487,6 @@ HOST-SUFFIX,tool.lu,China
 HOST-SUFFIX,qian.lu,China
 HOST-SUFFIX,shengtai.cyou,China
 HOST-SUFFIX,cnmjcn.cyou,China
-HOST-SUFFIX,scdn.cyou,China
 HOST-SUFFIX,6r6992xeq1jho.cyou,China
 HOST-SUFFIX,ciyynodegroup.cyou,China
 HOST-SUFFIX,gshdw.cyou,China
@@ -127779,7 +127509,6 @@ HOST-SUFFIX,live-echotv.cdnvideo.ru,China
 HOST-SUFFIX,imovideo.ru,China
 HOST-SUFFIX,airshipads.ru,China
 HOST-SUFFIX,aliexpress.ru,China
-HOST-SUFFIX,angelyeast.ru,China
 HOST-SUFFIX,icbcmoscow.ru,China
 HOST-SUFFIX,i9dhjx.ru,China
 HOST-SUFFIX,trae.guru,China
@@ -127897,7 +127626,7 @@ HOST-SUFFIX,vlong.tv,China
 HOST-SUFFIX,ruisong.tv,China
 HOST-SUFFIX,yuebai.tv,China
 HOST-SUFFIX,huaihai.tv,China
-HOST-SUFFIX,weihai.tv,China
+HOST-SUFFIX,l2.weihai.tv,China
 HOST-SUFFIX,liaozhai.tv,China
 HOST-SUFFIX,fengtai.tv,China
 HOST-SUFFIX,zhengzai.tv,China
@@ -128555,7 +128284,6 @@ HOST-SUFFIX,midongtech.xyz,China
 HOST-SUFFIX,dgddh.xyz,China
 HOST-SUFFIX,cxydh.xyz,China
 HOST-SUFFIX,lth.xyz,China
-HOST-SUFFIX,qjwh.xyz,China
 HOST-SUFFIX,hnzywh.xyz,China
 HOST-SUFFIX,t123yh.xyz,China
 HOST-SUFFIX,xyyh.xyz,China
