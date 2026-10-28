@@ -1,6 +1,6 @@
 # NAME: ChinaMerged
 # GENERATED-BY: proxy-rules/scripts/build_rules.py
-# UPDATED: 2026-10-25T23:27:53.567677+00:00
+# UPDATED: 2026-10-28T00:40:13.154212+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -9,14 +9,14 @@
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/ChinaIPs/ChinaIPs.list
 #   https://raw.githubusercontent.com/misakaio/chnroutes2/master/chnroutes.txt
 #   https://raw.githubusercontent.com/missuo/ASN-China/refs/heads/main/ASN.China.list
-# DOMAIN-SUFFIX: 110610
+# DOMAIN-SUFFIX: 110612
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 14
 # USER-AGENT: 51
 # IP-ASN: 5231
-# IP-CIDR: 8269
+# IP-CIDR: 8268
 # IP-CIDR6: 4283
-# TOTAL: 128458
+# TOTAL: 128459
 
 DOMAIN-KEYWORD,.tmall.com
 DOMAIN-KEYWORD,alicdn
@@ -10333,7 +10333,6 @@ IP-CIDR,154.19.96.0/19,no-resolve
 IP-CIDR,154.36.92.0/23,no-resolve
 IP-CIDR,154.72.44.0/24,no-resolve
 IP-CIDR,154.72.47.0/24,no-resolve
-IP-CIDR,154.84.180.0/24,no-resolve
 IP-CIDR,154.89.32.0/20,no-resolve
 IP-CIDR,154.209.251.0/24,no-resolve
 IP-CIDR,155.102.0.0/16,no-resolve
@@ -10702,7 +10701,7 @@ IP-CIDR,175.24.0.0/14,no-resolve
 IP-CIDR,175.30.0.0/15,no-resolve
 IP-CIDR,175.42.0.0/15,no-resolve
 IP-CIDR,175.44.0.0/16,no-resolve
-IP-CIDR,175.45.179.0/24,no-resolve
+IP-CIDR,175.45.178.0/23,no-resolve
 IP-CIDR,175.46.0.0/15,no-resolve
 IP-CIDR,175.48.0.0/12,no-resolve
 IP-CIDR,175.64.0.0/11,no-resolve
@@ -57261,6 +57260,7 @@ DOMAIN-SUFFIX,17xing.com
 DOMAIN-SUFFIX,aidaxing.com
 DOMAIN-SUFFIX,weiqidaxing.com
 DOMAIN-SUFFIX,wjiaxing.com
+DOMAIN-SUFFIX,kakaxing.com
 DOMAIN-SUFFIX,forrelaxing.com
 DOMAIN-SUFFIX,huaxing.com
 DOMAIN-SUFFIX,yanghuaxing.com
@@ -79022,6 +79022,7 @@ DOMAIN-SUFFIX,finzfin.com
 DOMAIN-SUFFIX,itbegin.com
 DOMAIN-SUFFIX,cell-origin.com
 DOMAIN-SUFFIX,tecorigin.com
+DOMAIN-SUFFIX,filmorigin.com
 DOMAIN-SUFFIX,orderorigin.com
 DOMAIN-SUFFIX,cngin.com
 DOMAIN-SUFFIX,pharmengin.com

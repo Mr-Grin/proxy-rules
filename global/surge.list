@@ -1,17 +1,17 @@
 # NAME: GlobalMerged
 # GENERATED-BY: proxy-rules/scripts/build_rules.py
-# UPDATED: 2026-10-25T23:27:55.481726+00:00
+# UPDATED: 2026-10-28T00:40:14.364150+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_All.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Scholar/Scholar.list
-# DOMAIN-SUFFIX: 29469
-# DOMAIN: 124
+# DOMAIN-SUFFIX: 29478
+# DOMAIN: 126
 # DOMAIN-KEYWORD: 36
 # USER-AGENT: 43
 # IP-ASN: 0
 # IP-CIDR: 115
 # IP-CIDR6: 4
-# TOTAL: 29791
+# TOTAL: 29802
 
 DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,1e100
@@ -245,6 +245,7 @@ DOMAIN,configuration-lb.ls-apple.com.akadns.net
 DOMAIN,courier-push-apple.com.akadns.net
 DOMAIN,crl.versign.net
 DOMAIN,datarouter.apps.netherrealm.com
+DOMAIN,dc.services.visualstudio.com
 DOMAIN,deutschewelle.h-cdn.com
 DOMAIN,dl.begellhouse.com
 DOMAIN,ea.tt.omtrdc.net
@@ -312,6 +313,7 @@ DOMAIN,rsshub.rssforever.com
 DOMAIN,rsshub.umzzz.com
 DOMAIN,rsshub.woodland.cafe
 DOMAIN,rsshub2.asailor.org
+DOMAIN,rt.services.visualstudio.com
 DOMAIN,standchartbank.sc.omtrdc.net
 DOMAIN,standchartbank.tt.omtrdc.net
 DOMAIN,straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com
@@ -4919,6 +4921,7 @@ DOMAIN-SUFFIX,oshiete.ai
 DOMAIN-SUFFIX,tinkoff.ai
 DOMAIN-SUFFIX,g.ai
 DOMAIN-SUFFIX,gmo-research.ai
+DOMAIN-SUFFIX,dash.ai
 DOMAIN-SUFFIX,api.ai
 DOMAIN-SUFFIX,tsi.ai
 DOMAIN-SUFFIX,duck.ai
@@ -8530,6 +8533,7 @@ DOMAIN-SUFFIX,vincnd.com
 DOMAIN-SUFFIX,jav-legend.com
 DOMAIN-SUFFIX,aofriend.com
 DOMAIN-SUFFIX,onsaletrend.com
+DOMAIN-SUFFIX,docsend.com
 DOMAIN-SUFFIX,thefind.com
 DOMAIN-SUFFIX,nikefind.com
 DOMAIN-SUFFIX,soifind.com
@@ -12252,6 +12256,7 @@ DOMAIN-SUFFIX,happymeal.com
 DOMAIN-SUFFIX,sexlikereal.com
 DOMAIN-SUFFIX,xxxreal.com
 DOMAIN-SUFFIX,appleinclegal.com
+DOMAIN-SUFFIX,dropboxlegal.com
 DOMAIN-SUFFIX,brdteengal.com
 DOMAIN-SUFFIX,hboportugal.com
 DOMAIN-SUFFIX,freechal.com
@@ -12789,6 +12794,7 @@ DOMAIN-SUFFIX,miteam.com
 DOMAIN-SUFFIX,marioandluigidreamteam.com
 DOMAIN-SUFFIX,icqsupportteam.com
 DOMAIN-SUFFIX,huluteam.com
+DOMAIN-SUFFIX,dropboxteam.com
 DOMAIN-SUFFIX,projectsangam.com
 DOMAIN-SUFFIX,gnom-cham.com
 DOMAIN-SUFFIX,minimarkham.com
@@ -13493,6 +13499,7 @@ DOMAIN-SUFFIX,trydesign.com
 DOMAIN-SUFFIX,verisign.com
 DOMAIN-SUFFIX,globalsign.com
 DOMAIN-SUFFIX,echosign.com
+DOMAIN-SUFFIX,hellosign.com
 DOMAIN-SUFFIX,gmosign.com
 DOMAIN-SUFFIX,swissign.com
 DOMAIN-SUFFIX,swisssign.com
@@ -18786,6 +18793,7 @@ DOMAIN-SUFFIX,cartoonmovement.com
 DOMAIN-SUFFIX,designsformovement.com
 DOMAIN-SUFFIX,fragment.com
 DOMAIN-SUFFIX,cdn.segment.com
+DOMAIN-SUFFIX,dropboxexperiment.com
 DOMAIN-SUFFIX,visafulfillment.com
 DOMAIN-SUFFIX,mythicentertainment.com
 DOMAIN-SUFFIX,zeeentertainment.com
@@ -19766,6 +19774,7 @@ DOMAIN-SUFFIX,bestbuyideax.com
 DOMAIN-SUFFIX,minihalifax.com
 DOMAIN-SUFFIX,wolfax.com
 DOMAIN-SUFFIX,ciscofax.com
+DOMAIN-SUFFIX,hellofax.com
 DOMAIN-SUFFIX,carfax.com
 DOMAIN-SUFFIX,max.com
 DOMAIN-SUFFIX,asian-max.com
@@ -20021,6 +20030,7 @@ DOMAIN-SUFFIX,nephobox.com
 DOMAIN-SUFFIX,terobox.com
 DOMAIN-SUFFIX,mapbox.com
 DOMAIN-SUFFIX,dropbox.com
+DOMAIN-SUFFIX,addtodropbox.com
 DOMAIN-SUFFIX,getdropbox.com
 DOMAIN-SUFFIX,autodesktinkerbox.com
 DOMAIN-SUFFIX,sexgamesbox.com
@@ -27831,6 +27841,7 @@ DOMAIN-SUFFIX,google.dev
 DOMAIN-SUFFIX,stripe.dev
 DOMAIN-SUFFIX,cloudflare.dev
 DOMAIN-SUFFIX,firebase.dev
+DOMAIN-SUFFIX,librewolf.dev
 DOMAIN-SUFFIX,g.dev
 DOMAIN-SUFFIX,tg.dev
 DOMAIN-SUFFIX,t-tech.dev

@@ -1,17 +1,17 @@
 # NAME: GlobalMerged
 # GENERATED-BY: proxy-rules/scripts/build_rules.py
-# UPDATED: 2026-10-25T23:27:55.491599+00:00
+# UPDATED: 2026-10-28T00:40:14.374175+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global_All.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Scholar/Scholar.list
-# DOMAIN-SUFFIX: 29469
-# DOMAIN: 124
+# DOMAIN-SUFFIX: 29478
+# DOMAIN: 126
 # DOMAIN-KEYWORD: 36
 # USER-AGENT: 43
 # IP-ASN: 0
 # IP-CIDR: 115
 # IP-CIDR6: 4
-# TOTAL: 29791
+# TOTAL: 29802
 
 HOST-KEYWORD,1drv,Global
 HOST-KEYWORD,1e100,Global
@@ -245,6 +245,7 @@ HOST,configuration-lb.ls-apple.com.akadns.net,Global
 HOST,courier-push-apple.com.akadns.net,Global
 HOST,crl.versign.net,Global
 HOST,datarouter.apps.netherrealm.com,Global
+HOST,dc.services.visualstudio.com,Global
 HOST,deutschewelle.h-cdn.com,Global
 HOST,dl.begellhouse.com,Global
 HOST,ea.tt.omtrdc.net,Global
@@ -312,6 +313,7 @@ HOST,rsshub.rssforever.com,Global
 HOST,rsshub.umzzz.com,Global
 HOST,rsshub.woodland.cafe,Global
 HOST,rsshub2.asailor.org,Global
+HOST,rt.services.visualstudio.com,Global
 HOST,standchartbank.sc.omtrdc.net,Global
 HOST,standchartbank.tt.omtrdc.net,Global
 HOST,straitsx-826709081262441084-b790f87a2ae6fd417434295.freshchat.com,Global
@@ -4919,6 +4921,7 @@ HOST-SUFFIX,oshiete.ai,Global
 HOST-SUFFIX,tinkoff.ai,Global
 HOST-SUFFIX,g.ai,Global
 HOST-SUFFIX,gmo-research.ai,Global
+HOST-SUFFIX,dash.ai,Global
 HOST-SUFFIX,api.ai,Global
 HOST-SUFFIX,tsi.ai,Global
 HOST-SUFFIX,duck.ai,Global
@@ -8530,6 +8533,7 @@ HOST-SUFFIX,vincnd.com,Global
 HOST-SUFFIX,jav-legend.com,Global
 HOST-SUFFIX,aofriend.com,Global
 HOST-SUFFIX,onsaletrend.com,Global
+HOST-SUFFIX,docsend.com,Global
 HOST-SUFFIX,thefind.com,Global
 HOST-SUFFIX,nikefind.com,Global
 HOST-SUFFIX,soifind.com,Global
@@ -12252,6 +12256,7 @@ HOST-SUFFIX,happymeal.com,Global
 HOST-SUFFIX,sexlikereal.com,Global
 HOST-SUFFIX,xxxreal.com,Global
 HOST-SUFFIX,appleinclegal.com,Global
+HOST-SUFFIX,dropboxlegal.com,Global
 HOST-SUFFIX,brdteengal.com,Global
 HOST-SUFFIX,hboportugal.com,Global
 HOST-SUFFIX,freechal.com,Global
@@ -12789,6 +12794,7 @@ HOST-SUFFIX,miteam.com,Global
 HOST-SUFFIX,marioandluigidreamteam.com,Global
 HOST-SUFFIX,icqsupportteam.com,Global
 HOST-SUFFIX,huluteam.com,Global
+HOST-SUFFIX,dropboxteam.com,Global
 HOST-SUFFIX,projectsangam.com,Global
 HOST-SUFFIX,gnom-cham.com,Global
 HOST-SUFFIX,minimarkham.com,Global
@@ -13493,6 +13499,7 @@ HOST-SUFFIX,trydesign.com,Global
 HOST-SUFFIX,verisign.com,Global
 HOST-SUFFIX,globalsign.com,Global
 HOST-SUFFIX,echosign.com,Global
+HOST-SUFFIX,hellosign.com,Global
 HOST-SUFFIX,gmosign.com,Global
 HOST-SUFFIX,swissign.com,Global
 HOST-SUFFIX,swisssign.com,Global
@@ -18786,6 +18793,7 @@ HOST-SUFFIX,cartoonmovement.com,Global
 HOST-SUFFIX,designsformovement.com,Global
 HOST-SUFFIX,fragment.com,Global
 HOST-SUFFIX,cdn.segment.com,Global
+HOST-SUFFIX,dropboxexperiment.com,Global
 HOST-SUFFIX,visafulfillment.com,Global
 HOST-SUFFIX,mythicentertainment.com,Global
 HOST-SUFFIX,zeeentertainment.com,Global
@@ -19766,6 +19774,7 @@ HOST-SUFFIX,bestbuyideax.com,Global
 HOST-SUFFIX,minihalifax.com,Global
 HOST-SUFFIX,wolfax.com,Global
 HOST-SUFFIX,ciscofax.com,Global
+HOST-SUFFIX,hellofax.com,Global
 HOST-SUFFIX,carfax.com,Global
 HOST-SUFFIX,max.com,Global
 HOST-SUFFIX,asian-max.com,Global
@@ -20021,6 +20030,7 @@ HOST-SUFFIX,nephobox.com,Global
 HOST-SUFFIX,terobox.com,Global
 HOST-SUFFIX,mapbox.com,Global
 HOST-SUFFIX,dropbox.com,Global
+HOST-SUFFIX,addtodropbox.com,Global
 HOST-SUFFIX,getdropbox.com,Global
 HOST-SUFFIX,autodesktinkerbox.com,Global
 HOST-SUFFIX,sexgamesbox.com,Global
@@ -27831,6 +27841,7 @@ HOST-SUFFIX,google.dev,Global
 HOST-SUFFIX,stripe.dev,Global
 HOST-SUFFIX,cloudflare.dev,Global
 HOST-SUFFIX,firebase.dev,Global
+HOST-SUFFIX,librewolf.dev,Global
 HOST-SUFFIX,g.dev,Global
 HOST-SUFFIX,tg.dev,Global
 HOST-SUFFIX,t-tech.dev,Global
