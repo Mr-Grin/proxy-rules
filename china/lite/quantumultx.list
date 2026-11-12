@@ -1,6 +1,6 @@
 # NAME: ChinaMergedLite
 # GENERATED-BY: proxy-rules/scripts/build_rules.py
-# UPDATED: 2026-11-11T01:24:06.742073+00:00
+# UPDATED: 2026-11-12T02:23:46.547216+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -12,9 +12,9 @@
 # DOMAIN-KEYWORD: 9
 # USER-AGENT: 28
 # IP-ASN: 5231
-# IP-CIDR: 7521
+# IP-CIDR: 7526
 # IP-CIDR6: 4265
-# TOTAL: 20745
+# TOTAL: 20750
 
 HOST-KEYWORD,.tmall.com,China
 HOST-KEYWORD,alicdn,China
@@ -5473,6 +5473,10 @@ IP-CIDR,14.192.76.0/22,China
 IP-CIDR,14.196.0.0/15,China
 IP-CIDR,14.204.0.0/15,China
 IP-CIDR,14.208.0.0/12,China
+IP-CIDR,14.226.104.0/21,China
+IP-CIDR,14.226.168.0/21,China
+IP-CIDR,14.227.96.0/20,China
+IP-CIDR,14.227.192.0/20,China
 IP-CIDR,14.241.232.0/21,China
 IP-CIDR,14.255.16.0/24,China
 IP-CIDR,14.255.238.0/24,China
@@ -9459,6 +9463,7 @@ IP-CIDR,104.212.68.151/32,China
 IP-CIDR,104.212.68.152/32,China
 IP-CIDR,104.227.65.96/28,China
 IP-CIDR,104.237.80.0/21,China
+IP-CIDR,104.251.176.0/22,China
 IP-CIDR,106.0.0.0/24,China
 IP-CIDR,106.0.2.0/23,China
 IP-CIDR,106.0.4.0/22,China
