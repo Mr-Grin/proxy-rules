@@ -1,6 +1,6 @@
 # NAME: ChinaMergedLite
 # GENERATED-BY: proxy-rules/scripts/build_rules.py
-# UPDATED: 2026-11-23T01:54:19.675292+00:00
+# UPDATED: 2026-11-24T05:26:55.679032+00:00
 # SOURCES:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/China/China_Domain.list
@@ -10199,7 +10199,7 @@ payload:
   - IP-CIDR,134.75.107.10/31
   - IP-CIDR,134.75.107.14/31
   - IP-CIDR,134.175.0.0/16
-  - IP-CIDR,135.84.80.0/23
+  - IP-CIDR,135.84.80.0/22
   - IP-CIDR,135.84.255.0/24
   - IP-CIDR,135.159.208.0/20
   - IP-CIDR,135.244.80.0/20
@@ -10780,8 +10780,8 @@ payload:
   - IP-CIDR,165.154.128.0/18
   - IP-CIDR,165.154.192.0/19
   - IP-CIDR,165.156.30.0/24
+  - IP-CIDR,165.173.128.0/23
   - IP-CIDR,165.173.174.0/23
-  - IP-CIDR,165.173.176.0/23
   - IP-CIDR,165.173.179.0/24
   - IP-CIDR,165.173.180.0/22
   - IP-CIDR,166.111.0.0/16
